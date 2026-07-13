@@ -8,14 +8,18 @@
   --color-accent: var(--accent);
   --color-gold: #e2b74b;
   --color-purple-deep: #2d0b5a;
+  --color-cyan-bright: #00f5ff;
+  --color-magenta-bright: #a020f0;
 }
 
 :root {
-  --background: #0a0514;
+  --background: #06020f;
   --foreground: #ffffff;
-  --card-bg: #150a25;
-  --primary: #e2b74b; /* Gold from logo */
-  --accent: #7b2cbf;  /* Purple from logo */
+  --card-bg: #0f0821;
+  --primary: #00f5ff; /* Cyan from screenshot */
+  --accent: #a020f0;  /* Purple from screenshot */
+  --gold-legacy: #e2b74b;
+  --accent-legacy: #7b2cbf;
 }
 
 @layer base {
@@ -25,6 +29,10 @@
 }
 
 @layer utilities {
+  .btn-gradient {
+    @apply bg-linear-to-r from-primary to-accent text-white hover:brightness-110 transition-all duration-300;
+  }
+
   .gold-text {
     @apply bg-clip-text text-transparent bg-linear-to-r from-[#f9d423] via-[#e2b74b] to-[#b8860b];
   }
@@ -66,9 +74,20 @@
     animation: shimmer 3s infinite;
   }
 
+  .animate-marquee {
+    display: flex;
+    width: max-content;
+    animation: marquee 20s linear infinite;
+  }
+
   .podium-gradient {
     background: linear-gradient(180deg, #150a25 0%, #0a0514 100%);
   }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 @keyframes shimmer {

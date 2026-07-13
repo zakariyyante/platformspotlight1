@@ -8,8 +8,8 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-xl border-b border-white/5">
-      <div className="container mx-auto px-4 h-24 flex items-center justify-between">
+    <header className="sticky top-0 z-50 bg-[#06020f]/80 backdrop-blur-xl border-b border-white/5">
+      <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center group">
           <div className="relative w-48 h-12 md:w-64 md:h-16">

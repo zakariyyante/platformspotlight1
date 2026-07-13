@@ -25,9 +25,21 @@ export default function Hero() {
           <span className="gold-text">PLATEFORMES</span>
         </h1>
 
-        <p className="text-lg md:text-xl text-white/50 mb-16 max-w-2xl mx-auto font-medium leading-relaxed">
+        <p className="text-lg md:text-xl text-white/50 mb-12 max-w-2xl mx-auto font-medium leading-relaxed">
           Analyses d&apos;experts, bonus exclusifs et classements en temps réel pour les utilisateurs français exigeants.
         </p>
+
+        <div className="flex flex-wrap justify-center gap-3 mb-16">
+          <div className="px-5 py-2 rounded-full bg-primary/10 border border-primary/20 text-[10px] font-black uppercase tracking-widest text-primary">
+            {new Intl.DateTimeFormat('fr-FR', { month: 'long', year: 'numeric' }).format(new Date()).toUpperCase()}
+          </div>
+          <div className="px-5 py-2 rounded-full bg-white/5 border border-white/10 text-[10px] font-black uppercase tracking-widest text-white/60 flex items-center gap-2">
+            <span className="text-primary">✓</span> UTILISATION RESPONSABLE
+          </div>
+          <div className="px-5 py-2 rounded-full bg-white/5 border border-white/10 text-[10px] font-black uppercase tracking-widest text-white/60 flex items-center gap-2">
+            <span className="text-primary">🛡</span> PROTECTION ANJ
+          </div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
           {[
