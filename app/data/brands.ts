@@ -17,16 +17,16 @@ export interface Brand {
 const generateId = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
 export const brands: Brand[] = [
-  {
-    id: "Atefia",
-    name: "Atefia",
-    logo: "/brands/atefia.webp",
-    rating: 9.8,
-    bonus: "100 % jusqu'à 1000€ + 200FS",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-  },
+  // {
+  //   id: "Atefia",
+  //   name: "Atefia",
+  //   logo: "/brands/atefia.webp",
+  //   rating: 9.8,
+  //   bonus: "100 % jusqu'à 1000€ + 200FS",
+  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  // },
   // {
   //   id: "WinoCasino",
   //   name: "WinoCasino",
@@ -37,26 +37,26 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
-  {
-    id: "BetNJet",
-    name: "BetNJet",
-    logo: "/brands/betnjet.webp",
-    rating: 9.8,
-    bonus: "Bonus exclusif coupe du monde: jusqu’à 500€",
-    url: "https://gtrfk.com/jubr84o3x?subid=BetNJet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-  },
-  {
-    id: "SpinMillion",
-    name: "SpinMillion",
-    logo: "/brands/spinmillion.webp",
-    rating: 9.8,
-    bonus: "100% jusqu’à 750€ + 100 Tours Gratuits + 3x Roue de la Fortune",
-    url: "https://bestcpa.online/click?o=542&a=36&sub_id1=SpinMillion-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-  },
+  // {
+  //   id: "BetNJet",
+  //   name: "BetNJet",
+  //   logo: "/brands/betnjet.webp",
+  //   rating: 9.8,
+  //   bonus: "Bonus exclusif coupe du monde: jusqu’à 500€",
+  //   url: "https://gtrfk.com/jubr84o3x?subid=BetNJet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  // },
+  // {
+  //   id: "SpinMillion",
+  //   name: "SpinMillion",
+  //   logo: "/brands/spinmillion.webp",
+  //   rating: 9.8,
+  //   bonus: "100% jusqu’à 750€ + 100 Tours Gratuits + 3x Roue de la Fortune",
+  //   url: "https://bestcpa.online/click?o=542&a=36&sub_id1=SpinMillion-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  // },
   {
     id: "bwin",
     name: "Bwin",
@@ -64,7 +64,7 @@ export const brands: Brand[] = [
     rating: 9.6,
     bonus: "Votre mise remboursée jusqu'à 100€",
     url: "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2159573&clickid=",
-    isMobile: false,
+    isMobile: true,
     votes: 12450,
     displayUrl: "bwin.com"
   }
