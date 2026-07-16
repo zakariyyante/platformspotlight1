@@ -82,9 +82,9 @@ export default function MobileModal({ gclid }: MobileModalProps) {
                 {[...Array(2)].map((_, listIdx) => (
                   <div key={listIdx} className="flex gap-2 px-1">
                     {[
-                      { icon: 'licensed', text: 'Levantamentos Rápidos', color: 'bg-primary/10 border-primary/20 text-primary' },
+                      { icon: 'licensed', text: 'Retraits Rapides', color: 'bg-primary/10 border-primary/20 text-primary' },
                       { icon: '18plus', text: '18+', color: 'bg-red-500/10 border-red-500/20 text-red-500' },
-                      { icon: 'expert', text: 'Licença Segura', color: 'bg-green-500/10 border-green-500/20 text-green-500' },
+                      { icon: 'expert', text: 'Licence Sécurisée', color: 'bg-green-500/10 border-green-500/20 text-green-500' },
                       { icon: 'withdraw', text: 'Suporte 24/7', color: 'bg-accent/10 border-accent/20 text-accent' }
                     ].map((badge, i) => (
                       <div 

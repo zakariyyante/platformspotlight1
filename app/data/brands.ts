@@ -48,6 +48,16 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
   },
+  {
+    id: "Betory",
+    name: "Betory",
+    logo: "/brands/betory.png",
+    rating: 9.8,
+    bonus: "CASINO PACK DE BIENVENUE Augmentation de 300 % jusqu'à 3 250 EUR",
+    url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+  },
   // {
   //   id: "WinoCasino",
   //   name: "WinoCasino",
