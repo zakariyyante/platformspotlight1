@@ -17,26 +17,16 @@ export interface Brand {
 const generateId = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
 export const brands: Brand[] = [
-  {
-    id: "Atefia",
-    name: "Atefia",
-    logo: "/brands/atefia.webp",
-    rating: 9.8,
-    bonus: "100 % jusqu'à 1000€ + 200FS",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-  },
-  {
-    id: "WinoCasino",
-    name: "WinoCasino",
-    logo: "/brands/wino.svg",
-    rating: 9.8,
-    bonus: "Pack machines à sous 600% jusqu’à 10000€",
-    url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-  },
+  // {
+  //   id: "Atefia",
+  //   name: "Atefia",
+  //   logo: "/brands/atefia.webp",
+  //   rating: 9.8,
+  //   bonus: "100 % jusqu'à 1000€ + 200FS",
+  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  // },
   {
     id: "BetNJet",
     name: "BetNJet",
@@ -47,6 +37,17 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
   },
+  // {
+  //   id: "WinoCasino",
+  //   name: "WinoCasino",
+  //   logo: "/brands/wino.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack machines à sous 600% jusqu’à 10000€",
+  //   url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  // },
+  
   {
     id: "SpinMillion",
     name: "SpinMillion",
