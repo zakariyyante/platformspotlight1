@@ -41,6 +41,7 @@ export default async function Home({ searchParams }: PageProps) {
                 brand={brand} 
                 gclidValue={gclid} 
                 rank={index + 1} 
+                priority={index < 2}
               />
             ))}
           </div>
@@ -52,7 +53,7 @@ export default async function Home({ searchParams }: PageProps) {
       <AboutSection />
 
       <Suspense fallback={null}>
-        <MobileModal />
+        <MobileModal gclid={gclid} />
       </Suspense>
     </div>
   );

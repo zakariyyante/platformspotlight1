@@ -7,9 +7,9 @@ export default function Hero() {
     <section className="relative pt-32 pb-24 overflow-hidden spotlight-bg">
       {/* Visual elements inspired by logo */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl -z-10">
-        <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-accent/10 rounded-full blur-[120px]" />
-        <div className="absolute top-[10%] left-[20%] w-1 h-64 bg-linear-to-b from-primary/20 to-transparent rotate-45 blur-sm" />
-        <div className="absolute top-[5%] right-[15%] w-1 h-48 bg-linear-to-b from-accent/20 to-transparent -rotate-45 blur-sm" />
+        <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-accent/5 rounded-full blur-[80px]" />
+        <div className="absolute top-[10%] left-[20%] w-1 h-64 bg-linear-to-b from-primary/10 to-transparent rotate-45 blur-[2px]" />
+        <div className="absolute top-[5%] right-[15%] w-1 h-48 bg-linear-to-b from-accent/10 to-transparent -rotate-45 blur-[2px]" />
       </div>
       
       <div className="container mx-auto px-4 text-center">
@@ -25,7 +25,7 @@ export default function Hero() {
           <span className="gold-text">PLATEFORMES</span>
         </h1>
 
-        <p className="text-lg md:text-xl text-white/50 mb-12 max-w-2xl mx-auto font-medium leading-relaxed">
+        <p className="text-lg md:text-xl text-white/70 mb-12 max-w-2xl mx-auto font-medium leading-relaxed">
           Analyses d&apos;experts, bonus exclusifs et classements en temps réel pour les utilisateurs français exigeants.
         </p>
 

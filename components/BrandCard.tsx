@@ -9,6 +9,7 @@ interface BrandCardProps {
   gclidValue?: string;
   rank: number;
   variant?: 'default' | 'modal';
+  priority?: boolean;
 }
 
 export const buildUrl = (url: string, gclid?: string) => {
@@ -16,20 +17,11 @@ export const buildUrl = (url: string, gclid?: string) => {
   return `${url}${gclid}`;
 };
 
-declare global {
-  interface Window {
-    gtag_report_conversion: (url?: string) => void;
-  }
-}
-
-export default function BrandCard({ brand, gclidValue, rank, variant = 'default' }: BrandCardProps) {
+export default function BrandCard({ brand, gclidValue, rank, variant = 'default', priority }: BrandCardProps) {
   const finalUrl = buildUrl(brand.url, gclidValue);
 
   const handleCardClick = () => {
     track('Brand Click', { brand: brand.name });
-    if (typeof window !== 'undefined' && window.gtag_report_conversion) {
-      window.gtag_report_conversion();
-    }
     window.open(finalUrl, '_blank', 'noopener,noreferrer');
   };
 
@@ -56,17 +48,24 @@ export default function BrandCard({ brand, gclidValue, rank, variant = 'default'
             {/* Left Column: Logo + Rating */}
             <div className="flex flex-col items-center w-[35%] flex-shrink-0">
               <div className="relative w-full h-14 flex items-center justify-center mb-2">
-                <Image src={brand.logo} alt={brand.name} fill className="object-contain" />
+                <Image 
+                  src={brand.logo} 
+                  alt={brand.name} 
+                  fill 
+                  className="object-contain" 
+                  priority={priority}
+                  sizes="(max-width: 768px) 30vw, 15vw"
+                />
               </div>
               
-              <div className="flex text-[#f9d423] scale-75 origin-center mb-0.5">
+              <div className="flex text-[#f9d423] scale-75 origin-center mb-0.5" aria-hidden="true">
                 {[...Array(5)].map((_, i) => (
                   <span key={i} className={i < Math.floor(brand.rating / 2) ? 'text-[#f9d423]' : 'text-white/20'}>★</span>
                 ))}
               </div>
-              <div className="flex items-baseline gap-0.5">
+              <div className="flex items-baseline gap-1">
                 <span className="text-xl font-black text-white">{brand.rating.toFixed(1)}</span>
-                <span className="text-white/40 font-bold text-[10px]">/10</span>
+                <span className="text-white/60 font-bold text-[10px]">/10</span>
               </div>
             </div>
 
@@ -82,7 +81,7 @@ export default function BrandCard({ brand, gclidValue, rank, variant = 'default'
           </div>
 
           {/* Bottom Button */}
-          <button className="w-full py-3 btn-gradient rounded-xl shadow-lg shadow-primary/10 transition-all active:scale-95 overflow-hidden relative">
+          <button className="w-full py-2 btn-gradient rounded-xl shadow-lg shadow-primary/10 active:scale-95 overflow-hidden relative">
             <span className="relative z-10 text-[9px] font-black uppercase tracking-[0.2em]">
               VISITER {brand.name}
             </span>
@@ -114,18 +113,26 @@ export default function BrandCard({ brand, gclidValue, rank, variant = 'default'
           {/* Left Side: Logo + Rating */}
           <div className="flex flex-col items-center md:items-start md:w-[35%]">
             <div className="relative w-32 h-20 mb-4 flex items-center justify-center transition-transform duration-500 group-hover:scale-110">
-              <Image src={brand.logo} alt={brand.name} width={120} height={80} className="object-contain" />
+              <Image 
+                src={brand.logo} 
+                alt={brand.name} 
+                width={120} 
+                height={80} 
+                className="object-contain" 
+                priority={priority}
+                sizes="(max-width: 768px) 50vw, 25vw"
+              />
             </div>
             
             <div className="flex flex-col items-center md:items-start">
-              <div className="flex text-[#f9d423] mb-1.5 text-xs">
+              <div className="flex text-[#f9d423] mb-1.5 text-xs" aria-hidden="true">
                 {[...Array(5)].map((_, i) => (
                   <span key={i} className={i < Math.floor(brand.rating / 2) ? 'text-[#f9d423]' : 'text-white/20'}>★</span>
                 ))}
               </div>
               <div className="flex items-baseline gap-1">
                 <span className="text-3xl font-black text-white">{brand.rating.toFixed(1)}</span>
-                <span className="text-white/40 font-bold text-base">/10</span>
+                <span className="text-white/60 font-bold text-base">/10</span>
               </div>
             </div>
           </div>

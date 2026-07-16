@@ -19,6 +19,7 @@ export default function Header() {
               fill 
               className="object-contain"
               priority
+              sizes="(max-width: 768px) 192px, 256px"
             />
           </div>
         </Link>
@@ -28,10 +29,10 @@ export default function Header() {
           <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-red-600/10 border border-red-600/20">
             <span className="text-[10px] font-black text-red-500">18+</span>
           </div>
-          <Link href="/" className="text-xs font-bold uppercase tracking-[0.2em] text-white/70 hover:text-primary transition-all">Accueil</Link>
-          <Link href="#brands" className="text-xs font-bold uppercase tracking-[0.2em] text-white/70 hover:text-primary transition-all">Marques</Link>
-          <Link href="#guide" className="text-xs font-bold uppercase tracking-[0.2em] text-white/70 hover:text-primary transition-all">Guide</Link>
-          <Link href="#about" className="text-xs font-bold uppercase tracking-[0.2em] text-white/70 hover:text-primary transition-all">À Propos</Link>
+          <Link href="/" className="text-xs font-bold uppercase tracking-[0.2em] text-white/80 hover:text-primary transition-all">Accueil</Link>
+          <Link href="#brands" className="text-xs font-bold uppercase tracking-[0.2em] text-white/80 hover:text-primary transition-all">Marques</Link>
+          <Link href="#guide" className="text-xs font-bold uppercase tracking-[0.2em] text-white/80 hover:text-primary transition-all">Guide</Link>
+          <Link href="#about" className="text-xs font-bold uppercase tracking-[0.2em] text-white/80 hover:text-primary transition-all">À Propos</Link>
           <Link href="#contact" className="px-6 py-2 rounded-full border border-primary/30 text-xs font-bold uppercase tracking-[0.2em] text-primary hover:bg-primary hover:text-black transition-all">Contact</Link>
         </nav>
 
@@ -39,6 +40,7 @@ export default function Header() {
         <button 
           className="lg:hidden text-white p-2"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Menu"
         >
           <div className="w-6 h-5 flex flex-col justify-between">
             <span className={`h-0.5 bg-primary transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`} />

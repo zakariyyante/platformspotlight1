@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 w-full max-w-6xl text-center md:text-left">
             <div className="md:col-span-1">
               <h4 className="text-white font-black uppercase tracking-[0.2em] mb-8 text-xs">Navigation</h4>
-              <ul className="space-y-4 text-[11px] font-bold uppercase tracking-widest text-white/40">
+              <ul className="space-y-4 text-[11px] font-bold uppercase tracking-widest text-white/60">
                 <li><Link href="/" className="hover:text-primary transition-colors">Accueil</Link></li>
                 <li><Link href="#brands" className="hover:text-primary transition-colors">Marques</Link></li>
                 <li><Link href="#guide" className="hover:text-primary transition-colors">Guide</Link></li>
@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
             <div className="md:col-span-1">
               <h4 className="text-white font-black uppercase tracking-[0.2em] mb-8 text-xs">Légal</h4>
-              <ul className="space-y-4 text-[11px] font-bold uppercase tracking-widest text-white/40">
+              <ul className="space-y-4 text-[11px] font-bold uppercase tracking-widest text-white/60">
                 <li><Link href="/privacy" className="hover:text-primary transition-colors">Confidentialité</Link></li>
                 <li><Link href="/terms" className="hover:text-primary transition-colors">Conditions</Link></li>
                 <li><Link href="/cookies" className="hover:text-primary transition-colors">Cookies</Link></li>
@@ -40,7 +40,7 @@ export default function Footer() {
             </div>
             <div className="md:col-span-2">
               <h4 className="text-white font-black uppercase tracking-[0.2em] mb-8 text-xs">Divulgation d&apos;Affiliation</h4>
-              <p className="text-[11px] text-white/30 leading-relaxed font-medium uppercase tracking-wider mb-4">
+              <p className="text-[11px] text-white/50 leading-relaxed font-medium uppercase tracking-wider mb-4">
                 Platform Spotlight est une plateforme de comparaison indépendante. Nous recevons des commissions de la part des marques présentées sur ce site. Ces commissions peuvent influencer le positionnement des marques, mais n&apos;affectent pas l&apos;impartialité de nos avis basés sur des tests réels.
               </p>
               <div className="flex items-center gap-2 text-[10px] text-primary font-black uppercase tracking-widest">

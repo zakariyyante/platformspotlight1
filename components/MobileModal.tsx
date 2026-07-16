@@ -1,26 +1,25 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
 import { Brand, brands } from '@/app/data/brands';
 import BrandCard from './BrandCard';
 import Image from 'next/image';
 
-export default function MobileModal() {
-  const searchParams = useSearchParams();
-  const [isOpen, setIsOpen] = useState(false);
-  const gclid = searchParams.get('gclid');
+interface MobileModalProps {
+  gclid?: string;
+}
 
+export default function MobileModal({ gclid }: MobileModalProps) {
+  const [isOpen, setIsOpen] = useState(false);
   const mobileBrands = brands.filter(b => b.isMobile);
 
   useEffect(() => {
-    const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      navigator.userAgent
-    ) || window.innerWidth < 768;
-
-    if (gclid && mobileBrands.length > 0 && isMobileDevice) {
+    if (gclid && gclid.length > 30 && mobileBrands.length > 0) {
       setIsOpen(true);
       document.body.style.overflow = 'hidden';
+    } else {
+      setIsOpen(false);
+      document.body.style.overflow = 'unset';
     }
     return () => {
       document.body.style.overflow = 'unset';
@@ -30,16 +29,28 @@ export default function MobileModal() {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] bg-background overflow-y-auto animate-in fade-in duration-500">
+    <div 
+      className="fixed inset-0 z-[100] bg-background overflow-y-auto animate-in fade-in duration-500"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+    >
       <div className="min-h-screen flex flex-col spotlight-bg">
         {/* Modal Header */}
         <div className="sticky top-0 z-[110] bg-[#06020f]/80 backdrop-blur-xl border-b border-white/5 px-4 py-3 flex items-center justify-between">
           <div className="relative w-32 h-8">
-            <Image src="/logo.png" alt="Logo" fill className="object-contain" />
+            <Image 
+              src="/logo.png" 
+              alt="Logo" 
+              fill 
+              className="object-contain" 
+              priority
+              sizes="128px"
+            />
           </div>
           
           {/* Burger Menu Mock */}
-          <button className="text-white p-2">
+          <button className="text-white p-2" aria-label="Menu Principal">
             <div className="w-5 h-4 flex flex-col justify-between items-end">
               <span className="h-0.5 w-5 bg-primary rounded-full" />
               <span className="h-0.5 w-3 bg-primary rounded-full" />
@@ -52,12 +63,12 @@ export default function MobileModal() {
         <div className="flex-grow">
           <section className="pt-2 pb-6 px-6 text-center">
             <div className="inline-flex items-center gap-2 mb-3 px-4 py-1 rounded-full bg-primary/10 border border-primary/20">
-              <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
+              <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" aria-hidden="true" />
               <span className="text-[8px] font-black uppercase tracking-[0.3em] text-primary">
                 EXCLUSIF MOBILE
               </span>
             </div>
-            <h2 className="text-4xl font-black mb-3 uppercase tracking-tighter leading-[0.9]">
+            <h2 id="modal-title" className="text-4xl font-black mb-3 uppercase tracking-tighter leading-[0.9]">
               LES MEILLEURES <br />
               <span className="gold-text">OFFRES DU JOUR</span>
             </h2>
@@ -101,6 +112,7 @@ export default function MobileModal() {
                   gclidValue={gclid || undefined} 
                   rank={index + 1} 
                   variant="modal"
+                  priority={index === 0}
                 />
               ))}
             </div>

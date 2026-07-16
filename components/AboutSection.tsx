@@ -10,7 +10,7 @@ export default function AboutSection() {
           <h2 className="text-5xl font-black mb-6 uppercase tracking-tighter">
             NOTRE <span className="gold-text">MÉTHODOLOGIE</span>
           </h2>
-          <p className="text-white/50 font-medium">
+          <p className="text-white/70 font-medium">
             Nous utilisons un système de notation rigoureux basé sur plus de 50 points de contrôle pour vous garantir la meilleure expérience possible.
           </p>
         </div>
