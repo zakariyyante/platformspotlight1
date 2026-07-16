@@ -59,6 +59,17 @@ export const brands: Brand[] = [
     votes: 12450,
   },
   {
+    id: "SpinFin",
+    name: "SpinFin",
+    logo: "/brands/SPINFIN.png",
+    rating: 9.8,
+    bonus: "350% jusqu’à 10 000 € + 500 FS",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+  },
+  
+  {
     id: "bwin",
     name: "Bwin",
     logo: "/bwin_dark.png",
