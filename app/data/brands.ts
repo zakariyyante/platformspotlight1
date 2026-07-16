@@ -28,6 +28,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
   // },
   {
+    id: "Spinkong",
+    name: "Spinkong",
+    logo: "/brands/Spinkong.webp",
+    rating: 9.8,
+    bonus: "Inscrivez-vous maintenant et obtenez 400% jusqu’à 1000 € + 250 TG",
+    url: "https://gtrfspkng.com/jxcod4yvg?subid=Spinkong-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+  },
+  
+  {
     id: "SpinFin",
     name: "SpinFin",
     logo: "/brands/SPINFIN.png",
@@ -38,16 +49,7 @@ export const brands: Brand[] = [
     votes: 12450,
   },
   
-   {
-    id: "Spinkong",
-    name: "Spinkong",
-    logo: "/brands/Spinkong.webp",
-    rating: 9.8,
-    bonus: "Inscrivez-vous maintenant et obtenez 400% jusqu’à 1000 € + 250 TG",
-    url: "https://gtrfspkng.com/jxcod4yvg?subid=Spinkong-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-  },
+   
   {
     id: "Betory",
     name: "Betory",
