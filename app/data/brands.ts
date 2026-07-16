@@ -28,15 +28,16 @@ export const brands: Brand[] = [
   //   votes: 12450,
   // },
   {
-    id: "BetNJet",
-    name: "BetNJet",
-    logo: "/brands/betnjet.webp",
+    id: "SpinFin",
+    name: "SpinFin",
+    logo: "/brands/SPINFIN.png",
     rating: 9.8,
-    bonus: "Bonus exclusif coupe du monde: jusqu’à 500€",
-    url: "https://gtrfk.com/jubr84o3x?subid=BetNJet-SL2FR9&visit_id=",
+    bonus: "350% jusqu’à 10 000 € + 500 FS",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
   },
+  
    {
     id: "Spinkong",
     name: "Spinkong",
@@ -57,7 +58,16 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
-  
+  {
+    id: "BetNJet",
+    name: "BetNJet",
+    logo: "/brands/betnjet.webp",
+    rating: 9.8,
+    bonus: "Bonus exclusif coupe du monde: jusqu’à 500€",
+    url: "https://gtrfk.com/jubr84o3x?subid=BetNJet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+  },
   {
     id: "SpinMillion",
     name: "SpinMillion",
@@ -68,16 +78,7 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
   },
-  {
-    id: "SpinFin",
-    name: "SpinFin",
-    logo: "/brands/SPINFIN.png",
-    rating: 9.8,
-    bonus: "350% jusqu’à 10 000 € + 500 FS",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-  },
+ 
   
   {
     id: "bwin",
