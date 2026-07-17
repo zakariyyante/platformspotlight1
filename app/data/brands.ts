@@ -80,16 +80,16 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
   },
-  {
-    id: "SpinMillion",
-    name: "SpinMillion",
-    logo: "/brands/spinmillion.webp",
-    rating: 9.8,
-    bonus: "100% jusqu’à 750€ + 100 Tours Gratuits + 3x Roue de la Fortune",
-    url: "https://bestcpa.online/click?o=542&a=36&sub_id1=SpinMillion-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-  },
+  // {
+  //   id: "SpinMillion",
+  //   name: "SpinMillion",
+  //   logo: "/brands/spinmillion.webp",
+  //   rating: 9.8,
+  //   bonus: "100% jusqu’à 750€ + 100 Tours Gratuits + 3x Roue de la Fortune",
+  //   url: "https://bestcpa.online/click?o=542&a=36&sub_id1=SpinMillion-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  // },
  
   
   {
