@@ -61,23 +61,22 @@ export default function MobileModal({ gclid }: MobileModalProps) {
 
         {/* Modal Content */}
         <div className="flex-grow">
-          <section className="pt-2 pb-6 px-6 text-center">
-            <div className="inline-flex items-center gap-2 mb-3 px-4 py-1 rounded-full bg-primary/10 border border-primary/20">
+          <section className="pt-2 pb-2 px-6 text-center">
+            <div className="inline-flex items-center gap-2 mb-2 px-4 py-1 rounded-full bg-primary/10 border border-primary/20">
               <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" aria-hidden="true" />
               <span className="text-[8px] font-black uppercase tracking-[0.3em] text-primary">
                 EXCLUSIF MOBILE
               </span>
             </div>
-            <h2 id="modal-title" className="text-4xl font-black mb-3 uppercase tracking-tighter leading-[0.9]">
-              LES MEILLEURES <br />
-              <span className="gold-text">OFFRES DU JOUR</span>
+            <h2 id="modal-title" className="text-2xl font-black mb-2 uppercase tracking-tight leading-tight">
+              LES MEILLEURES <span className="gold-text">OFFRES DU JOUR</span>
             </h2>
-            <p className="text-white/40 text-[11px] max-w-xs mx-auto font-medium mb-6">
-              Sélection premium optimisée pour votre smartphone.
+            <p className="text-white/40 text-[11px] max-w-sm mx-auto font-medium mb-3 leading-relaxed">
+              Nouvelles offres, retraits rapides et meilleures plateformes sélectionnées pour vous, avec des bonus exclusifs optimisés pour votre smartphone.
             </p>
 
             {/* Floating Trust Badges - Infinite Marquee */}
-            <div className="relative w-full overflow-hidden pb-4 pt-2">
+            <div className="relative w-full overflow-hidden pb-1 pt-0.5">
               <div className="animate-marquee gap-2">
                 {[...Array(2)].map((_, listIdx) => (
                   <div key={listIdx} className="flex gap-2 px-1">
@@ -104,7 +103,7 @@ export default function MobileModal({ gclid }: MobileModalProps) {
           </section>
 
           <div className="px-3 pb-8">
-            <div className="grid grid-cols-1 gap-4 mb-10">
+            <div className="grid grid-cols-1 gap-3 mb-10">
               {mobileBrands.map((brand, index) => (
                 <BrandCard 
                   key={brand.id} 

@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { Fragment } from 'react';
 import { Brand } from '@/app/data/brands';
 import { track } from '@vercel/analytics';
 
@@ -17,146 +18,134 @@ export const buildUrl = (url: string, gclid?: string) => {
   return `${url}${gclid}`;
 };
 
+// Picks readable text color for a given badge background color.
+const getBadgeTextColor = (hex: string) => {
+  const match = /^#?([a-f\d]{6})$/i.exec(hex);
+  if (!match) return '#000';
+  const num = parseInt(match[1], 16);
+  const r = (num >> 16) & 255;
+  const g = (num >> 8) & 255;
+  const b = num & 255;
+  const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+  return luminance > 0.6 ? '#0a0514' : '#fff';
+};
+
+const BITCOIN_LOGO = '/bitcoin.png';
+const OTHER_PAYMENT_LOGOS = ['/BankTransfer.png', '/mastercard.webp', '/paypal.jpg', '/visa.webp'];
+
+// Bitcoin always shows, plus 2 more logos picked deterministically per brand so the
+// mix varies across cards but stays stable between server/client renders.
+const pickPaymentLogos = (seed: string) => {
+  let hash = 0;
+  for (let i = 0; i < seed.length; i++) hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
+
+  const rand = () => {
+    hash = (hash * 1103515245 + 12345) >>> 0;
+    return hash / 0xffffffff;
+  };
+
+  const shuffled = [...OTHER_PAYMENT_LOGOS];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return [BITCOIN_LOGO, ...shuffled.slice(0, 2)];
+};
+
+// Wraps numeric bonus amounts (and their currency/unit) in a gold accent for emphasis.
+const highlightBonus = (text: string) => {
+  const parts = text.split(/(\d[\d.,\s]*(?:%|€|\$)?(?:\s?(?:EUR|RG|FS|TG))?)/gi);
+  return parts.map((part, i) =>
+    /\d/.test(part) ? (
+      <span key={i} className="gold-text whitespace-nowrap">{part}</span>
+    ) : (
+      <Fragment key={i}>{part}</Fragment>
+    )
+  );
+};
+
 export default function BrandCard({ brand, gclidValue, rank, variant = 'default', priority }: BrandCardProps) {
   const finalUrl = buildUrl(brand.url, gclidValue);
+  const isModal = variant === 'modal';
+  const paymentLogos = pickPaymentLogos(brand.id);
 
   const handleCardClick = () => {
     track('Brand Click', { brand: brand.name });
     window.open(finalUrl, '_blank', 'noopener,noreferrer');
   };
 
-  if (variant === 'modal') {
-    // Compact style for mobile modal inspired by screenshot
-    return (
-      <div 
-        onClick={handleCardClick}
-        className="bg-[#0f0821] border border-white/5 relative group cursor-pointer rounded-2xl overflow-hidden shadow-xl transition-all duration-300"
-      >
-        {/* Top Badge */}
-        {brand.badge && (
-          <div 
-            className="absolute top-0 left-0 px-3 py-1 rounded-br-xl text-[9px] font-black uppercase tracking-widest z-20 shadow-lg"
-            style={{ backgroundColor: brand.badge.color, color: '#000' }}
-          >
-            {brand.badge.text}
-          </div>
-        )}
-
-        <div className="p-3 md:p-5">
-          <div className="flex flex-row items-center gap-3 mb-3">
-            
-            {/* Left Column: Logo + Rating */}
-            <div className="flex flex-col items-center w-[35%] flex-shrink-0">
-              <div className="relative w-full h-14 flex items-center justify-center mb-2">
-                <Image 
-                  src={brand.logo} 
-                  alt={brand.name} 
-                  fill 
-                  className="object-contain" 
-                  priority={priority}
-                  sizes="(max-width: 768px) 30vw, 15vw"
-                />
-              </div>
-              
-              <div className="flex text-[#f9d423] scale-75 origin-center mb-0.5" aria-hidden="true">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i} className={i < Math.floor(brand.rating / 2) ? 'text-[#f9d423]' : 'text-white/20'}>★</span>
-                ))}
-              </div>
-              <div className="flex items-baseline gap-1">
-                <span className="text-xl font-black text-white">{brand.rating.toFixed(1)}</span>
-                <span className="text-white/60 font-bold text-[10px]">/10</span>
-              </div>
-            </div>
-
-            {/* Right Column: Bonus Info */}
-            <div className="flex flex-col flex-grow items-center justify-center text-center">
-              <div className="inline-block px-2.5 py-0.5 rounded-full bg-white/5 border border-white/10 mb-1.5">
-                <span className="text-[7px] font-black uppercase tracking-[0.2em] text-primary">BONUS EXCLUSIF</span>
-              </div>
-              <div className="text-xs md:text-sm font-black text-white leading-tight tracking-tight">
-                {brand.bonus}
-              </div>
-            </div>
-          </div>
-
-          {/* Bottom Button */}
-          <button className="w-full py-2 btn-gradient rounded-xl shadow-lg shadow-primary/10 active:scale-95 overflow-hidden relative">
-            <span className="relative z-10 text-[9px] font-black uppercase tracking-[0.2em]">
-              VISITER {brand.name}
-            </span>
-          </button>
-        </div>
-      </div>
-    );
-  }
-
-  // New Screenshot-inspired style (Default / Desktop)
   return (
-    <div 
+    <div
       onClick={handleCardClick}
-      className="bg-[#0f0821] border border-white/5 relative group cursor-pointer rounded-2xl overflow-hidden shadow-2xl transition-all duration-500 hover:border-primary/30"
+      className="bg-gradient-to-b from-[#120b26] to-[#0a0517] border border-white/10 relative group cursor-pointer rounded-3xl overflow-hidden shadow-2xl transition-all duration-300 hover:border-primary/40 hover:-translate-y-0.5"
     >
-      {/* Top Left Badge */}
+      {/* Floating Top-Left Badge */}
       {brand.badge && (
-        <div 
-          className="absolute top-0 left-0 px-3.5 py-1 rounded-br-xl text-[9px] font-black uppercase tracking-widest z-20 shadow-lg"
-          style={{ backgroundColor: brand.badge.color, color: '#000' }}
+        <div
+          className={`absolute z-20 rounded-full font-black uppercase tracking-widest shadow-lg ${isModal ? 'top-3 left-3 px-2.5 py-1 text-[8px]' : 'top-3.5 left-3.5 px-2.5 py-1 text-[10px]'}`}
+          style={{ backgroundColor: brand.badge.color, color: getBadgeTextColor(brand.badge.color) }}
         >
           {brand.badge.text}
         </div>
       )}
 
-      <div className="p-6">
-        <div className="flex flex-col md:flex-row items-center gap-6">
-          
-          {/* Left Side: Logo + Rating */}
-          <div className="flex flex-col items-center md:items-start md:w-[35%]">
-            <div className="relative w-32 h-20 mb-4 flex items-center justify-center transition-transform duration-500 group-hover:scale-110">
-              <Image 
-                src={brand.logo} 
-                alt={brand.name} 
-                width={120} 
-                height={80} 
-                className="object-contain" 
+      <div className={isModal ? 'p-4 pt-8' : 'p-5 pt-9'}>
+        {/* Brand (logo + score) left, Bonus right */}
+        <div className={`flex items-start justify-between gap-4 ${isModal ? 'mb-3' : 'mb-4'}`}>
+          <div className="flex flex-col items-start flex-shrink-0">
+            <div className={`relative flex items-center justify-center ${isModal ? 'w-24 h-12 mb-1.5' : 'w-36 h-16 mb-2'}`}>
+              <Image
+                src={brand.logo}
+                alt={brand.name}
+                fill
+                className="object-contain"
                 priority={priority}
-                sizes="(max-width: 768px) 50vw, 25vw"
+                sizes="(max-width: 768px) 40vw, 20vw"
               />
             </div>
-            
-            <div className="flex flex-col items-center md:items-start">
-              <div className="flex text-[#f9d423] mb-1.5 text-xs" aria-hidden="true">
+
+            <div className="flex items-center gap-1">
+              <div className={`flex text-[#f9d423] ${isModal ? 'text-[9px]' : 'text-[10px]'}`} aria-hidden="true">
                 {[...Array(5)].map((_, i) => (
                   <span key={i} className={i < Math.floor(brand.rating / 2) ? 'text-[#f9d423]' : 'text-white/20'}>★</span>
                 ))}
               </div>
-              <div className="flex items-baseline gap-1">
-                <span className="text-3xl font-black text-white">{brand.rating.toFixed(1)}</span>
-                <span className="text-white/60 font-bold text-base">/10</span>
-              </div>
+              <span className={`font-bold text-white/90 ${isModal ? 'text-[11px]' : 'text-xs'}`}>{brand.rating.toFixed(1)}</span>
+              <span className={`text-white/40 font-medium ${isModal ? 'text-[9px]' : 'text-[10px]'}`}>/10</span>
             </div>
           </div>
 
-          {/* Right Side: Bonus + CTA */}
-          <div className="flex flex-col flex-grow w-full md:w-[65%] gap-6">
-            <div className="flex flex-col items-center md:items-center">
-              <div className="inline-block px-3.5 py-1 rounded-full bg-white/5 border border-white/10 mb-3 self-center">
-                <span className="text-[9px] font-black uppercase tracking-[0.2em] text-primary">OFFRE EXCLUSIVE</span>
+          <div className="flex flex-col items-end text-right flex-grow min-w-0">
+            <div className={`flex items-center justify-end gap-1.5 ${isModal ? 'mb-1.5' : 'mb-2'}`}>
+              <div className="flex items-center gap-1">
+                {paymentLogos.map((logo) => (
+                  <div key={logo} className={`relative rounded-sm overflow-hidden bg-white/95 ${isModal ? 'w-5 h-3.5' : 'w-6 h-4'}`}>
+                    <Image src={logo} alt="" fill className="object-contain" sizes="24px" />
+                  </div>
+                ))}
               </div>
-              <div className="text-xl md:text-2xl font-black text-white text-center leading-tight tracking-tight min-h-[3.5rem] flex items-center justify-center">
-                {brand.bonus}
+              <div className={`inline-block rounded-full bg-white/5 border border-white/10 ${isModal ? 'px-2 py-0.5' : 'px-2.5 py-1'}`}>
+                <span className={`font-black uppercase tracking-[0.2em] text-primary ${isModal ? 'text-[7px]' : 'text-[9px]'}`}>
+                  BONUS EXCLUSIF
+                </span>
               </div>
             </div>
-
-            <button className="w-full py-4 btn-gradient rounded-xl shadow-2xl shadow-primary/20 scale-100 group-hover:scale-[1.02] transition-all duration-500 overflow-hidden relative">
-              <span className="relative z-10 text-xs font-black uppercase tracking-[0.2em]">
-                DÉCOUVRIR {brand.name}
-              </span>
-              <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity" />
-            </button>
+            <div className={`font-black leading-snug tracking-tight ${isModal ? 'text-[13px]' : 'text-lg md:text-xl'}`}>
+              {highlightBonus(brand.bonus)}
+            </div>
           </div>
-
         </div>
+
+        <div className={`h-px bg-white/5 ${isModal ? 'mb-3' : 'mb-4'}`} />
+
+        {/* CTA Button */}
+        <button className={`w-full btn-gradient rounded-xl shadow-lg shadow-primary/20 active:scale-95 group-hover:scale-[1.01] overflow-hidden relative transition-all duration-300 ${isModal ? 'py-2.5' : 'py-3'}`}>
+          <span className={`relative z-10 font-black uppercase tracking-[0.2em] ${isModal ? 'text-[10px]' : 'text-xs'}`}>
+            JOUER SUR {brand.name}
+          </span>
+          <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity" />
+        </button>
       </div>
     </div>
   );

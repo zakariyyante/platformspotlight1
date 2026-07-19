@@ -20,13 +20,12 @@ export default function Hero() {
           </span>
         </div>
 
-        <h1 className="text-6xl md:text-8xl font-black mb-8 leading-[0.9] tracking-tighter">
-          LE MEILLEUR DES <br />
-          <span className="gold-text">PLATEFORMES</span>
+        <h1 className="text-3xl md:text-5xl font-bold mb-5 leading-tight tracking-tight max-w-3xl mx-auto">
+          Le Meilleur des Plateformes en France
         </h1>
 
-        <p className="text-lg md:text-xl text-white/70 mb-12 max-w-2xl mx-auto font-medium leading-relaxed">
-          Analyses d&apos;experts, bonus exclusifs et classements en temps réel pour les utilisateurs français exigeants.
+        <p className="text-base md:text-lg text-white/50 mb-12 max-w-xl mx-auto font-normal leading-relaxed">
+          Découvrez des offres exclusives, des bonus vérifiés et les plateformes les plus populaires en France. Comparez les meilleures options et trouvez la récompense idéale dès aujourd&apos;hui.
         </p>
 
         <div className="flex flex-wrap justify-center gap-3 mb-16">
