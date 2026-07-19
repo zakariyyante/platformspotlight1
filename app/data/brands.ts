@@ -54,7 +54,7 @@ export const brands: Brand[] = [
     name: "WinKingdom",
     logo: "/brands/winkingdom.svg",
     rating: 9.8,
-    bonus: "Pack de bienvenue 15000€ + 450FS",
+    bonus: "Jusqu’à 15000€ + 450FS",
     url: "https://winkingdom.media/n1m05duhl4?subid=WinKingdom-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
@@ -130,4 +130,4 @@ export const brands: Brand[] = [
     votes: 12450,
     displayUrl: "bwin.com"
   }
-].sort((a, b) => b.rating - a.rating);
+];
