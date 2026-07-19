@@ -27,28 +27,17 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
-  {
-    id: "spinboss",
-    name: "SpinBoss",
-    logo: "/brands/spinboss.webp",
-    rating: 9.8,
-    bonus: "400% jusqu’à 15000€ + 400FS",
-    url: "https://spbs.lynmonkel.com/?mid=355610_2121757&subid=SpinBoss-SL2FR9&clickid=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
-  {
-    id: "SpinFin",
-    name: "SpinFin",
-    logo: "/brands/SPINFIN.png",
-    rating: 9.8,
-    bonus: "350% jusqu’à 10000€ + 500FS",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
+  // {
+  //   id: "spinboss",
+  //   name: "SpinBoss",
+  //   logo: "/brands/spinboss.webp",
+  //   rating: 9.8,
+  //   bonus: "400% jusqu’à 15000€ + 400FS",
+  //   url: "https://spbs.lynmonkel.com/?mid=355610_2121757&subid=SpinBoss-SL2FR9&clickid=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
+  // },
   {
     id: "WinKingdom",
     name: "WinKingdom",
@@ -61,6 +50,18 @@ export const brands: Brand[] = [
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
   {
+    id: "SpinFin",
+    name: "SpinFin",
+    logo: "/brands/SPINFIN.png",
+    rating: 9.8,
+    bonus: "350% jusqu’à 10000€ + 500FS",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  },
+  
+  {
     id: "Betory",
     name: "Betory",
     logo: "/brands/betory.png",
@@ -69,7 +70,7 @@ export const brands: Brand[] = [
     url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
   {
     id: "Spinkong",
