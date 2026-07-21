@@ -60,6 +60,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
   // },
+    {
+    id: "HeavyBet",
+    name: "HeavyBet",
+    logo: "/brands/heavybet.png",
+    rating: 9.8,
+    bonus: "300% jusqu'à 3000€ + 300FS",
+    url: "https://media.heavybet.partners/visit/?bta=35072&nci=5345&trackingcode=HeavyBet-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
   {
     id: "Betory",
     name: "Betory",
