@@ -49,13 +49,24 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   badge: { text: "Retraits Rapides", color: "#22c55e" },
   // },
+  // {
+  //   id: "BetRiviera",
+  //   name: "BetRiviera",
+  //   logo: "/brands/BETRIVIERA.svg",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 15000€ + 350FS",
+  //   url: "https://betriviera.media/n1qnk1ibhz?subid=BetRiviera-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
   {
-    id: "BetRiviera",
-    name: "BetRiviera",
-    logo: "/brands/BETRIVIERA.svg",
+    id: "Betory",
+    name: "Betory",
+    logo: "/brands/betory.png",
     rating: 9.8,
-    bonus: "Jusqu’à 15000€ + 350FS",
-    url: "https://betriviera.media/n1qnk1ibhz?subid=BetRiviera-SL2FR9&visit_id=",
+    bonus: "300% jusqu'à 3250€",
+    url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
@@ -73,17 +84,17 @@ export const brands: Brand[] = [
   },
   
    
-  // {
-  //   id: "CleanWins",
-  //   name: "CleanWins",
-  //   logo: "/brands/CLEANWINS.svg",
-  //   rating: 9.8,
-  //   bonus: "200% jusqu'à 2000€ + 200FS",
-  //   url: "https://on.cwtrk.com/promoRedirect?key=ej0xMzU4MTczMiZsPTEzNTgzODYzJnA9MTEzODU%3D&var2=CleanWins-SL2FR9&var1=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   
-  // },
+  {
+    id: "CleanWins",
+    name: "CleanWins",
+    logo: "/brands/CLEANWINS.svg",
+    rating: 9.8,
+    bonus: "200% jusqu'à 2000€ + 200FS",
+    url: "https://on.cwtrk.com/promoRedirect?key=ej0xMzU4MTczMiZsPTEzNTgzODYzJnA9MTEzODU%3D&var2=CleanWins-SL2FR9&var1=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
   {
     id: "SpinFin",
     name: "SpinFin",
@@ -95,17 +106,7 @@ export const brands: Brand[] = [
     votes: 12450,
     
   },
-  // {
-  //   id: "Betory",
-  //   name: "Betory",
-  //   logo: "/brands/betory.png",
-  //   rating: 9.8,
-  //   bonus: "300% jusqu'à 3250€",
-  //   url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  // },
+  
   {
     id: "Spinkong",
     name: "Spinkong",
