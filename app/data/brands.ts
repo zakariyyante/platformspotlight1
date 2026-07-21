@@ -37,6 +37,7 @@ export const brands: Brand[] = [
     url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
   // {
@@ -81,7 +82,7 @@ export const brands: Brand[] = [
   //   url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
   //   isMobile: true,
   //   votes: 12450,
-  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   
   // },
     {
     id: "HeavyBet",
@@ -92,7 +93,7 @@ export const brands: Brand[] = [
     url: "https://media.heavybet.partners/visit/?bta=35072&nci=5345&trackingcode=HeavyBet-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
   
   // {
@@ -104,7 +105,7 @@ export const brands: Brand[] = [
   //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5371&utm_campaign=X3Bet-SL2FR9&afp=",
   //   isMobile: true,
   //   votes: 12450,
-  //   badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  
   // },
   
    
