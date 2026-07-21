@@ -38,16 +38,27 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
+  // {
+  //   id: "WinKingdom",
+  //   name: "WinKingdom",
+  //   logo: "/brands/winkingdom.svg",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 15000€ + 450FS",
+  //   url: "https://winkingdom.media/n1m05duhl4?subid=WinKingdom-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // },
   {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
+    id: "BetRiviera",
+    name: "BetRiviera",
+    logo: "/brands/BETRIVIERA.svg",
     rating: 9.8,
-    bonus: "Jusqu’à 15000€ + 450FS",
-    url: "https://winkingdom.media/n1m05duhl4?subid=WinKingdom-SL2FR9&visit_id=",
+    bonus: "Jusqu’à 15000€ + 350FS",
+    url: "https://betriviera.media/n1qnk1ibhz?subid=BetRiviera-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
   {
     id: "X3Bet",
@@ -60,17 +71,7 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
-  {
-    id: "BetRiviera",
-    name: "BetRiviera",
-    logo: "/brands/BETRIVIERA.svg",
-    rating: 9.8,
-    bonus: "Jusqu’à 15000€ + 350FS",
-    url: "https://betriviera.media/n1qnk1ibhz?subid=BetRiviera-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  
    
   // {
   //   id: "CleanWins",
