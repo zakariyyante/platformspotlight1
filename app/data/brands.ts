@@ -50,6 +50,17 @@ export const brands: Brand[] = [
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
   {
+    id: "X3Bet",
+    name: "X3Bet",
+    logo: "/brands/x3bet.svg",
+    rating: 9.8,
+    bonus: "100% jusqu'à 1000€ + 200FS",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5371&utm_campaign=X3Bet-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  },
+  {
     id: "BetRiviera",
     name: "BetRiviera",
     logo: "/brands/BETRIVIERA.svg",
@@ -81,7 +92,7 @@ export const brands: Brand[] = [
     url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+    
   },
   // {
   //   id: "Betory",
