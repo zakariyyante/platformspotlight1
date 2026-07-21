@@ -61,17 +61,17 @@ export const brands: Brand[] = [
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
    
-  {
-    id: "CleanWins",
-    name: "CleanWins",
-    logo: "/brands/CLEANWINS.svg",
-    rating: 9.8,
-    bonus: "200% jusqu'à 2000€ + 200FS",
-    url: "https://on.cwtrk.com/promoRedirect?key=ej0xMzU4MTczMiZsPTEzNTgzODYzJnA9MTEzODU%3D&var2=CleanWins-SL2FR9&var1=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
+  // {
+  //   id: "CleanWins",
+  //   name: "CleanWins",
+  //   logo: "/brands/CLEANWINS.svg",
+  //   rating: 9.8,
+  //   bonus: "200% jusqu'à 2000€ + 200FS",
+  //   url: "https://on.cwtrk.com/promoRedirect?key=ej0xMzU4MTczMiZsPTEzNTgzODYzJnA9MTEzODU%3D&var2=CleanWins-SL2FR9&var1=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
+  // },
   {
     id: "SpinFin",
     name: "SpinFin",
@@ -81,7 +81,7 @@ export const brands: Brand[] = [
     url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
   // {
   //   id: "Betory",
