@@ -17,16 +17,28 @@ export interface Brand {
 const generateId = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
 export const brands: Brand[] = [
-  // {
-  //   id: "Atefia",
-  //   name: "Atefia",
-  //   logo: "/brands/atefia.webp",
-  //   rating: 9.8,
-  //   bonus: "100 % jusqu'à 1000€ + 200FS",
-  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-  // },
+  {
+    id: "Atefia",
+    name: "Atefia",
+    logo: "/brands/atefia.webp",
+    rating: 9.8,
+    bonus: "100% jusqu'à 1000€ + 200FS",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
+    {
+    id: "Aerobet",
+    name: "Aerobet",
+    logo: "/brands/AEROBET.webp",
+    rating: 9.8,
+    bonus: "Jusqu’à 600% + 450FS",
+    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
   // {
   //   id: "spinboss",
   //   name: "SpinBoss",
@@ -47,7 +59,7 @@ export const brands: Brand[] = [
   //   url: "https://winkingdom.media/n1m05duhl4?subid=WinKingdom-SL2FR9&visit_id=",
   //   isMobile: true,
   //   votes: 12450,
-  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   
   // },
   // {
   //   id: "BetRiviera",
@@ -58,19 +70,19 @@ export const brands: Brand[] = [
   //   url: "https://betriviera.media/n1qnk1ibhz?subid=BetRiviera-SL2FR9&visit_id=",
   //   isMobile: true,
   //   votes: 12450,
-  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   
   // },
-  {
-    id: "Betory",
-    name: "Betory",
-    logo: "/brands/betory.png",
-    rating: 9.8,
-    bonus: "300% jusqu'à 3250€",
-    url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  // {
+  //   id: "Betory",
+  //   name: "Betory",
+  //   logo: "/brands/betory.png",
+  //   rating: 9.8,
+  //   bonus: "300% jusqu'à 3250€",
+  //   url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // },
     {
     id: "HeavyBet",
     name: "HeavyBet",
@@ -83,17 +95,17 @@ export const brands: Brand[] = [
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
   
-  {
-    id: "X3Bet",
-    name: "X3Bet",
-    logo: "/brands/x3bet.svg",
-    rating: 9.8,
-    bonus: "100% jusqu'à 1000€ + 200FS",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5371&utm_campaign=X3Bet-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
+  // {
+  //   id: "X3Bet",
+  //   name: "X3Bet",
+  //   logo: "/brands/x3bet.svg",
+  //   rating: 9.8,
+  //   bonus: "100% jusqu'à 1000€ + 200FS",
+  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5371&utm_campaign=X3Bet-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  // },
   
    
   // {
@@ -119,17 +131,17 @@ export const brands: Brand[] = [
     
   },
   
-  {
-    id: "Spinkong",
-    name: "Spinkong",
-    logo: "/brands/Spinkong.webp",
-    rating: 9.8,
-    bonus: "400% jusqu’à 1000€ + 250FS",
-    url: "https://gtrfspkng.com/jxcod4yvg?subid=Spinkong-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "Spinkong",
+  //   name: "Spinkong",
+  //   logo: "/brands/Spinkong.webp",
+  //   rating: 9.8,
+  //   bonus: "400% jusqu’à 1000€ + 250FS",
+  //   url: "https://gtrfspkng.com/jxcod4yvg?subid=Spinkong-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   
   
   
