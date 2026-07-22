@@ -17,18 +17,18 @@ export interface Brand {
 const generateId = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
 export const brands: Brand[] = [
+  
   {
-    id: "Atefia",
-    name: "Atefia",
-    logo: "/brands/atefia.webp",
+    id: "daytonaspin",
+    name: "DaytonaSpin",
+    logo: "/brands/daytonaspin.png",
     rating: 9.8,
-    bonus: "100% jusqu'à 1000€ + 200FS",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
+    bonus: "430% jusqu’à 14300€ + 430FS",
+    url: "https://direct.reradirectbox.com/click?pid=75&offer_id=1604&l=1784641970&sub2=DaytonaSpin-SL2FR9&sub1=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
-  
   // {
   //   id: "spinboss",
   //   name: "SpinBoss",
@@ -97,16 +97,27 @@ export const brands: Brand[] = [
     
   },
   {
-    id: "X3Bet",
-    name: "X3Bet",
-    logo: "/brands/x3bet.svg",
+    id: "Atefia",
+    name: "Atefia",
+    logo: "/brands/atefia.webp",
     rating: 9.8,
     bonus: "100% jusqu'à 1000€ + 200FS",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5371&utm_campaign=X3Bet-SL2FR9&afp=",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-  
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
+  // {
+  //   id: "X3Bet",
+  //   name: "X3Bet",
+  //   logo: "/brands/x3bet.svg",
+  //   rating: 9.8,
+  //   bonus: "100% jusqu'à 1000€ + 200FS",
+  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5371&utm_campaign=X3Bet-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  
+  // },
   
    
   // {
@@ -120,17 +131,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-  {
-    id: "SpinFin",
-    name: "SpinFin",
-    logo: "/brands/SPINFIN.png",
-    rating: 9.8,
-    bonus: "350% jusqu’à 10000€ + 500FS",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "SpinFin",
+  //   name: "SpinFin",
+  //   logo: "/brands/SPINFIN.png",
+  //   rating: 9.8,
+  //   bonus: "350% jusqu’à 10000€ + 500FS",
+  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   
   // {
   //   id: "Spinkong",
