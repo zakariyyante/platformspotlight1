@@ -17,17 +17,7 @@ export interface Brand {
 const generateId = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
 export const brands: Brand[] = [
-  {
-    id: "BetNJet",
-    name: "BetNJet",
-    logo: "/brands/betnjet.webp",
-    rating: 9.8,
-    bonus: "400% jusqu'à 1000€ + 250FS",
-    url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+ 
   // {
   //   id: "daytonaspin",
   //   name: "DaytonaSpin",
@@ -116,6 +106,17 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
    
+  },
+  {
+    id: "BetNJet",
+    name: "BetNJet",
+    logo: "/brands/betnjet.webp",
+    rating: 9.8,
+    bonus: "400% jusqu'à 1000€ + 250FS",
+    url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
   // {
   //   id: "X3Bet",
