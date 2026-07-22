@@ -17,18 +17,28 @@ export interface Brand {
 const generateId = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
 export const brands: Brand[] = [
-  
   {
-    id: "daytonaspin",
-    name: "DaytonaSpin",
-    logo: "/brands/daytonaspin.png",
+    id: "BetNJet",
+    name: "BetNJet",
+    logo: "/brands/betnjet.webp",
     rating: 9.8,
-    bonus: "430% jusqu’à 14300€ + 430FS",
-    url: "https://direct.reradirectbox.com/click?pid=75&offer_id=1604&l=1784641970&sub2=DaytonaSpin-SL2FR9&sub1=",
+    bonus: "Bonus exclusif coupe du monde: jusqu’à 500€",
+    url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
+  // {
+  //   id: "daytonaspin",
+  //   name: "DaytonaSpin",
+  //   logo: "/brands/daytonaspin.png",
+  //   rating: 9.8,
+  //   bonus: "430% jusqu’à 14300€ + 430FS",
+  //   url: "https://direct.reradirectbox.com/click?pid=75&offer_id=1604&l=1784641970&sub2=DaytonaSpin-SL2FR9&sub1=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
+  // },
   // {
   //   id: "spinboss",
   //   name: "SpinBoss",
@@ -169,16 +179,7 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
-  // {
-  //   id: "BetNJet",
-  //   name: "BetNJet",
-  //   logo: "/brands/betnjet.webp",
-  //   rating: 9.8,
-  //   bonus: "Bonus exclusif coupe du monde: jusqu’à 500€",
-  //   url: "https://gtrfk.com/jubr84o3x?subid=BetNJet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  // },
+
   // {
   //   id: "SpinMillion",
   //   name: "SpinMillion",
