@@ -79,7 +79,7 @@ export const brands: Brand[] = [
     logo: "/brands/heavybet.png",
     rating: 9.8,
     bonus: "300% jusqu'à 3000€ + 300FS",
-    url: "https://media.heavybet.partners/visit/?bta=35072&nci=5345&trackingcode=HeavyBet-SL2FR9&afp=",
+    url: "https://media.heavybet.partners/visit/?bta=35072&nci=5345&utm_campaign=HeavyBet-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
