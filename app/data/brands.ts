@@ -73,17 +73,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  {
-    id: "bananzia",
-    name: "Bananzia",
-    logo: "/brands/bananzia.svg",
-    rating: 9.8,
-    bonus: "300% jusqu’à 3000€ + 300FS",
-    url: "https://go.drctvoodoo.com/click?pid=6&offer_id=21&sub2=Bananzia-SL2FR9&sub1=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  // {
+  //   id: "bananzia",
+  //   name: "Bananzia",
+  //   logo: "/brands/bananzia.svg",
+  //   rating: 9.8,
+  //   bonus: "300% jusqu’à 3000€ + 300FS",
+  //   url: "https://go.drctvoodoo.com/click?pid=6&offer_id=21&sub2=Bananzia-SL2FR9&sub1=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
+  // },
   {
     id: "SpinFin",
     name: "SpinFin",
@@ -96,6 +96,17 @@ export const brands: Brand[] = [
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
   {
+    id: "HeavyBet",
+    name: "HeavyBet",
+    logo: "/brands/heavybet.png",
+    rating: 9.8,
+    bonus: "300% jusqu'à 3000€ + 300FS",
+    url: "https://media.heavybet.partners/visit/?bta=35072&nci=5345&utm_campaign=HeavyBet-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
+  {
     id: "Atefia",
     name: "Atefia",
     logo: "/brands/atefia.webp",
@@ -106,15 +117,17 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
-    {
-    id: "HeavyBet",
-    name: "HeavyBet",
-    logo: "/brands/heavybet.png",
+    
+  {
+    id: "Aerobet",
+    name: "Aerobet",
+    logo: "/brands/AEROBET.webp",
     rating: 9.8,
-    bonus: "300% jusqu'à 3000€ + 300FS",
-    url: "https://media.heavybet.partners/visit/?bta=35072&nci=5345&utm_campaign=HeavyBet-SL2FR9&afp=",
+    bonus: "Jusqu’à 600% + 450FS",
+    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
+    
     
   },
   {
@@ -139,18 +152,7 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-  // {
-  //   id: "Aerobet",
-  //   name: "Aerobet",
-  //   logo: "/brands/AEROBET.webp",
-  //   rating: 9.8,
-  //   bonus: "Jusqu’à 600% + 450FS",
-  //   url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   
-    
-  // },
+  
   
   // {
   //   id: "BetNJet",
