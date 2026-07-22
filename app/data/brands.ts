@@ -22,7 +22,7 @@ export const brands: Brand[] = [
     name: "BetNJet",
     logo: "/brands/betnjet.webp",
     rating: 9.8,
-    bonus: "Bonus exclusif coupe du monde: jusqu’à 500€",
+    bonus: "400% jusqu'à 1000€ + 250FS",
     url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
