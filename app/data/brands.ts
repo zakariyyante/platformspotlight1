@@ -105,7 +105,7 @@ export const brands: Brand[] = [
     url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+   
   },
   // {
   //   id: "X3Bet",
