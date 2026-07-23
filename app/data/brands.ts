@@ -85,16 +85,17 @@ export const brands: Brand[] = [
   //   
   // },
   {
-    id: "SpinFin",
-    name: "SpinFin",
-    logo: "/brands/SPINFIN.png",
+    id: "Atefia",
+    name: "Atefia",
+    logo: "/brands/atefia.webp",
     rating: 9.8,
-    bonus: "350% jusqu’à 10000€ + 500FS",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
+    bonus: "100% jusqu'à 1000€ + 200FS",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
+  
   {
     id: "HeavyBet",
     name: "HeavyBet",
@@ -106,17 +107,7 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
-  {
-    id: "Atefia",
-    name: "Atefia",
-    logo: "/brands/atefia.webp",
-    rating: 9.8,
-    bonus: "100% jusqu'à 1000€ + 200FS",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+  
     
   {
     id: "Aerobet",
@@ -127,20 +118,31 @@ export const brands: Brand[] = [
     url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
     
   },
   {
-    id: "Zombillion",
-    name: "Zombillion",
-    logo: "/brands/zombillion.svg",
+    id: "SpinFin",
+    name: "SpinFin",
+    logo: "/brands/SPINFIN.png",
     rating: 9.8,
-    bonus: "250% jusqu’à 4000€ + 200FS",
-    url: "https://direct.club.partners/click?pid=19&offer_id=59&l=1779872569&sub2=Zombillion-SL2FR9&sub1=",
+    bonus: "350% jusqu’à 10000€ + 500FS",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     
   },
+  // {
+  //   id: "Zombillion",
+  //   name: "Zombillion",
+  //   logo: "/brands/zombillion.svg",
+  //   rating: 9.8,
+  //   bonus: "250% jusqu’à 4000€ + 200FS",
+  //   url: "https://direct.club.partners/click?pid=19&offer_id=59&l=1779872569&sub2=Zombillion-SL2FR9&sub1=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  // },
   // {
   //   id: "BetNJet",
   //   name: "BetNJet",
