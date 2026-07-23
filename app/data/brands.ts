@@ -129,7 +129,7 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    
   },
   {
     id: "SpinFin",
