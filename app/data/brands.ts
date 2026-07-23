@@ -96,17 +96,17 @@ export const brands: Brand[] = [
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
   
-  {
-    id: "HeavyBet",
-    name: "HeavyBet",
-    logo: "/brands/heavybet.png",
-    rating: 9.8,
-    bonus: "300% jusqu'à 3000€ + 300FS",
-    url: "https://media.heavybet.partners/visit/?bta=35072&nci=5345&utm_campaign=HeavyBet-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  // {
+  //   id: "HeavyBet",
+  //   name: "HeavyBet",
+  //   logo: "/brands/heavybet.png",
+  //   rating: 9.8,
+  //   bonus: "300% jusqu'à 3000€ + 300FS",
+  //   url: "https://media.heavybet.partners/visit/?bta=35072&nci=5345&utm_campaign=HeavyBet-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
+  // },
   {
     id: "Amunbet",
     name: "Amunbet",
@@ -129,7 +129,7 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
-    
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
   {
     id: "SpinFin",
