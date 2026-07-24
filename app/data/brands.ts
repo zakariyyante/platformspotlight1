@@ -96,18 +96,18 @@ export const brands: Brand[] = [
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
   },
-  
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
+    id: "GoloBet",
+    name: "GoloBet",
+    logo: "/brands/golobet.webp",
     rating: 9.8,
-    bonus: "555% jusqu'à 15555€",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    bonus: "600% jusqu'à 6000€ + 450FS",
+    url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
+  
   
   
   // {
@@ -143,6 +143,17 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  },
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "555% jusqu'à 15555€",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    
   },
   {
     id: "SpinFin",
