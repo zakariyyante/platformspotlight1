@@ -145,17 +145,17 @@ export const brands: Brand[] = [
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
   },
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "555% jusqu'à 15555€",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "SpinFormula",
+  //   name: "SpinFormula",
+  //   logo: "/brands/Spinformula.svg",
+  //   rating: 9.8,
+  //   bonus: "555% jusqu'à 15555€",
+  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   {
     id: "SpinFin",
     name: "SpinFin",
