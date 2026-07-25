@@ -84,7 +84,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "555% jusqu'à 15555€",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
   {
     id: "GoloBet",
     name: "GoloBet",
@@ -142,20 +152,10 @@ export const brands: Brand[] = [
     url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    
     
   },
-  // {
-  //   id: "SpinFormula",
-  //   name: "SpinFormula",
-  //   logo: "/brands/Spinformula.svg",
-  //   rating: 9.8,
-  //   bonus: "555% jusqu'à 15555€",
-  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  // },
+  
   {
     id: "SpinFin",
     name: "SpinFin",
