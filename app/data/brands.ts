@@ -95,18 +95,19 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
+  
   {
-    id: "GoloBet",
-    name: "GoloBet",
-    logo: "/brands/golobet.webp",
+    id: "Aerobet",
+    name: "Aerobet",
+    logo: "/brands/AEROBET.webp",
     rating: 9.8,
-    bonus: "600% jusqu'à 6000€ + 450FS",
-    url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
+    bonus: "Jusqu’à 600% + 450FS",
+    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
   },
-  
   
   
   // {
@@ -143,19 +144,18 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
+  
   {
-    id: "Aerobet",
-    name: "Aerobet",
-    logo: "/brands/AEROBET.webp",
+    id: "GoloBet",
+    name: "GoloBet",
+    logo: "/brands/golobet.webp",
     rating: 9.8,
-    bonus: "Jusqu’à 600% + 450FS",
-    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
+    bonus: "600% jusqu'à 6000€ + 450FS",
+    url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     
-    
   },
-  
   {
     id: "SpinFin",
     name: "SpinFin",
