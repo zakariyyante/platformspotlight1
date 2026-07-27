@@ -73,28 +73,18 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
+ 
   // {
-  //   id: "bananzia",
-  //   name: "Bananzia",
-  //   logo: "/brands/bananzia.svg",
+  //   id: "Atefia",
+  //   name: "Atefia",
+  //   logo: "/brands/atefia.webp",
   //   rating: 9.8,
-  //   bonus: "300% jusqu’à 3000€ + 300FS",
-  //   url: "https://go.drctvoodoo.com/click?pid=6&offer_id=21&sub2=Bananzia-SL2FR9&sub1=",
+  //   bonus: "100% jusqu'à 1000€ + 200FS",
+  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
   //   isMobile: true,
   //   votes: 12450,
   //   
   // },
-  {
-    id: "Atefia",
-    name: "Atefia",
-    logo: "/brands/atefia.webp",
-    rating: 9.8,
-    bonus: "100% jusqu'à 1000€ + 200FS",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5458&utm_campaign=Atefia-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -107,20 +97,30 @@ export const brands: Brand[] = [
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
   
-  // {
-  //   id: "Aerobet",
-  //   name: "Aerobet",
-  //   logo: "/brands/AEROBET.webp",
+  {
+    id: "Aerobet",
+    name: "Aerobet",
+    logo: "/brands/AEROBET.webp",
+    rating: 9.8,
+    bonus: "Jusqu’à 600% + 450FS",
+    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+    
+  },
+  
+  //  {
+  //   id: "bananzia",
+  //   name: "Bananzia",
+  //   logo: "/brands/bananzia.svg",
   //   rating: 9.8,
-  //   bonus: "Jusqu’à 600% + 450FS",
-  //   url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
+  //   bonus: "300% jusqu’à 3000€ + 300FS",
+  //   url: "https://go.drctvoodoo.com/click?pid=6&offer_id=21&sub2=Bananzia-SL2FR9&sub1=",
   //   isMobile: true,
   //   votes: 12450,
-  //   
     
   // },
-  
-  
   // {
   //   id: "HeavyBet",
   //   name: "HeavyBet",
@@ -157,17 +157,17 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
-  {
-    id: "SpinFin",
-    name: "SpinFin",
-    logo: "/brands/SPINFIN.png",
-    rating: 9.8,
-    bonus: "350% jusqu’à 10000€ + 500FS",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "SpinFin",
+  //   name: "SpinFin",
+  //   logo: "/brands/SPINFIN.png",
+  //   rating: 9.8,
+  //   bonus: "350% jusqu’à 10000€ + 500FS",
+  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5358&utm_campaign=SpinFin-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   // {
   //   id: "Zombillion",
   //   name: "Zombillion",
@@ -229,17 +229,17 @@ export const brands: Brand[] = [
   // },
   
   
-  // {
-  //   id: "Spinkong",
-  //   name: "Spinkong",
-  //   logo: "/brands/Spinkong.webp",
-  //   rating: 9.8,
-  //   bonus: "400% jusqu’à 1000€ + 250FS",
-  //   url: "https://gtrfspkng.com/jxcod4yvg?subid=Spinkong-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "Spinkong",
+    name: "Spinkong",
+    logo: "/brands/Spinkong.webp",
+    rating: 9.8,
+    bonus: "400% jusqu’à 1000€ + 250FS",
+    url: "https://gtrfspkng.com/jxcod4yvg?subid=Spinkong-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
     
-  // },
+  },
   
   
   
