@@ -178,17 +178,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-  // {
-  //   id: "Zombillion",
-  //   name: "Zombillion",
-  //   logo: "/brands/zombillion.svg",
-  //   rating: 9.8,
-  //   bonus: "250% jusqu’à 4000€ + 200FS",
-  //   url: "https://direct.club.partners/click?pid=19&offer_id=59&l=1779872569&sub2=Zombillion-SL2FR9&sub1=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "Zombillion",
+    name: "Zombillion",
+    logo: "/brands/zombillion.svg",
+    rating: 9.8,
+    bonus: "250% jusqu’à 4000€ + 200FS",
+    url: "https://direct.club.partners/click?pid=19&offer_id=59&l=1779872569&sub2=Zombillion-SL2FR9&sub1=",
+    isMobile: true,
+    votes: 12450,
     
-  // },
+  },
   // {
   //   id: "BetNJet",
   //   name: "BetNJet",
@@ -239,17 +239,17 @@ export const brands: Brand[] = [
   // },
   
   
-  {
-    id: "Spinkong",
-    name: "Spinkong",
-    logo: "/brands/Spinkong.webp",
-    rating: 9.8,
-    bonus: "400% jusqu’à 1000€ + 250FS",
-    url: "https://gtrfspkng.com/jxcod4yvg?subid=Spinkong-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "Spinkong",
+  //   name: "Spinkong",
+  //   logo: "/brands/Spinkong.webp",
+  //   rating: 9.8,
+  //   bonus: "400% jusqu’à 1000€ + 250FS",
+  //   url: "https://gtrfspkng.com/jxcod4yvg?subid=Spinkong-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   
   
   
