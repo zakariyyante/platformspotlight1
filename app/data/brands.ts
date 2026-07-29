@@ -108,28 +108,28 @@ export const brands: Brand[] = [
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
  
-   {
-    id: "bananzia",
-    name: "Bananzia",
-    logo: "/brands/bananzia.svg",
-    rating: 9.8,
-    bonus: "300% jusqu’à 3000€ + 300FS",
-    url: "https://go.drctvoodoo.com/click?pid=6&offer_id=21&sub2=Bananzia-SL2FR9&sub1=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
-  {
-    id: "Aerobet",
-    name: "Aerobet",
-    logo: "/brands/AEROBET.webp",
-    rating: 9.8,
-    bonus: "Jusqu’à 600% + 450FS",
-    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  //  {
+  //   id: "bananzia",
+  //   name: "Bananzia",
+  //   logo: "/brands/bananzia.svg",
+  //   rating: 9.8,
+  //   bonus: "300% jusqu’à 3000€ + 300FS",
+  //   url: "https://go.drctvoodoo.com/click?pid=6&offer_id=21&sub2=Bananzia-SL2FR9&sub1=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
+  // },
+  // {
+  //   id: "Aerobet",
+  //   name: "Aerobet",
+  //   logo: "/brands/AEROBET.webp",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 600% + 450FS",
+  //   url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   
   
   // {
@@ -143,31 +143,31 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  // {
-  //   id: "Amunbet",
-  //   name: "Amunbet",
-  //   logo: "/brands/amunbet.webp",
-  //   rating: 9.8,
-  //   bonus: "450% jusqu’à 3000€ + 450FS",
-  //   url: "https://amunbetplay.com/tf11k61qe?subid=Amunbet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  // },
+  {
+    id: "Amunbet",
+    name: "Amunbet",
+    logo: "/brands/amunbet.webp",
+    rating: 9.8,
+    bonus: "450% jusqu’à 3000€ + 450FS",
+    url: "https://amunbetplay.com/tf11k61qe?subid=Amunbet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
     
   
   
-  // {
-  //   id: "GoloBet",
-  //   name: "GoloBet",
-  //   logo: "/brands/golobet.webp",
-  //   rating: 9.8,
-  //   bonus: "600% jusqu'à 6000€ + 450FS",
-  //   url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   
-  // },
+  {
+    id: "GoloBet",
+    name: "GoloBet",
+    logo: "/brands/golobet.webp",
+    rating: 9.8,
+    bonus: "600% jusqu'à 6000€ + 450FS",
+    url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
   // {
   //   id: "SpinFin",
   //   name: "SpinFin",
