@@ -40,28 +40,7 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  // {
-  //   id: "WinKingdom",
-  //   name: "WinKingdom",
-  //   logo: "/brands/winkingdom.svg",
-  //   rating: 9.8,
-  //   bonus: "Jusqu’à 15000€ + 450FS",
-  //   url: "https://winkingdom.media/n1m05duhl4?subid=WinKingdom-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   
-  // },
-  // {
-  //   id: "BetRiviera",
-  //   name: "BetRiviera",
-  //   logo: "/brands/BETRIVIERA.svg",
-  //   rating: 9.8,
-  //   bonus: "Jusqu’à 15000€ + 350FS",
-  //   url: "https://betriviera.media/n1qnk1ibhz?subid=BetRiviera-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   
-  // },
+  
   // {
   //   id: "Betory",
   //   name: "Betory",
@@ -86,17 +65,6 @@ export const brands: Brand[] = [
   //   
   // },
   {
-    id: "SpinHub",
-    name: "SpinHub",
-    logo: "/brands/spinhub.png",
-    rating: 9.8,
-    bonus: "300% jusqu'à 1500€ + 100FS",
-    url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
-  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -107,6 +75,18 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
+  {
+    id: "SpinHub",
+    name: "SpinHub",
+    logo: "/brands/spinhub.png",
+    rating: 9.8,
+    bonus: "300% jusqu'à 1500€ + 100FS",
+    url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  },
+  
   
   //  {
   //   id: "bananzia",
@@ -143,31 +123,55 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  {
-    id: "Amunbet",
-    name: "Amunbet",
-    logo: "/brands/amunbet.webp",
+
+{
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
     rating: 9.8,
-    bonus: "450% jusqu’à 3000€ + 450FS",
-    url: "https://amunbetplay.com/tf11k61qe?subid=Amunbet-SL2FR9&visit_id=",
+    bonus: "Jusqu’à 2000€ + 100FS",
+    url: "https://bestcpa.online/click?o=568&a=36&sub_id1=WinKingdom-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
-    
-  
-  
   {
-    id: "GoloBet",
-    name: "GoloBet",
-    logo: "/brands/golobet.webp",
+    id: "BetRiviera",
+    name: "BetRiviera",
+    logo: "/brands/BETRIVIERA.svg",
     rating: 9.8,
-    bonus: "600% jusqu'à 6000€ + 450FS",
-    url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
+    bonus: "Jusqu’à 2000€ + 200FS",
+    url: "https://bestcpa.online/click?o=567&a=36&sub_id1=Betriviera-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
     
   },
+
+  // {
+  //   id: "Amunbet",
+  //   name: "Amunbet",
+  //   logo: "/brands/amunbet.webp",
+  //   rating: 9.8,
+  //   bonus: "450% jusqu’à 3000€ + 450FS",
+  //   url: "https://amunbetplay.com/tf11k61qe?subid=Amunbet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
+  // },
+    
+  
+  
+  // {
+  //   id: "GoloBet",
+  //   name: "GoloBet",
+  //   logo: "/brands/golobet.webp",
+  //   rating: 9.8,
+  //   bonus: "600% jusqu'à 6000€ + 450FS",
+  //   url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  // },
   // {
   //   id: "SpinFin",
   //   name: "SpinFin",
