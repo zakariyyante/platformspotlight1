@@ -65,15 +65,15 @@ export const brands: Brand[] = [
   //   
   // },
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
+    id: "SpinHub",
+    name: "SpinHub",
+    logo: "/brands/spinhub.png",
     rating: 9.8,
-    bonus: "555% jusqu'à 15555€",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    bonus: "300% jusqu'à 1500€ + 100FS",
+    url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
   {
     id: "WinKingdom",
@@ -86,18 +86,18 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
+  
   {
-    id: "SpinHub",
-    name: "SpinHub",
-    logo: "/brands/spinhub.png",
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
     rating: 9.8,
-    bonus: "300% jusqu'à 1500€ + 100FS",
-    url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
+    bonus: "555% jusqu'à 15555€",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
-  
   
   //  {
   //   id: "bananzia",
@@ -134,8 +134,6 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-
-
   {
     id: "BetRiviera",
     name: "BetRiviera",
@@ -143,6 +141,18 @@ export const brands: Brand[] = [
     rating: 9.8,
     bonus: "Jusqu’à 2000€ + 200FS",
     url: "https://bestcpa.online/click?o=567&a=36&sub_id1=Betriviera-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
+
+  {
+    id: "RxBet",
+    name: "RxBet",
+    logo: "/brands/rxcasino.png",
+    rating: 9.8,
+    bonus: "512% jusqu'à 3000€ + 256FS",
+    url: "https://go.rx.partners/visit/?bta=35855&nci=5352&afp=RxBet-SL2FR9&utm_campaign=",
     isMobile: true,
     votes: 12450,
     
