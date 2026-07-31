@@ -134,17 +134,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  {
-    id: "BetRiviera",
-    name: "BetRiviera",
-    logo: "/brands/BETRIVIERA.svg",
-    rating: 9.8,
-    bonus: "Jusqu’à 2000€ + 200FS",
-    url: "https://bestcpa.online/click?o=567&a=36&sub_id1=Betriviera-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "BetRiviera",
+  //   name: "BetRiviera",
+  //   logo: "/brands/BETRIVIERA.svg",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 2000€ + 200FS",
+  //   url: "https://bestcpa.online/click?o=567&a=36&sub_id1=Betriviera-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
 
   {
     id: "RxBet",
