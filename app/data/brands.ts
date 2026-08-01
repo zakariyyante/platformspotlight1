@@ -66,16 +66,17 @@ export const brands: Brand[] = [
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
   {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
+    id: "daytonaspin",
+    name: "DaytonaSpin",
+    logo: "/brands/daytonaspin.png",
     rating: 9.8,
-    bonus: "Jusqu’à 2000€ + 100FS",
-    url: "https://bestcpa.online/click?o=568&a=36&sub_id1=WinKingdom-SL2FR9&aff_click_id=",
+    bonus: "430% jusqu’à 14300€ + 430FS",
+    url: "https://direct.reradirectbox.com/click?pid=75&offer_id=1604&l=1784641970&sub2=DaytonaSpin-SL2FR9&sub1=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
+ 
  
  
   
@@ -90,7 +91,17 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
-  
+  {
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
+    rating: 9.8,
+    bonus: "Jusqu’à 2000€ + 100FS",
+    url: "https://bestcpa.online/click?o=568&a=36&sub_id1=WinKingdom-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
   //  {
   //   id: "bananzia",
   //   name: "Bananzia",
@@ -137,17 +148,7 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
- {
-    id: "daytonaspin",
-    name: "DaytonaSpin",
-    logo: "/brands/daytonaspin.png",
-    rating: 9.8,
-    bonus: "430% jusqu’à 14300€ + 430FS",
-    url: "https://direct.reradirectbox.com/click?pid=75&offer_id=1604&l=1784641970&sub2=DaytonaSpin-SL2FR9&sub1=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
+ 
   // {
   //   id: "RxBet",
   //   name: "RxBet",
