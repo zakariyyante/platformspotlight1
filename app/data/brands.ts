@@ -18,17 +18,7 @@ const generateId = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
 export const brands: Brand[] = [
  
-  // {
-  //   id: "daytonaspin",
-  //   name: "DaytonaSpin",
-  //   logo: "/brands/daytonaspin.png",
-  //   rating: 9.8,
-  //   bonus: "430% jusqu’à 14300€ + 430FS",
-  //   url: "https://direct.reradirectbox.com/click?pid=75&offer_id=1604&l=1784641970&sub2=DaytonaSpin-SL2FR9&sub1=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   
-  // },
+ 
   // {
   //   id: "spinboss",
   //   name: "SpinBoss",
@@ -147,18 +137,28 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-
-  {
-    id: "RxBet",
-    name: "RxBet",
-    logo: "/brands/rxcasino.png",
+ {
+    id: "daytonaspin",
+    name: "DaytonaSpin",
+    logo: "/brands/daytonaspin.png",
     rating: 9.8,
-    bonus: "512% jusqu'à 3000€ + 256FS",
-    url: "https://go.rx.partners/visit/?bta=35855&nci=5352&afp=RxBet-SL2FR9&utm_campaign=",
+    bonus: "430% jusqu’à 14300€ + 430FS",
+    url: "https://direct.reradirectbox.com/click?pid=75&offer_id=1604&l=1784641970&sub2=DaytonaSpin-SL2FR9&sub1=",
     isMobile: true,
     votes: 12450,
     
   },
+  // {
+  //   id: "RxBet",
+  //   name: "RxBet",
+  //   logo: "/brands/rxcasino.png",
+  //   rating: 9.8,
+  //   bonus: "512% jusqu'à 3000€ + 256FS",
+  //   url: "https://go.rx.partners/visit/?bta=35855&nci=5352&afp=RxBet-SL2FR9&utm_campaign=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  // },
 
   // {
   //   id: "Amunbet",
