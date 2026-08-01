@@ -92,28 +92,28 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
-  {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
+  // {
+  //   id: "WinKingdom",
+  //   name: "WinKingdom",
+  //   logo: "/brands/winkingdom.svg",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 2000€ + 100FS",
+  //   url: "https://bestcpa.online/click?o=568&a=36&sub_id1=WinKingdom-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  // },
+   {
+    id: "bananzia",
+    name: "Bananzia",
+    logo: "/brands/bananzia.svg",
     rating: 9.8,
-    bonus: "Jusqu’à 2000€ + 100FS",
-    url: "https://bestcpa.online/click?o=568&a=36&sub_id1=WinKingdom-SL2FR9&aff_click_id=",
+    bonus: "300% jusqu’à 3000€ + 300FS",
+    url: "https://go.drctvoodoo.com/click?pid=6&offer_id=21&sub2=Bananzia-SL2FR9&sub1=",
     isMobile: true,
     votes: 12450,
     
   },
-  //  {
-  //   id: "bananzia",
-  //   name: "Bananzia",
-  //   logo: "/brands/bananzia.svg",
-  //   rating: 9.8,
-  //   bonus: "300% jusqu’à 3000€ + 300FS",
-  //   url: "https://go.drctvoodoo.com/click?pid=6&offer_id=21&sub2=Bananzia-SL2FR9&sub1=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   
-  // },
   // {
   //   id: "Aerobet",
   //   name: "Aerobet",
