@@ -103,17 +103,28 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-   {
-    id: "bananzia",
-    name: "Bananzia",
-    logo: "/brands/bananzia.svg",
+  {
+    id: "SlimKing",
+    name: "SlimKing",
+    logo: "/brands/slimkinglogo.png",
     rating: 9.8,
-    bonus: "300% jusqu’à 3000€ + 300FS",
-    url: "https://go.drctvoodoo.com/click?pid=6&offer_id=21&sub2=Bananzia-SL2FR9&sub1=",
+    bonus: "100% jusqu’à 1000€ + 200FS",
+    url: "https://go.gambleon.com/visit/?bta=75302&nci=5394&utm_campaign=SlimKing-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     
   },
+  //  {
+  //   id: "bananzia",
+  //   name: "Bananzia",
+  //   logo: "/brands/bananzia.svg",
+  //   rating: 9.8,
+  //   bonus: "300% jusqu’à 3000€ + 300FS",
+  //   url: "https://go.drctvoodoo.com/click?pid=6&offer_id=21&sub2=Bananzia-SL2FR9&sub1=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  // },
   // {
   //   id: "Aerobet",
   //   name: "Aerobet",
