@@ -55,6 +55,17 @@ export const brands: Brand[] = [
   //   
   // },
   {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "555% jusqu'à 15555€",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
+  {
     id: "SpinHub",
     name: "SpinHub",
     logo: "/brands/spinhub.png",
@@ -82,17 +93,7 @@ export const brands: Brand[] = [
  
  
   
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "555% jusqu'à 15555€",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  
   // {
   //   id: "WinKingdom",
   //   name: "WinKingdom",
