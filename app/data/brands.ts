@@ -89,7 +89,17 @@ export const brands: Brand[] = [
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
   
-  
+  {
+    id: "Spinlynx",
+    name: "Spinlynx",
+    logo: "/brands/spinlynx.webp",
+    rating: 9.8,
+    bonus: "400% jusqu'à 2000€ and 200FS",
+    url: "https://go.newsspinlynx.com/visit/?bta=35331&nci=5342&afp1=Spinlynx-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
  
  
  
