@@ -74,7 +74,7 @@ export const brands: Brand[] = [
   //   url: "https://direct.reradirectbox.com/click?pid=75&offer_id=1604&l=1784641970&sub2=DaytonaSpin-SL2FR9&sub1=",
   //   isMobile: true,
   //   votes: 12450,
-  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   
   // },
   
   {
@@ -88,7 +88,17 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
-  
+   {
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
+    rating: 9.8,
+    bonus: "Jusqu’à 2000€ + 100FS",
+    url: "https://winkingdom.media/n1m05duhl4?subid=WinKingdom-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
   {
     id: "Spinlynx",
     name: "Spinlynx",
@@ -106,17 +116,7 @@ export const brands: Brand[] = [
  
   
   
-  // {
-  //   id: "WinKingdom",
-  //   name: "WinKingdom",
-  //   logo: "/brands/winkingdom.svg",
-  //   rating: 9.8,
-  //   bonus: "Jusqu’à 2000€ + 100FS",
-  //   url: "https://winkingdom.media/n1m05duhl4?subid=WinKingdom-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  // },
+ 
   // {
   //   id: "SlimKing",
   //   name: "SlimKing",
