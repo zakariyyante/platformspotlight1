@@ -108,7 +108,7 @@ export const brands: Brand[] = [
     rating: 9.8,
     bonus: "200% jusqu'à 2000€ + 200FS",
     url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
-    isMobile: false,
+    isMobile: true,
     votes: 12450,
     
   },
