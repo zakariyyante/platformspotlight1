@@ -55,6 +55,17 @@ export const brands: Brand[] = [
   //   
   // },
   {
+    id: "Royalen",
+    name: "Royalen",
+    logo: "/brands/royalen.webp",
+    rating: 9.8,
+    bonus: "200% jusqu'à 2000€ + 200FS",
+    url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  },
+  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -100,19 +111,9 @@ export const brands: Brand[] = [
     url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
-  {
-    id: "Royalen",
-    name: "Royalen",
-    logo: "/brands/royalen.webp",
-    rating: 9.8,
-    bonus: "200% jusqu'à 2000€ + 200FS",
-    url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
     
   },
+ 
   // {
   //   id: "Spinlynx",
   //   name: "Spinlynx",
