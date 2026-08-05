@@ -45,6 +45,17 @@ export const brands: Brand[] = [
   //   
   // },
   {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "555% jusqu'à 15555€",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
+  {
     id: "WinKingdom",
     name: "WinKingdom",
     logo: "/brands/winkingdom.svg",
@@ -83,17 +94,7 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "555% jusqu'à 15555€",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  
   // {
   //   id: "Royalen",
   //   name: "Royalen",
@@ -176,22 +177,22 @@ export const brands: Brand[] = [
     logo: "/brands/BETRIVIERA.svg",
     rating: 9.8,
     bonus: "Jusqu’à 2000€ + 200FS",
-    url: "https://bestcpa.online/click?o=567&a=36&sub_id1=Betriviera-SL2FR9&aff_click_id=",
+    url: "https://betriviera.media/n1g6w3zghg?subid=Betriviera-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
-  {
-    id: "Betory",
-    name: "Betory",
-    logo: "/brands/betory.png",
-    rating: 9.8,
-    bonus: "300% jusqu'à 3250€",
-    url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "Betory",
+  //   name: "Betory",
+  //   logo: "/brands/betory.png",
+  //   rating: 9.8,
+  //   bonus: "300% jusqu'à 3250€",
+  //   url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   // {
   //   id: "RxBet",
   //   name: "RxBet",
