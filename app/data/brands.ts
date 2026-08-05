@@ -81,7 +81,7 @@ export const brands: Brand[] = [
   //   url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
   //   isMobile: true,
   //   votes: 12450,
-  //   badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  //   
   // },
   {
     id: "SpinFormula",
@@ -179,7 +179,7 @@ export const brands: Brand[] = [
     url: "https://bestcpa.online/click?o=567&a=36&sub_id1=Betriviera-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
-    
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
   {
     id: "Betory",
