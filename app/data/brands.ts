@@ -44,17 +44,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-   {
-    id: "Royalen",
-    name: "Royalen",
-    logo: "/brands/royalen.webp",
-    rating: 9.8,
-    bonus: "200% jusqu'à 2000€ + 200FS",
-    url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+  //  {
+  //   id: "Royalen",
+  //   name: "Royalen",
+  //   logo: "/brands/royalen.webp",
+  //   rating: 9.8,
+  //   bonus: "200% jusqu'à 2000€ + 200FS",
+  //   url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
+  // },
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -75,7 +75,7 @@ export const brands: Brand[] = [
     url: "https://winkingdom.media/n1m05duhl4?subid=WinKingdom-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
   
   {
@@ -87,7 +87,7 @@ export const brands: Brand[] = [
     url: "https://trackingwoolbet.com/d0tzmfcvu?subid=WoolBet-SL2FR9&clickid=",
     isMobile: true,
     votes: 12450,
-    
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
   
   // {
@@ -201,7 +201,7 @@ export const brands: Brand[] = [
     url: "https://betriviera.media/n1g6w3zghg?subid=Betriviera-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+    
   },
   // {
   //   id: "Betory",
