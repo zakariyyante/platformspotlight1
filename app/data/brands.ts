@@ -55,7 +55,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  
+  {
+    id: "WoolBet",
+    name: "WoolBet",
+    logo: "/brands/WoolBet.svg",
+    rating: 9.8,
+    bonus: "303% jusqu'à 3003€ + 303FS",
+    url: "https://trackingwoolbet.com/d0tzmfcvu?subid=WoolBet-SL2FR9&clickid=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  },
   {
     id: "WinKingdom",
     name: "WinKingdom",
@@ -68,17 +78,7 @@ export const brands: Brand[] = [
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
   
-  {
-    id: "WoolBet",
-    name: "WoolBet",
-    logo: "/brands/WoolBet.svg",
-    rating: 9.8,
-    bonus: "303% jusqu'à 3003€ + 303FS",
-    url: "https://trackingwoolbet.com/d0tzmfcvu?subid=WoolBet-SL2FR9&clickid=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
+  
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -192,17 +192,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  {
-    id: "BetRiviera",
-    name: "BetRiviera",
-    logo: "/brands/BETRIVIERA.svg",
-    rating: 9.8,
-    bonus: "Jusqu’à 2000€ + 200FS",
-    url: "https://betriviera.media/n1g6w3zghg?subid=Betriviera-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "BetRiviera",
+  //   name: "BetRiviera",
+  //   logo: "/brands/BETRIVIERA.svg",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 2000€ + 200FS",
+  //   url: "https://betriviera.media/n1g6w3zghg?subid=Betriviera-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   // {
   //   id: "Betory",
   //   name: "Betory",
