@@ -55,18 +55,18 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  
   {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
+    id: "BetRiviera",
+    name: "BetRiviera",
+    logo: "/brands/BETRIVIERA.svg",
     rating: 9.8,
-    bonus: "Jusqu’à 2000€ + 100FS",
-    url: "https://bestcpa.online/click?o=568&a=36&sub_id1=WinKingdom-SL2FR9&aff_click_id=",
+    bonus: "Jusqu’à 2000€ + 200FS",
+    url: "https://betriviera.media/n1g6w3zghg?subid=Betriviera-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
+  
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -77,6 +77,18 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
+
+  {
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
+    rating: 9.8,
+    bonus: "Jusqu’à 2000€ + 100FS",
+    url: "https://bestcpa.online/click?o=568&a=36&sub_id1=WinKingdom-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
   // {
   //   id: "WoolBet",
@@ -104,17 +116,17 @@ export const brands: Brand[] = [
   
   
    
-  {
-    id: "SpinHub",
-    name: "SpinHub",
-    logo: "/brands/spinhub.png",
-    rating: 9.8,
-    bonus: "300% jusqu'à 1500€ + 100FS",
-    url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
+  // {
+  //   id: "SpinHub",
+  //   name: "SpinHub",
+  //   logo: "/brands/spinhub.png",
+  //   rating: 9.8,
+  //   bonus: "300% jusqu'à 1500€ + 100FS",
+  //   url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
+  // },
   
   // {
   //   id: "Royalen",
@@ -192,17 +204,7 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  // {
-  //   id: "BetRiviera",
-  //   name: "BetRiviera",
-  //   logo: "/brands/BETRIVIERA.svg",
-  //   rating: 9.8,
-  //   bonus: "Jusqu’à 2000€ + 200FS",
-  //   url: "https://betriviera.media/n1g6w3zghg?subid=Betriviera-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  // },
+ 
   // {
   //   id: "Betory",
   //   name: "Betory",
