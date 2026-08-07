@@ -71,16 +71,38 @@ export const brands: Brand[] = [
   //   
   // },
    {
-    id: "Royalen",
-    name: "Royalen",
-    logo: "/brands/royalen.webp",
+    id: "RunaCasino",
+    name: "RunaCasino",
+    logo: "/brands/runa.svg",
     rating: 9.8,
-    bonus: "200% jusqu'à 2000€ + 200FS",
-    url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
+    bonus: "Jusqu’à 2500€ + 600FS",
+    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+    
   },
+   {
+    id: "Westace",
+    name: "Westace",
+    logo: "/brands/westace.webp",
+    rating: 9.8,
+    bonus: "400% jusqu’à 15000€ + 400FS",
+    url: "https://bestcpa.online/click?o=446&a=36&link_id=716&sub_id1=Westace-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
+  //  {
+  //   id: "Royalen",
+  //   name: "Royalen",
+  //   logo: "/brands/royalen.webp",
+  //   rating: 9.8,
+  //   bonus: "200% jusqu'à 2000€ + 200FS",
+  //   url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  // },
   // {
   //   id: "WoolBet",
   //   name: "WoolBet",
@@ -130,28 +152,28 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-   {
-    id: "spinboss",
-    name: "SpinBoss",
-    logo: "/brands/spinboss.webp",
-    rating: 9.8,
-    bonus: "400% jusqu’à 15000€ + 400FS",
-    url: "https://spbs.lynmonkel.com/?mid=355610_2121757&subid=SpinBoss-SL2FR9&clickid=",
-    isMobile: true,
-    votes: 12450,
+  //  {
+  //   id: "spinboss",
+  //   name: "SpinBoss",
+  //   logo: "/brands/spinboss.webp",
+  //   rating: 9.8,
+  //   bonus: "400% jusqu’à 15000€ + 400FS",
+  //   url: "https://spbs.lynmonkel.com/?mid=355610_2121757&subid=SpinBoss-SL2FR9&clickid=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
-  {
-    id: "Spinlynx",
-    name: "Spinlynx",
-    logo: "/brands/spinlynx.webp",
-    rating: 9.8,
-    bonus: "400% jusqu'à 2000€ and 200FS",
-    url: "https://go.newsspinlynx.com/visit/?bta=35331&nci=5342&afp1=Spinlynx-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
+  // },
+  // {
+  //   id: "Spinlynx",
+  //   name: "Spinlynx",
+  //   logo: "/brands/spinlynx.webp",
+  //   rating: 9.8,
+  //   bonus: "400% jusqu'à 2000€ and 200FS",
+  //   url: "https://go.newsspinlynx.com/visit/?bta=35331&nci=5342&afp1=Spinlynx-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
  
  
  
