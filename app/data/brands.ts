@@ -129,17 +129,17 @@ export const brands: Brand[] = [
   
   
    
-  {
-    id: "SpinHub",
-    name: "SpinHub",
-    logo: "/brands/spinhub.png",
-    rating: 9.8,
-    bonus: "300% jusqu'à 1500€ + 100FS",
-    url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "SpinHub",
+  //   name: "SpinHub",
+  //   logo: "/brands/spinhub.png",
+  //   rating: 9.8,
+  //   bonus: "300% jusqu'à 1500€ + 100FS",
+  //   url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   
   // {
   //   id: "Royalen",
