@@ -84,7 +84,7 @@ export const brands: Brand[] = [
    {
     id: "Westace",
     name: "Westace",
-    logo: "/brands/westace.webp",
+    logo: "/brands/westace.png",
     rating: 9.8,
     bonus: "400% jusqu’à 15000€ + 400FS",
     url: "https://bestcpa.online/click?o=446&a=36&link_id=716&sub_id1=Westace-SL2FR9&aff_click_id=",
