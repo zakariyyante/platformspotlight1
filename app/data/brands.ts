@@ -19,17 +19,7 @@ const generateId = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 export const brands: Brand[] = [
  
  
-  // {
-  //   id: "spinboss",
-  //   name: "SpinBoss",
-  //   logo: "/brands/spinboss.webp",
-  //   rating: 9.8,
-  //   bonus: "400% jusqu’à 15000€ + 400FS",
-  //   url: "https://spbs.lynmonkel.com/?mid=355610_2121757&subid=SpinBoss-SL2FR9&clickid=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   
-  // },
+ 
   
  
  
@@ -69,17 +59,17 @@ export const brands: Brand[] = [
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
 
-  {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
-    rating: 9.8,
-    bonus: "Jusqu’à 2000€ + 100FS",
-    url: "https://bestcpa.online/click?o=568&a=36&sub_id1=WinKingdom-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+  // {
+  //   id: "WinKingdom",
+  //   name: "WinKingdom",
+  //   logo: "/brands/winkingdom.svg",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 2000€ + 100FS",
+  //   url: "https://bestcpa.online/click?o=568&a=36&sub_id1=WinKingdom-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
+  // },
    {
     id: "Royalen",
     name: "Royalen",
@@ -117,17 +107,17 @@ export const brands: Brand[] = [
   
   
    
-  // {
-  //   id: "SpinHub",
-  //   name: "SpinHub",
-  //   logo: "/brands/spinhub.png",
-  //   rating: 9.8,
-  //   bonus: "300% jusqu'à 1500€ + 100FS",
-  //   url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   
-  // },
+  {
+    id: "SpinHub",
+    name: "SpinHub",
+    logo: "/brands/spinhub.png",
+    rating: 9.8,
+    bonus: "300% jusqu'à 1500€ + 100FS",
+    url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
   
   // {
   //   id: "Royalen",
@@ -140,18 +130,28 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-  
-  // {
-  //   id: "Spinlynx",
-  //   name: "Spinlynx",
-  //   logo: "/brands/spinlynx.webp",
-  //   rating: 9.8,
-  //   bonus: "400% jusqu'à 2000€ and 200FS",
-  //   url: "https://go.newsspinlynx.com/visit/?bta=35331&nci=5342&afp1=Spinlynx-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
+   {
+    id: "spinboss",
+    name: "SpinBoss",
+    logo: "/brands/spinboss.webp",
+    rating: 9.8,
+    bonus: "400% jusqu’à 15000€ + 400FS",
+    url: "https://spbs.lynmonkel.com/?mid=355610_2121757&subid=SpinBoss-SL2FR9&clickid=",
+    isMobile: true,
+    votes: 12450,
     
-  // },
+  },
+  {
+    id: "Spinlynx",
+    name: "Spinlynx",
+    logo: "/brands/spinlynx.webp",
+    rating: 9.8,
+    bonus: "400% jusqu'à 2000€ and 200FS",
+    url: "https://go.newsspinlynx.com/visit/?bta=35331&nci=5342&afp1=Spinlynx-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
  
  
  
