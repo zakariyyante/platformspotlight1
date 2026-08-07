@@ -46,18 +46,6 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "555% jusqu'à 15555€",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
   {
     id: "Zombillion",
     name: "Zombillion",
@@ -69,6 +57,18 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "555% jusqu'à 15555€",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
+  
   // {
   //   id: "WinKingdom",
   //   name: "WinKingdom",
@@ -335,17 +335,17 @@ export const brands: Brand[] = [
   // },
   
    
-  // {
-  //   id: "CleanWins",
-  //   name: "CleanWins",
-  //   logo: "/brands/CLEANWINS.svg",
-  //   rating: 9.8,
-  //   bonus: "200% jusqu'à 2000€ + 200FS",
-  //   url: "https://on.cwtrk.com/promoRedirect?key=ej0xMzU4MTczMiZsPTEzNTgzODYzJnA9MTEzODU%3D&var2=CleanWins-SL2FR9&var1=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "CleanWins",
+    name: "CleanWins",
+    logo: "/brands/CLEANWINS.svg",
+    rating: 9.8,
+    bonus: "200% jusqu'à 2000€ + 200FS",
+    url: "https://on.cwtrk.com/promoRedirect?key=ej0xMzU4MTczMiZsPTEzNTgzODYzJnA9MTEzODU%3D&var2=CleanWins-SL2FR9&var1=",
+    isMobile: true,
+    votes: 12450,
     
-  // },
+  },
   
   
   // {
