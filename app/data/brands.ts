@@ -95,17 +95,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-   {
-    id: "RunaCasino",
-    name: "RunaCasino",
-    logo: "/brands/runa.svg",
-    rating: 9.8,
-    bonus: "Jusqu’à 2500€ + 600FS",
-    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
+  //  {
+  //   id: "RunaCasino",
+  //   name: "RunaCasino",
+  //   logo: "/brands/runa.svg",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 2500€ + 600FS",
+  //   url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
+  // },
   //  {
   //   id: "Westace",
   //   name: "Westace",
@@ -128,6 +128,28 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
+  {
+    id: "GoloBet",
+    name: "GoloBet",
+    logo: "/brands/golobet.webp",
+    rating: 9.8,
+    bonus: "600% jusqu'à 6000€ + 450FS",
+    url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  },
+    {
+    id: "CaptainSlots",
+    name: "CaptainSlots",
+    logo: "/brands/captainSlots.svg",
+    rating: 9.8,
+    bonus: "100% jusqu'à 1500€",
+    url: "https://track-otn.com/trk.php?t=2705&c=4491&subid=CaptainSlots-SL2FR9&clickid=",
+    isMobile: true,
+    votes: 12450,
+    
+  }
   // {
   //   id: "WoolBet",
   //   name: "WoolBet",
@@ -280,17 +302,7 @@ export const brands: Brand[] = [
     
   
   
-  {
-    id: "GoloBet",
-    name: "GoloBet",
-    logo: "/brands/golobet.webp",
-    rating: 9.8,
-    bonus: "600% jusqu'à 6000€ + 450FS",
-    url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
+  
   // {
   //   id: "SpinFin",
   //   name: "SpinFin",
@@ -390,7 +402,7 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
-  
+  ,
   
   {
     id: "bwin",
