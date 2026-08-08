@@ -45,7 +45,20 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   //   
+  
   // },
+   {
+    id: "Aerobet",
+    name: "Aerobet",
+    logo: "/brands/AEROBET.webp",
+    rating: 9.8,
+    bonus: "Jusqu’à 600% + 450FS",
+    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
+
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -57,17 +70,17 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
-  {
-    id: "Zombillion",
-    name: "Zombillion",
-    logo: "/brands/zombillion.svg",
-    rating: 9.8,
-    bonus: "250% jusqu’à 4000€ + 200FS",
-    url: "https://direct.club.partners/click?pid=19&offer_id=59&l=1779872569&sub2=Zombillion-SL2FR9&sub1=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+  // {
+  //   id: "Zombillion",
+  //   name: "Zombillion",
+  //   logo: "/brands/zombillion.svg",
+  //   rating: 9.8,
+  //   bonus: "250% jusqu’à 4000€ + 200FS",
+  //   url: "https://direct.club.partners/click?pid=19&offer_id=59&l=1779872569&sub2=Zombillion-SL2FR9&sub1=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  // },
   
   
   // {
@@ -214,17 +227,7 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-  // {
-  //   id: "Aerobet",
-  //   name: "Aerobet",
-  //   logo: "/brands/AEROBET.webp",
-  //   rating: 9.8,
-  //   bonus: "Jusqu’à 600% + 450FS",
-  //   url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  // },
+ 
   
   
   // {
@@ -276,17 +279,17 @@ export const brands: Brand[] = [
     
   
   
-  // {
-  //   id: "GoloBet",
-  //   name: "GoloBet",
-  //   logo: "/brands/golobet.webp",
-  //   rating: 9.8,
-  //   bonus: "600% jusqu'à 6000€ + 450FS",
-  //   url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "GoloBet",
+    name: "GoloBet",
+    logo: "/brands/golobet.webp",
+    rating: 9.8,
+    bonus: "600% jusqu'à 6000€ + 450FS",
+    url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
     
-  // },
+  },
   // {
   //   id: "SpinFin",
   //   name: "SpinFin",
