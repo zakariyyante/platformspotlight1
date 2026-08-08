@@ -47,17 +47,6 @@ export const brands: Brand[] = [
   //   
   // },
   {
-    id: "Zombillion",
-    name: "Zombillion",
-    logo: "/brands/zombillion.svg",
-    rating: 9.8,
-    bonus: "250% jusqu’à 4000€ + 200FS",
-    url: "https://direct.club.partners/click?pid=19&offer_id=59&l=1779872569&sub2=Zombillion-SL2FR9&sub1=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
-  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -68,6 +57,18 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
+  {
+    id: "Zombillion",
+    name: "Zombillion",
+    logo: "/brands/zombillion.svg",
+    rating: 9.8,
+    bonus: "250% jusqu’à 4000€ + 200FS",
+    url: "https://direct.club.partners/click?pid=19&offer_id=59&l=1779872569&sub2=Zombillion-SL2FR9&sub1=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
+  
   
   // {
   //   id: "WinKingdom",
