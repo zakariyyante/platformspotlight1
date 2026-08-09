@@ -47,28 +47,28 @@ export const brands: Brand[] = [
   //   
   
   // },
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "555% jusqu'à 15555€",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
-   {
-    id: "Aerobet",
-    name: "Aerobet",
-    logo: "/brands/AEROBET.webp",
-    rating: 9.8,
-    bonus: "Jusqu’à 600% + 450FS",
-    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+  // {
+  //   id: "SpinFormula",
+  //   name: "SpinFormula",
+  //   logo: "/brands/Spinformula.svg",
+  //   rating: 9.8,
+  //   bonus: "555% jusqu'à 15555€",
+  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
+  //  {
+  //   id: "Aerobet",
+  //   name: "Aerobet",
+  //   logo: "/brands/AEROBET.webp",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 600% + 450FS",
+  //   url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // },
 
   
   // {
@@ -128,28 +128,28 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-  {
-    id: "GoloBet",
-    name: "GoloBet",
-    logo: "/brands/golobet.webp",
-    rating: 9.8,
-    bonus: "600% jusqu'à 6000€ + 450FS",
-    url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
-    {
-    id: "CaptainSlots",
-    name: "CaptainSlots",
-    logo: "/brands/captainSlots.svg",
-    rating: 9.8,
-    bonus: "100% jusqu'à 1500€",
-    url: "https://track-otn.com/trk.php?t=2705&c=4491&subid=CaptainSlots-SL2FR9&clickid=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "GoloBet",
+  //   name: "GoloBet",
+  //   logo: "/brands/golobet.webp",
+  //   rating: 9.8,
+  //   bonus: "600% jusqu'à 6000€ + 450FS",
+  //   url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  // },
+  //   {
+  //   id: "CaptainSlots",
+  //   name: "CaptainSlots",
+  //   logo: "/brands/captainSlots.svg",
+  //   rating: 9.8,
+  //   bonus: "100% jusqu'à 1500€",
+  //   url: "https://track-otn.com/trk.php?t=2705&c=4491&subid=CaptainSlots-SL2FR9&clickid=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  }
+  // }
   // {
   //   id: "WoolBet",
   //   name: "WoolBet",
@@ -402,8 +402,7 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
-  ,
-  
+
   {
     id: "bwin",
     name: "Bwin",
