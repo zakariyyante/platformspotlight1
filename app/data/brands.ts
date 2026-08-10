@@ -70,7 +70,18 @@ export const brands: Brand[] = [
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
 
-  
+     {
+    id: "BravoPlay",
+    name: "BravoPlay",
+    logo: "/brands/bravoplay.svg",
+    rating: 9.8,
+    bonus: "Jusqu'à 5000€ + 150FS",
+    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  }
+  ,
   // {
   //   id: "Zombillion",
   //   name: "Zombillion",
@@ -129,28 +140,28 @@ export const brands: Brand[] = [
   //   
   // }
   // ,
-  {
-    id: "GoloBet",
-    name: "GoloBet",
-    logo: "/brands/golobet.webp",
-    rating: 9.8,
-    bonus: "600% jusqu'à 6000€ + 450FS",
-    url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
-    {
-    id: "CaptainSlots",
-    name: "CaptainSlots",
-    logo: "/brands/captainSlots.svg",
-    rating: 9.8,
-    bonus: "100% jusqu'à 1500€",
-    url: "https://track-otn.com/trk.php?t=2705&c=4491&subid=CaptainSlots-SL2FR9&clickid=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "GoloBet",
+  //   name: "GoloBet",
+  //   logo: "/brands/golobet.webp",
+  //   rating: 9.8,
+  //   bonus: "600% jusqu'à 6000€ + 450FS",
+  //   url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
+  // },
+  //   {
+  //   id: "CaptainSlots",
+  //   name: "CaptainSlots",
+  //   logo: "/brands/captainSlots.svg",
+  //   rating: 9.8,
+  //   bonus: "100% jusqu'à 1500€",
+  //   url: "https://track-otn.com/trk.php?t=2705&c=4491&subid=CaptainSlots-SL2FR9&clickid=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   // {
   //   id: "WoolBet",
   //   name: "WoolBet",
