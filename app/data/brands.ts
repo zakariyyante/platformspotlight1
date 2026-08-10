@@ -56,7 +56,8 @@ export const brands: Brand[] = [
     url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
   },
   //  {
   //   id: "Aerobet",
@@ -79,7 +80,7 @@ export const brands: Brand[] = [
     url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
   }
   ,
    {
@@ -91,7 +92,8 @@ export const brands: Brand[] = [
     url: "https://on.spinhub100.com/promoRedirect?key=ej0xMzUyNTU2NCZsPTEzNTI1MDA3JnA9MzYzMA%253D%253D&var4=fr&var2=SpinHub-SL2FR9&var1=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+    
   },
   // {
   //   id: "Zombillion",
