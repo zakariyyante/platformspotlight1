@@ -61,6 +61,18 @@ export const brands: Brand[] = [
   // },
 
 
+  {
+    id: "BravoPlay",
+    name: "BravoPlay",
+    logo: "/brands/bravoplay.svg",
+    rating: 9.8,
+    bonus: "Jusqu'à 5000€ + 150FS",
+    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  }
+  ,
 
   {
     id: "SpinFormula",
@@ -86,29 +98,28 @@ export const brands: Brand[] = [
   //   
   // },
 
-     {
-    id: "BravoPlay",
-    name: "BravoPlay",
-    logo: "/brands/bravoplay.svg",
+    {
+    id: "SlotRush",
+    name: "SlotRush",
+    logo: "/brands/SLOTRUSH.PNG",
     rating: 9.8,
-    bonus: "Jusqu'à 5000€ + 150FS",
-    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  }
-  ,
-  {
-    id: "BetNJet",
-    name: "BetNJet",
-    logo: "/brands/betnjet.webp",
-    rating: 9.8,
-    bonus: "400% jusqu'à 1000€ + 250FS",
-    url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR9&visit_id=",
+    bonus: "Jusqu'à 4000€ + 200FS",
+    url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR9&clickid=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
+  // {
+  //   id: "BetNJet",
+  //   name: "BetNJet",
+  //   logo: "/brands/betnjet.webp",
+  //   rating: 9.8,
+  //   bonus: "400% jusqu'à 1000€ + 250FS",
+  //   url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  // },
   // {
   //   id: "Zombillion",
   //   name: "Zombillion",
