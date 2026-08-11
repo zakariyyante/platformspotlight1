@@ -59,6 +59,9 @@ export const brands: Brand[] = [
     
     
   // },
+
+
+
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -95,7 +98,17 @@ export const brands: Brand[] = [
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   }
   ,
-   
+  {
+    id: "BetNJet",
+    name: "BetNJet",
+    logo: "/brands/betnjet.webp",
+    rating: 9.8,
+    bonus: "400% jusqu'à 1000€ + 250FS",
+    url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  },
   // {
   //   id: "Zombillion",
   //   name: "Zombillion",
@@ -120,17 +133,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
   //   
   // },
-   {
-    id: "RunaCasino",
-    name: "RunaCasino",
-    logo: "/brands/runa.svg",
-    rating: 9.8,
-    bonus: "Jusqu’à 2500€ + 600FS",
-    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
+  //  {
+  //   id: "RunaCasino",
+  //   name: "RunaCasino",
+  //   logo: "/brands/runa.svg",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 2500€ + 600FS",
+  //   url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  // },
   //  {
   //   id: "Westace",
   //   name: "Westace",
