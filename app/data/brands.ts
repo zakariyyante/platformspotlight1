@@ -60,7 +60,29 @@ export const brands: Brand[] = [
     
   // },
 
-
+  {
+    id: "SlotRush",
+    name: "SlotRush",
+    logo: "/brands/SLOTRUSH.png",
+    rating: 9.8,
+    bonus: "Jusqu'à 4000€ + 200FS",
+    url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR9&clickid=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  },
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "550% jusqu’à 15000€ + 550FS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
   {
     id: "BravoPlay",
     name: "BravoPlay",
@@ -74,18 +96,7 @@ export const brands: Brand[] = [
   }
   ,
 
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "550% jusqu’à 15000€ + 550FS",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  },
+ 
   //  {
   //   id: "Aerobet",
   //   name: "Aerobet",
@@ -98,17 +109,7 @@ export const brands: Brand[] = [
   //   
   // },
 
-    {
-    id: "SlotRush",
-    name: "SlotRush",
-    logo: "/brands/SLOTRUSH.png",
-    rating: 9.8,
-    bonus: "Jusqu'à 4000€ + 200FS",
-    url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR9&clickid=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
+ 
   // {
   //   id: "BetNJet",
   //   name: "BetNJet",
