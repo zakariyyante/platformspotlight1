@@ -59,7 +59,17 @@ export const brands: Brand[] = [
     
     
   // },
-
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.9,
+    bonus: "550% jusqu’à 15000€ + 550FS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  },
   {
     id: "SlotRush",
     name: "SlotRush",
@@ -69,13 +79,13 @@ export const brands: Brand[] = [
     url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR9&clickid=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
   {
     id: "RivoCasino",
     name: "RivoCasino",
     logo: "/brands/Rivo_logo_light.svg",
-    rating: 9.8,
+    rating: 9.7,
     bonus: "1000% jusqu’à 10000€",
     url: "https://go.afftrackio.com/visit/?bta=35487&nci=5386&utm_campaign=RivoCasino-SL2FR9&afp=",
     isMobile: true,
@@ -83,18 +93,7 @@ export const brands: Brand[] = [
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   }
   ,
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "550% jusqu’à 15000€ + 550FS",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  },
+  
   // {
   //   id: "BravoPlay",
   //   name: "BravoPlay",
