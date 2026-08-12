@@ -72,6 +72,18 @@ export const brands: Brand[] = [
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
   {
+    id: "RivoCasino",
+    name: "RivoCasino",
+    logo: "/brands/Rivo_logo_light.svg",
+    rating: 9.8,
+    bonus: "1000% jusqu’à 10000€",
+    url: "https://go.afftrackio.com/visit/?bta=35487&nci=5386&utm_campaign=RivoCasino-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  }
+  ,
+  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -83,30 +95,19 @@ export const brands: Brand[] = [
     badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
-  {
-    id: "BravoPlay",
-    name: "BravoPlay",
-    logo: "/brands/bravoplay.svg",
-    rating: 9.8,
-    bonus: "Jusqu'à 5000€ + 150FS",
-    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  }
-  ,
-  {
-    id: "RivoCasino",
-    name: "RivoCasino",
-    logo: "/brands/Rivo_logo_light.svg",
-    rating: 9.8,
-    bonus: "1000% jusqu’à 10000€",
-    url: "https://go.afftrackio.com/visit/?bta=35487&nci=5386&utm_campaign=RivoCasino-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "BravoPlay",
+  //   name: "BravoPlay",
+  //   logo: "/brands/bravoplay.svg",
+  //   rating: 9.8,
+  //   bonus: "Jusqu'à 5000€ + 150FS",
+  //   url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  }
-  ,
+  // }
+  // ,
+ 
 
  
   //  {
