@@ -89,7 +89,7 @@ export const brands: Brand[] = [
     name: "WinoCasino",
     logo: "/brands/wino.svg",
     rating: 9.7,
-    bonus: "Pack machines à sous 600% jusqu’à 10000€",
+    bonus: "600% jusqu’à 10000€",
     url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
