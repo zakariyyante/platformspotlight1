@@ -85,17 +85,29 @@ export const brands: Brand[] = [
   },
 
   {
-    id: "BravoPlay",
-    name: "BravoPlay",
-    logo: "/brands/bravoplay.svg",
+    id: "WinoCasino",
+    name: "WinoCasino",
+    logo: "/brands/wino.svg",
     rating: 9.7,
-    bonus: "Jusqu'à 5000€ + 150FS",
-    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    bonus: "Pack machines à sous 600% jusqu’à 10000€",
+    url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  }
-  ,
+  },
+  
+  // {
+  //   id: "BravoPlay",
+  //   name: "BravoPlay",
+  //   logo: "/brands/bravoplay.svg",
+  //   rating: 9.7,
+  //   bonus: "Jusqu'à 5000€ + 150FS",
+  //   url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // }
+  // ,
   // {
   //   id: "RivoCasino",
   //   name: "RivoCasino",
