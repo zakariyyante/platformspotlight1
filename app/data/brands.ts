@@ -96,18 +96,17 @@ export const brands: Brand[] = [
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
   
-  // {
-  //   id: "BravoPlay",
-  //   name: "BravoPlay",
-  //   logo: "/brands/bravoplay.svg",
-  //   rating: 9.7,
-  //   bonus: "Jusqu'à 5000€ + 150FS",
-  //   url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  // }
-  // ,
+  {
+    id: "BravoPlay",
+    name: "BravoPlay",
+    logo: "/brands/bravoplay.svg",
+    rating: 9.6,
+    bonus: "Jusqu'à 5000€ + 150FS",
+    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+  }
+  ,
   // {
   //   id: "RivoCasino",
   //   name: "RivoCasino",
