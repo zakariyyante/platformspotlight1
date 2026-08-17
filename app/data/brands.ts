@@ -67,7 +67,7 @@ export const brands: Brand[] = [
     url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Meilleure Offre", color: "#00f5ff" },
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
   {
     id: "SlotRush",
@@ -78,7 +78,7 @@ export const brands: Brand[] = [
     url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR9&clickid=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
 
   },
   {
@@ -90,7 +90,7 @@ export const brands: Brand[] = [
     url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
   // {
   //   id: "BravoPlay",
