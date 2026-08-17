@@ -91,17 +91,28 @@ export const brands: Brand[] = [
     badge: { text: "Retraits Rapides", color: "#22c55e" },
 
   },
+  // {
+  //   id: "BravoPlay",
+  //   name: "BravoPlay",
+  //   logo: "/brands/bravoplay.svg",
+  //   rating: 9.6,
+  //   bonus: "Jusqu'à 5000€ + 150FS",
+  //   url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  // }
+  // ,
   {
-    id: "BravoPlay",
-    name: "BravoPlay",
-    logo: "/brands/bravoplay.svg",
+    id: "AlexanderCasino",
+    name: "AlexanderCasino",
+    logo: "/brands/alexandercasino.webp",
     rating: 9.6,
-    bonus: "Jusqu'à 5000€ + 150FS",
-    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    bonus: "100% jusqu'à 100€+ 100FS",
+    url: "https://record.igpartners.xyz/_ODG17rnrZXKuqxJ1W5ErsWNd7ZgqdRLk/1/?s2s.req_id=AlexanderCasino-SL2FR9&payload=",
     isMobile: true,
     votes: 12450,
-  }
-  ,
+
+  },
   // {
   //   id: "RivoCasino",
   //   name: "RivoCasino",
