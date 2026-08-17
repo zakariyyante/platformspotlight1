@@ -105,7 +105,7 @@ export const brands: Brand[] = [
   {
     id: "AlexanderCasino",
     name: "AlexanderCasino",
-    logo: "/brands/alexandercasino.webp",
+    logo: "/brands/alexandercas.png",
     rating: 9.6,
     bonus: "100% jusqu'à 100€+ 100FS",
     url: "https://record.igpartners.xyz/_ODG17rnrZXKuqxJ1W5ErsWNd7ZgqdRLk/1/?s2s.req_id=AlexanderCasino-SL2FR9&payload=",
