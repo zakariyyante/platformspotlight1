@@ -81,17 +81,17 @@ export const brands: Brand[] = [
     badge: { text: "Retraits Rapides", color: "#22c55e" },
 
   },
-  {
-    id: "WinoCasino",
-    name: "WinoCasino",
-    logo: "/brands/wino.svg",
-    rating: 9.9,
-    bonus: "600% jusqu’à 10000€",
-    url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  // {
+  //   id: "WinoCasino",
+  //   name: "WinoCasino",
+  //   logo: "/brands/wino.svg",
+  //   rating: 9.9,
+  //   bonus: "600% jusqu’à 10000€",
+  //   url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
   // {
   //   id: "BravoPlay",
   //   name: "BravoPlay",
@@ -112,7 +112,7 @@ export const brands: Brand[] = [
     url: "https://record.igpartners.xyz/_ODG17rnrZXKuqxJ1W5ErsWNd7ZgqdRLk/1/?s2s.req_id=AlexanderCasino-SL2FR9&payload=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" }
+    badge: { text: "Nouvelle Offre", color: "#a020f0" }
   },
   // {
   //   id: "RivoCasino",
