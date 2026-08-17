@@ -112,7 +112,7 @@ export const brands: Brand[] = [
     url: "https://record.igpartners.xyz/_ODG17rnrZXKuqxJ1W5ErsWNd7ZgqdRLk/1/?s2s.req_id=AlexanderCasino-SL2FR9&payload=",
     isMobile: true,
     votes: 12450,
-
+    badge: { text: "Nouvelle Offre", color: "#a020f0" }
   },
   // {
   //   id: "RivoCasino",
