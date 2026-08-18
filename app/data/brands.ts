@@ -82,29 +82,65 @@ export const brands: Brand[] = [
 
   },
 
+  // {
+  //   id: "CashBox",
+  //   name: "CashBox",
+  //   logo: "/brands/Cashbox.gif",
+  //   rating: 9.8,
+  //   bonus: "8000€ + 200FS",
+  //   url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5376&utm_campaign=CashBox-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
+
+  //  {
+  //   id: "Aladdin’s Gold",
+  //   name: "Aladdin’s Gold",
+  //   logo: "/brands/Aladdinsgold.gif",
+  //   rating: 9.8,
+  //   bonus: "8000€ + 200FS",
+  //   url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5362&utm_campaign=AladdinsGold-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  // },
   {
-    id: "CashBox",
-    name: "CashBox",
-    logo: "/brands/Cashbox.gif",
+    id: "KingsChip",
+    name: "KingsChip",
+    logo: "/brands/KingsChip.gif",
     rating: 9.8,
     bonus: "8000€ + 200FS",
-    url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5376&utm_campaign=CashBox-SL2FR9&afp=",
+    url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5354&utm_campaign=KingsChip-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
 
-   {
-    id: "Aladdin’s Gold",
-    name: "Aladdin’s Gold",
-    logo: "/brands/Aladdinsgold.gif",
+  {
+    id: "SavannaWins",
+    name: "SavannaWins",
+    logo: "/brands/Savannawins.gif",
     rating: 9.8,
     bonus: "8000€ + 200FS",
-    url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5362&utm_campaign=AladdinsGold-SL2FR9&afp=",
+    url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5341&utm_campaign=SavannaWins-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     
   },
+  // {
+  //   id: "JokersAce",
+  //   name: "JokersAce",
+  //   logo: "/brands/JokersAce.gif",
+  //   rating: 9.8,
+  //   bonus: "8000€ + 200FS",
+  //   url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5361&utm_campaign=JokersAce-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  // },
+
+
   // {
   //   id: "BravoPlay",
   //   name: "BravoPlay",
