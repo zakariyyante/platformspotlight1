@@ -70,17 +70,29 @@ export const brands: Brand[] = [
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
   {
-    id: "SlotRush",
-    name: "SlotRush",
-    logo: "/brands/SLOTRUSH.png",
-    rating: 9.7,
-    bonus: "Jusqu'à 4000€ + 200FS",
-    url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR9&clickid=",
+    id: "WinoCasino",
+    name: "WinoCasino",
+    logo: "/brands/wino.svg",
+    rating: 9.9,
+    bonus: "600% jusqu’à 10000€",
+    url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
-
   },
+  
+  // {
+  //   id: "SlotRush",
+  //   name: "SlotRush",
+  //   logo: "/brands/SLOTRUSH.png",
+  //   rating: 9.7,
+  //   bonus: "Jusqu'à 4000€ + 200FS",
+  //   url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR9&clickid=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
+
+  // },
 
   // {
   //   id: "CashBox",
@@ -117,17 +129,17 @@ export const brands: Brand[] = [
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
 
-  {
-    id: "SavannaWins",
-    name: "SavannaWins",
-    logo: "/brands/Savannawins.gif",
-    rating: 9.8,
-    bonus: "8000€ + 200FS",
-    url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5341&utm_campaign=SavannaWins-SL2FR9&afp1=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "SavannaWins",
+  //   name: "SavannaWins",
+  //   logo: "/brands/Savannawins.gif",
+  //   rating: 9.8,
+  //   bonus: "8000€ + 200FS",
+  //   url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5341&utm_campaign=SavannaWins-SL2FR9&afp1=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
   // {
   //   id: "JokersAce",
   //   name: "JokersAce",
@@ -153,17 +165,7 @@ export const brands: Brand[] = [
   //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
   // }
   // ,
-  // {
-  //   id: "WinoCasino",
-  //   name: "WinoCasino",
-  //   logo: "/brands/wino.svg",
-  //   rating: 9.9,
-  //   bonus: "600% jusqu’à 10000€",
-  //   url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  // },
+
   // {
   //   id: "BravoPlay",
   //   name: "BravoPlay",
