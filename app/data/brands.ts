@@ -287,17 +287,17 @@ export const brands: Brand[] = [
   //   
   // }
   // ,
-  // {
-  //   id: "GoloBet",
-  //   name: "GoloBet",
-  //   logo: "/brands/golobet.webp",
-  //   rating: 9.8,
-  //   bonus: "600% jusqu'à 6000€ + 450FS",
-  //   url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   
-  // },
+  {
+    id: "GoloBet",
+    name: "GoloBet",
+    logo: "/brands/golobet.webp",
+    rating: 9.8,
+    bonus: "600% jusqu'à 6000€ + 450FS",
+    url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
   //   {
   //   id: "CaptainSlots",
   //   name: "CaptainSlots",
