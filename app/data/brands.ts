@@ -85,7 +85,7 @@ export const brands: Brand[] = [
   {
     id: "CashBox",
     name: "CashBox",
-    logo: "/brands/CashBox.gif",
+    logo: "/brands/Cashbox.gif",
     rating: 9.8,
     bonus: "8000€ + 200FS",
     url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5376&utm_campaign=CashBox-SL2FR9&afp=",
@@ -97,7 +97,7 @@ export const brands: Brand[] = [
    {
     id: "Aladdin’s Gold",
     name: "Aladdin’s Gold",
-    logo: "/brands/AladdinsGold.gif",
+    logo: "/brands/Aladdinsgold.gif",
     rating: 9.8,
     bonus: "8000€ + 200FS",
     url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5362&utm_campaign=AladdinsGold-SL2FR9&afp=",
