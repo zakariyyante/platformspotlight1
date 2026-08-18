@@ -81,17 +81,17 @@ export const brands: Brand[] = [
     badge: { text: "Retraits Rapides", color: "#22c55e" },
 
   },
-  {
-    id: "WinoCasino",
-    name: "WinoCasino",
-    logo: "/brands/wino.svg",
-    rating: 9.9,
-    bonus: "600% jusqu’à 10000€",
-    url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  // {
+  //   id: "WinoCasino",
+  //   name: "WinoCasino",
+  //   logo: "/brands/wino.svg",
+  //   rating: 9.9,
+  //   bonus: "600% jusqu’à 10000€",
+  //   url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
   // {
   //   id: "BravoPlay",
   //   name: "BravoPlay",
@@ -374,17 +374,17 @@ export const brands: Brand[] = [
     
   // },
 
-  // {
-  //   id: "Amunbet",
-  //   name: "Amunbet",
-  //   logo: "/brands/amunbet.webp",
-  //   rating: 9.8,
-  //   bonus: "450% jusqu’à 3000€ + 450FS",
-  //   url: "https://amunbetplay.com/tf11k61qe?subid=Amunbet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   
-  // },
+  {
+    id: "Amunbet",
+    name: "Amunbet",
+    logo: "/brands/amunbet.webp",
+    rating: 9.8,
+    bonus: "450% jusqu’à 3000€ + 450FS",
+    url: "https://amunbetplay.com/tf11k61qe?subid=Amunbet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
     
   
   
