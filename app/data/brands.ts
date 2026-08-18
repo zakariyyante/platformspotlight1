@@ -117,17 +117,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-  {
-    id: "KingsChip",
-    name: "KingsChip",
-    logo: "/brands/KingsChip.gif",
-    rating: 9.8,
-    bonus: "8000€ + 200FS",
-    url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5354&utm_campaign=KingsChip-SL2FR9&afp1=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  // {
+  //   id: "KingsChip",
+  //   name: "KingsChip",
+  //   logo: "/brands/KingsChip.gif",
+  //   rating: 9.8,
+  //   bonus: "8000€ + 200FS",
+  //   url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5354&utm_campaign=KingsChip-SL2FR9&afp1=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
 
   // {
   //   id: "SavannaWins",
@@ -205,30 +205,30 @@ export const brands: Brand[] = [
  
 
  
-   {
-    id: "Aerobet",
-    name: "Aerobet",
-    logo: "/brands/AEROBET.webp",
-    rating: 9.8,
-    bonus: "Jusqu’à 600% + 450FS",
-    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
-
- 
-  // {
-  //   id: "BetNJet",
-  //   name: "BetNJet",
-  //   logo: "/brands/betnjet.webp",
+  //  {
+  //   id: "Aerobet",
+  //   name: "Aerobet",
+  //   logo: "/brands/AEROBET.webp",
   //   rating: 9.8,
-  //   bonus: "400% jusqu'à 1000€ + 250FS",
-  //   url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR9&visit_id=",
+  //   bonus: "Jusqu’à 600% + 450FS",
+  //   url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
   //   isMobile: true,
   //   votes: 12450,
-  //   badge: { text: "Meilleure Offre", color: "#00f5ff" },
+    
   // },
+
+ 
+  {
+    id: "BetNJet",
+    name: "BetNJet",
+    logo: "/brands/betnjet.webp",
+    rating: 9.8,
+    bonus: "400% jusqu'à 1000€ + 250FS",
+    url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
   // {
   //   id: "Zombillion",
   //   name: "Zombillion",
