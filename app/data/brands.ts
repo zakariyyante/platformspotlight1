@@ -166,16 +166,17 @@ export const brands: Brand[] = [
   // }
   // ,
 
-  // {
-  //   id: "BravoPlay",
-  //   name: "BravoPlay",
-  //   logo: "/brands/bravoplay.svg",
-  //   rating: 9.6,
-  //   bonus: "Jusqu'à 5000€ + 150FS",
-  //   url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  // }
+  {
+    id: "BravoPlay",
+    name: "BravoPlay",
+    logo: "/brands/bravoplay.svg",
+    rating: 9.6,
+    bonus: "Jusqu'à 5000€ + 150FS",
+    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  }
   // ,
   // {
   //   id: "AlexanderCasino",
@@ -218,17 +219,17 @@ export const brands: Brand[] = [
   // },
 
  
-  {
-    id: "BetNJet",
-    name: "BetNJet",
-    logo: "/brands/betnjet.webp",
-    rating: 9.8,
-    bonus: "400% jusqu'à 1000€ + 250FS",
-    url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  // {
+  //   id: "BetNJet",
+  //   name: "BetNJet",
+  //   logo: "/brands/betnjet.webp",
+  //   rating: 9.8,
+  //   bonus: "400% jusqu'à 1000€ + 250FS",
+  //   url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
   // {
   //   id: "Zombillion",
   //   name: "Zombillion",
