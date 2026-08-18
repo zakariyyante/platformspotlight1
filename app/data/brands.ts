@@ -81,18 +81,42 @@ export const brands: Brand[] = [
     badge: { text: "Retraits Rapides", color: "#22c55e" },
 
   },
+
   {
-    id: "BravoPlay",
-    name: "BravoPlay",
-    logo: "/brands/bravoplay.svg",
+    id: "CashBox",
+    name: "CashBox",
+    logo: "/brands/CashBox.gif",
     rating: 9.8,
-    bonus: "Jusqu'à 5000€ + 150FS",
-    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    bonus: "8000€ + 200FS",
+    url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5376&utm_campaign=CashBox-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  }
-  ,
+  },
+
+   {
+    id: "Aladdin’s Gold",
+    name: "Aladdin’s Gold",
+    logo: "/brands/AladdinsGold.gif",
+    rating: 9.8,
+    bonus: "8000€ + 200FS",
+    url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5362&utm_campaign=AladdinsGold-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
+  // {
+  //   id: "BravoPlay",
+  //   name: "BravoPlay",
+  //   logo: "/brands/bravoplay.svg",
+  //   rating: 9.8,
+  //   bonus: "Jusqu'à 5000€ + 150FS",
+  //   url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // }
+  // ,
   // {
   //   id: "WinoCasino",
   //   name: "WinoCasino",
@@ -465,7 +489,11 @@ export const brands: Brand[] = [
   // },
   
   
+
   
+
+
+
    
   
   // {
