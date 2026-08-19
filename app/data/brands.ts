@@ -78,21 +78,21 @@ export const brands: Brand[] = [
     url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
   
-  // {
-  //   id: "SlotRush",
-  //   name: "SlotRush",
-  //   logo: "/brands/SLOTRUSH.png",
-  //   rating: 9.7,
-  //   bonus: "Jusqu'à 4000€ + 200FS",
-  //   url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR9&clickid=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
+  {
+    id: "SlotRush",
+    name: "SlotRush",
+    logo: "/brands/SLOTRUSH.png",
+    rating: 9.7,
+    bonus: "Jusqu'à 4000€ + 200FS",
+    url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR9&clickid=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
 
-  // },
+  },
 
   // {
   //   id: "CashBox",
@@ -276,17 +276,18 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-  //  {
-  //   id: "Royalen",
-  //   name: "Royalen",
-  //   logo: "/brands/royalen.webp",
-  //   rating: 9.8,
-  //   bonus: "200% jusqu'à 2000€ + 200FS",
-  //   url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   
-  // }
+
+   {
+    id: "Royalen",
+    name: "Royalen",
+    logo: "/brands/royalen.webp",
+    rating: 9.8,
+    bonus: "200% jusqu'à 2000€ + 200FS",
+    url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+  }
+  
   // ,
   // {
   //   id: "GoloBet",
@@ -415,17 +416,18 @@ export const brands: Brand[] = [
   //   
   // },
  
-  {
-    id: "Betory",
-    name: "Betory",
-    logo: "/brands/betory.png",
-    rating: 9.8,
-    bonus: "300% jusqu'à 3250€",
-    url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  // {
+  //   id: "Betory",
+  //   name: "Betory",
+  //   logo: "/brands/betory.png",
+  //   rating: 9.8,
+  //   bonus: "300% jusqu'à 3250€",
+  //   url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
+
   // {
   //   id: "RxBet",
   //   name: "RxBet",
