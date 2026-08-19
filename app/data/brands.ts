@@ -73,7 +73,7 @@ export const brands: Brand[] = [
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
     rating: 9.8,
-    bonus: "550% jusqu’à 15000€ + 550FS",
+    bonus: "550% jusqu’à 15000€ + 550TG",
     url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
@@ -86,7 +86,7 @@ export const brands: Brand[] = [
     name: "SlotRush",
     logo: "/brands/SLOTRUSH.png",
     rating: 9.7,
-    bonus: "Jusqu'à 4000€ + 200FS",
+    bonus: "Jusqu'à 4000€ + 200TG",
     url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR9&clickid=",
     isMobile: true,
     votes: 12450,
@@ -529,7 +529,18 @@ export const brands: Brand[] = [
     
   // },
   
-  
+   {
+    id: "WinPlace",
+    name: "WinPlace",
+    logo: "/brands/winplace.webp",
+    rating: 9.8,
+    bonus: "Jusqu’à 14000€ + 300TG",
+    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
+   
 
   
 
