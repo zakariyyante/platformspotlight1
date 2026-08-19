@@ -532,7 +532,7 @@ export const brands: Brand[] = [
    {
     id: "WinPlace",
     name: "WinPlace",
-    logo: "/brands/winplace-1.png",
+    logo: "/brands/winplacedark.png",
     rating: 9.8,
     bonus: "Jusqu’à 14000€ + 300TG",
     url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
