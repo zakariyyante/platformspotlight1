@@ -80,7 +80,17 @@ export const brands: Brand[] = [
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
 
-  
+  {
+    id: "WinPlace",
+    name: "WinPlace",
+    logo: "/brands/winplacedark.png",
+    rating: 9.8,
+    bonus: "Jusqu’à 14000€ + 300TG",
+    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
   {
     id: "SlotRush",
     name: "SlotRush",
@@ -90,7 +100,7 @@ export const brands: Brand[] = [
     url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR9&clickid=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
 
   },
 
@@ -529,17 +539,7 @@ export const brands: Brand[] = [
     
   // },
   
-   {
-    id: "WinPlace",
-    name: "WinPlace",
-    logo: "/brands/winplacedark.png",
-    rating: 9.8,
-    bonus: "Jusqu’à 14000€ + 300TG",
-    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
+
    
 
   
