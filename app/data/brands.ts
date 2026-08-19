@@ -287,7 +287,7 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
   }
-  
+
   // ,
   // {
   //   id: "GoloBet",
@@ -558,7 +558,7 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
-
+,
   {
     id: "bwin",
     name: "Bwin",
