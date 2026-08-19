@@ -91,18 +91,7 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
-  {
-    id: "SlotRush",
-    name: "SlotRush",
-    logo: "/brands/SLOTRUSH.png",
-    rating: 9.7,
-    bonus: "Jusqu'à 4000€ + 200TG",
-    url: "https://linkslotrush.com/iyhqswoke?subid=SlotRush-SL2FR9&clickid=",
-    isMobile: true,
-    votes: 12450,
-    
 
-  },
 
   // {
   //   id: "CashBox",
