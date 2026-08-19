@@ -66,7 +66,8 @@ export const brands: Brand[] = [
     url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
   },
   {
     id: "SpinFormula",
@@ -89,7 +90,7 @@ export const brands: Brand[] = [
     url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
 
 
