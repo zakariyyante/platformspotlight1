@@ -113,7 +113,7 @@ export const brands: Brand[] = [
     name: "Aladdin’s Gold",
     logo: "/brands/Aladdinsgold.gif",
     rating: 9.8,
-    bonus: "Jusqu’à 8000€ + 200FS",
+    bonus: "Jusqu’à 8000€ + 200TG",
     url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5362&utm_campaign=AladdinsGold-SL2FR9&afp1=",
     isMobile: true,
     votes: 12450,
