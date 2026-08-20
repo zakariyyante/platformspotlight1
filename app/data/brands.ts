@@ -208,17 +208,17 @@ export const brands: Brand[] = [
  
 
  
-   {
-    id: "Aerobet",
-    name: "Aerobet",
-    logo: "/brands/AEROBET.webp",
-    rating: 9.8,
-    bonus: "Jusqu’à 600% + 450FS",
-    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  //  {
+  //   id: "Aerobet",
+  //   name: "Aerobet",
+  //   logo: "/brands/AEROBET.webp",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 600% + 450FS",
+  //   url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
 
  
   // {
@@ -418,17 +418,17 @@ export const brands: Brand[] = [
   //   
   // },
  
-  // {
-  //   id: "Betory",
-  //   name: "Betory",
-  //   logo: "/brands/betory.png",
-  //   rating: 9.8,
-  //   bonus: "300% jusqu'à 3250€",
-  //   url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  // },
+  {
+    id: "Betory",
+    name: "Betory",
+    logo: "/brands/betory.png",
+    rating: 9.8,
+    bonus: "300% jusqu'à 3250€",
+    url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
 
   // {
   //   id: "RxBet",
