@@ -81,17 +81,17 @@ export const brands: Brand[] = [
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
 
-  {
-    id: "WinPlace",
-    name: "WinPlace",
-    logo: "/brands/winplacedark.png",
-    rating: 9.8,
-    bonus: "Jusqu’à 14000€ + 300TG",
-    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  // {
+  //   id: "WinPlace",
+  //   name: "WinPlace",
+  //   logo: "/brands/winplacedark.png",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 14000€ + 300TG",
+  //   url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
 
 
   // {
@@ -106,17 +106,17 @@ export const brands: Brand[] = [
   //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
   // },
 
-  //  {
-  //   id: "Aladdin’s Gold",
-  //   name: "Aladdin’s Gold",
-  //   logo: "/brands/Aladdinsgold.gif",
-  //   rating: 9.8,
-  //   bonus: "8000€ + 200FS",
-  //   url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5362&utm_campaign=AladdinsGold-SL2FR9&afp1=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  // },
+   {
+    id: "Aladdin’s Gold",
+    name: "Aladdin’s Gold",
+    logo: "/brands/Aladdinsgold.gif",
+    rating: 9.8,
+    bonus: "Jusqu’à 8000€ + 200FS",
+    url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5362&utm_campaign=AladdinsGold-SL2FR9&afp1=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
   // {
   //   id: "KingsChip",
   //   name: "KingsChip",
