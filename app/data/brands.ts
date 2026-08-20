@@ -58,18 +58,6 @@ export const brands: Brand[] = [
   //   votes: 12450,
   // },
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "550% jusqu’à 15000€ + 550TG",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#00f5ff" },
-  },
-
-  {
     id: "WinoCasino",
     name: "WinoCasino",
     logo: "/brands/wino.svg",
@@ -81,6 +69,20 @@ export const brands: Brand[] = [
     badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
+
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "550% jusqu’à 15000€ + 550TG",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
+  },
+
+
 
 
   // {
