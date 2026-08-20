@@ -108,17 +108,17 @@ export const brands: Brand[] = [
   //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
   // },
 
-   {
-    id: "Aladdin’s Gold",
-    name: "Aladdin’s Gold",
-    logo: "/brands/Aladdinsgold.gif",
-    rating: 9.8,
-    bonus: "Jusqu’à 8000€ + 200TG",
-    url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5362&utm_campaign=AladdinsGold-SL2FR9&afp1=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  //  {
+  //   id: "Aladdin’s Gold",
+  //   name: "Aladdin’s Gold",
+  //   logo: "/brands/Aladdinsgold.gif",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 8000€ + 200TG",
+  //   url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5362&utm_campaign=AladdinsGold-SL2FR9&afp1=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
   // {
   //   id: "KingsChip",
   //   name: "KingsChip",
@@ -363,17 +363,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-  // {
-  //   id: "Spinlynx",
-  //   name: "Spinlynx",
-  //   logo: "/brands/spinlynx.webp",
-  //   rating: 9.8,
-  //   bonus: "400% jusqu'à 2000€ and 200FS",
-  //   url: "https://go.newsspinlynx.com/visit/?bta=35331&nci=5342&afp1=Spinlynx-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  // },
+  {
+    id: "Spinlynx",
+    name: "Spinlynx",
+    logo: "/brands/spinlynx.webp",
+    rating: 9.8,
+    bonus: "400% jusqu'à 2000€ and 200TG",
+    url: "https://go.newsspinlynx.com/visit/?bta=35331&nci=5342&afp1=Spinlynx-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
  
  
  
