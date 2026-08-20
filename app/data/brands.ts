@@ -208,17 +208,17 @@ export const brands: Brand[] = [
  
 
  
-  //  {
-  //   id: "Aerobet",
-  //   name: "Aerobet",
-  //   logo: "/brands/AEROBET.webp",
-  //   rating: 9.8,
-  //   bonus: "Jusqu’à 600% + 450FS",
-  //   url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  // },
+   {
+    id: "Aerobet",
+    name: "Aerobet",
+    logo: "/brands/AEROBET.webp",
+    rating: 9.8,
+    bonus: "Jusqu’à 600% + 450FS",
+    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
 
  
   // {
@@ -363,17 +363,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-  {
-    id: "Spinlynx",
-    name: "Spinlynx",
-    logo: "/brands/spinlynx.webp",
-    rating: 9.8,
-    bonus: "400% jusqu'à 2000€ and 200TG",
-    url: "https://go.newsspinlynx.com/visit/?bta=35331&nci=5342&afp1=Spinlynx-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  // {
+  //   id: "Spinlynx",
+  //   name: "Spinlynx",
+  //   logo: "/brands/spinlynx.webp",
+  //   rating: 9.8,
+  //   bonus: "400% jusqu'à 2000€ and 200TG",
+  //   url: "https://go.newsspinlynx.com/visit/?bta=35331&nci=5342&afp1=Spinlynx-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
  
  
  
