@@ -110,7 +110,7 @@ export const brands: Brand[] = [
     url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  
   },
 
   // {
