@@ -70,7 +70,17 @@ export const brands: Brand[] = [
     badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
 
-
+  {
+    id: "Royalen",
+    name: "Royalen",
+    logo: "/brands/royalen.webp",
+    rating: 9.8,
+    bonus: "200% jusqu'à 2000€ + 200TG",
+    url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+  
+  },
 
   {
     id: "WinoCasino",
@@ -101,17 +111,7 @@ export const brands: Brand[] = [
   //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
 
-  {
-    id: "Royalen",
-    name: "Royalen",
-    logo: "/brands/royalen.webp",
-    rating: 9.8,
-    bonus: "200% jusqu'à 2000€ + 200TG",
-    url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
   
-  },
 
   // {
   //   id: "CashBox",
