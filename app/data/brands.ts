@@ -67,20 +67,10 @@ export const brands: Brand[] = [
     url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Meilleure Offre", color: "#00f5ff" },
+    badge: { text: "Meilleure Offre", color: "#00f5ff" },
   },
 
-  {
-    id: "Royalen",
-    name: "Royalen",
-    logo: "/brands/royalen.webp",
-    rating: 9.8,
-    bonus: "200% jusqu'à 2000€ + 200TG",
-    url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+
 
   {
     id: "WinoCasino",
@@ -99,18 +89,29 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "WinPlace",
-  //   name: "WinPlace",
-  //   logo: "/brands/winplacedark.png",
-  //   rating: 9.8,
-  //   bonus: "Jusqu’à 14000€ + 300TG",
-  //   url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "WinPlace",
+    name: "WinPlace",
+    logo: "/brands/winplacedark.png",
+    rating: 9.8,
+    bonus: "Jusqu’à 14000€ + 300TG",
+    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
   //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  // },
+  },
 
+  {
+    id: "Royalen",
+    name: "Royalen",
+    logo: "/brands/royalen.webp",
+    rating: 9.8,
+    bonus: "200% jusqu'à 2000€ + 200TG",
+    url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
 
   // {
   //   id: "CashBox",
