@@ -242,17 +242,17 @@ export const brands: Brand[] = [
  
 
  
-  //  {
-  //   id: "Aerobet",
-  //   name: "Aerobet",
-  //   logo: "/brands/AEROBET.webp",
-  //   rating: 9.8,
-  //   bonus: "Jusqu’à 600% + 450FS",
-  //   url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
-  // },
+   {
+    id: "Aerobet",
+    name: "Aerobet",
+    logo: "/brands/AEROBET.webp",
+    rating: 9.8,
+    bonus: "Jusqu’à 600% + 450FS",
+    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
 
  
   // {
