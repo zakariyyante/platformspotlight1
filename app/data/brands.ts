@@ -67,7 +67,7 @@ export const brands: Brand[] = [
     url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleur Offre", color: "b020f0" },
+    badge: { text: "Meilleur Offre", color: "d020f0" },
   },
 
   {
@@ -251,7 +251,7 @@ export const brands: Brand[] = [
   //   url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
   //   isMobile: true,
   //   votes: 12450,
-  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
   // },
 
  
