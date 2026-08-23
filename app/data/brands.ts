@@ -326,17 +326,17 @@ export const brands: Brand[] = [
 
   // ,
 
-  {
-    id: "CaptainSlots",
-    name: "CaptainSlots",
-    logo: "/brands/captainSlots.svg",
-    rating: 9.8,
-    bonus: "100% jusqu'à 1500€",
-    url: "https://track-otn.com/trk.php?t=2705&c=4491&subid=CaptainSlots-SL2FR9&clickid=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+  // {
+  //   id: "CaptainSlots",
+  //   name: "CaptainSlots",
+  //   logo: "/brands/captainSlots.svg",
+  //   rating: 9.8,
+  //   bonus: "100% jusqu'à 1500€",
+  //   url: "https://track-otn.com/trk.php?t=2705&c=4491&subid=CaptainSlots-SL2FR9&clickid=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // },
 
 
   // {
