@@ -127,17 +127,17 @@ export const brands: Brand[] = [
   // }
   // ,
 
-  {
-    id: "WinPlace",
-    name: "WinPlace",
-    logo: "/brands/winplacedark.png",
-    rating: 9.8,
-    bonus: "Jusqu’à 14000€ + 300FS",
-    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "WinPlace",
+  //   name: "WinPlace",
+  //   logo: "/brands/winplacedark.png",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 14000€ + 300FS",
+  //   url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
 
   
 
@@ -242,17 +242,17 @@ export const brands: Brand[] = [
  
 
  
-   {
-    id: "Aerobet",
-    name: "Aerobet",
-    logo: "/brands/AEROBET.webp",
-    rating: 9.8,
-    bonus: "Jusqu’à 600% + 450FS",
-    url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+  //  {
+  //   id: "Aerobet",
+  //   name: "Aerobet",
+  //   logo: "/brands/AEROBET.webp",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 600% + 450FS",
+  //   url: "https://aerobetalive.com/tawbnds9h?subid=Aerobet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // },
 
  
   // {
@@ -313,30 +313,32 @@ export const brands: Brand[] = [
     
   // },
 
-  //  {
-  //   id: "Royalen",
-  //   name: "Royalen",
-  //   logo: "/brands/royalen.webp",
-  //   rating: 9.8,
-  //   bonus: "200% jusqu'à 2000€ + 200FS",
-  //   url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  // }
+   {
+    id: "Royalen",
+    name: "Royalen",
+    logo: "/brands/royalen.webp",
+    rating: 9.8,
+    bonus: "200% jusqu'à 2000€ + 200FS",
+    url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+  },
 
   // ,
 
-  //   {
-  //   id: "CaptainSlots",
-  //   name: "CaptainSlots",
-  //   logo: "/brands/captainSlots.svg",
-  //   rating: 9.8,
-  //   bonus: "100% jusqu'à 1500€",
-  //   url: "https://track-otn.com/trk.php?t=2705&c=4491&subid=CaptainSlots-SL2FR9&clickid=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  // },
+  {
+    id: "CaptainSlots",
+    name: "CaptainSlots",
+    logo: "/brands/captainSlots.svg",
+    rating: 9.8,
+    bonus: "100% jusqu'à 1500€",
+    url: "https://track-otn.com/trk.php?t=2705&c=4491&subid=CaptainSlots-SL2FR9&clickid=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
+
+
   // {
   //   id: "WoolBet",
   //   name: "WoolBet",
