@@ -206,7 +206,7 @@ export const brands: Brand[] = [
     name: "JokersAce",
     logo: "/brands/JokersAce.gif",
     rating: 9.8,
-    bonus: "8000€ + 200FS",
+    bonus: "Jusqu’à 8000€ + 200FS",
     url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5361&utm_campaign=JokersAce-SL2FR9&afp1=",
     isMobile: true,
     votes: 12450,
