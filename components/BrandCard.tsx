@@ -147,15 +147,10 @@ export default function BrandCard({ brand, gclidValue, rank, variant = 'default'
             </div>
 
             <div className="flex flex-col items-end text-right flex-grow min-w-0">
-              <div className={`inline-block rounded-full bg-white/5 border border-white/10 ${isModal ? 'px-2 py-0.5 mb-1.5' : 'px-2.5 py-1 mb-2'}`}>
-                <span className={`font-black uppercase tracking-[0.2em] text-primary ${isModal ? 'text-[7px]' : 'text-[9px]'}`}>
-                  BONUS EXCLUSIF
-                </span>
-              </div>
-              <div className={`font-black leading-snug tracking-tight text-right ${isModal ? 'text-[13px] mb-2.5' : 'text-lg md:text-xl mb-3'}`}>
+              <div className={`font-black leading-snug tracking-tight text-right ${isModal ? 'text-[15px] mb-2.5' : 'text-xl md:text-2xl mb-3'}`}>
                 {bonusLabel ? (
-                  <div className="flex flex-col items-end gap-0.5">
-                    <span className={`pack-label-wrap inline-block font-bold uppercase tracking-wide pack-label-shine ${isModal ? 'text-[10px]' : 'text-xs md:text-sm'}`}>
+                  <div className="flex flex-col items-end gap-1">
+                    <span className={`pack-label-wrap inline-block font-bold uppercase tracking-wide pack-label-shine ${isModal ? 'text-[12px]' : 'text-sm md:text-base'}`}>
                       {bonusLabel}
                     </span>
                     <span className="block">{highlightBonus(bonusAmount)}</span>
