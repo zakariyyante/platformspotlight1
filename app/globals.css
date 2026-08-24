@@ -96,89 +96,104 @@
   100% { transform: translate(30%, 30%); }
 }
 
-/* Moderate shine wave + glowing border around each letter */
+/* Soft outer shine around the label — no hard edges; text stays one node for Translate */
+.pack-label-wrap {
+  position: relative;
+  isolation: isolate;
+  padding: 0.15em 0.45em;
+}
+
+.pack-label-wrap::before {
+  content: "";
+  position: absolute;
+  inset: -2px -4px;
+  border-radius: 999px;
+  background: radial-gradient(
+    120% 140% at 50% 50%,
+    rgba(34, 211, 238, 0.22) 0%,
+    rgba(192, 132, 252, 0.14) 45%,
+    transparent 72%
+  );
+  filter: blur(6px);
+  opacity: 0.75;
+  z-index: -1;
+  pointer-events: none;
+  animation: pack-soft-halo 2.4s ease-in-out infinite;
+}
+
+.pack-label-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.08),
+    0 0 12px rgba(34, 211, 238, 0.18),
+    0 0 20px rgba(192, 132, 252, 0.12);
+  z-index: -1;
+  pointer-events: none;
+  animation: pack-soft-ring 2.4s ease-in-out infinite;
+}
+
+@keyframes pack-soft-halo {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.04);
+  }
+}
+
+@keyframes pack-soft-ring {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.06),
+      0 0 10px rgba(34, 211, 238, 0.14),
+      0 0 18px rgba(192, 132, 252, 0.1);
+  }
+  50% {
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.14),
+      0 0 14px rgba(34, 211, 238, 0.28),
+      0 0 24px rgba(192, 132, 252, 0.2);
+  }
+}
+
+/* Whole-word shine (single text node so Google Translate keeps the phrase intact) */
 .pack-label-shine {
   display: inline-block;
   color: #22d3ee;
+  -webkit-text-stroke: 0.4px rgba(255, 255, 255, 0.35);
+  paint-order: stroke fill;
   animation: pack-letter-shine 2s ease-in-out infinite;
-  will-change: color, text-shadow;
-}
-
-.pack-label-border-shine {
-  display: inline-flex;
-  position: relative;
-  isolation: isolate;
-}
-
-.pack-label-border-shine::before {
-  content: "";
-  position: absolute;
-  inset: -3px -6px;
-  border-radius: 999px;
-  background: linear-gradient(
-    110deg,
-    transparent 20%,
-    rgba(34, 211, 238, 0.55) 40%,
-    rgba(255, 255, 255, 0.75) 50%,
-    rgba(192, 132, 252, 0.55) 60%,
-    transparent 80%
-  );
-  background-size: 220% 100%;
-  animation: pack-border-shine 2.4s linear infinite;
-  z-index: -1;
-  filter: blur(1px);
-  opacity: 0.9;
-}
-
-.pack-label-border-shine::after {
-  content: "";
-  position: absolute;
-  inset: -1px -4px;
-  border-radius: 999px;
-  border: 1px solid transparent;
-  background:
-    linear-gradient(#0a0517, #0a0517) padding-box,
-    linear-gradient(
-      110deg,
-      rgba(34, 211, 238, 0.15),
-      rgba(255, 255, 255, 0.7),
-      rgba(192, 132, 252, 0.35),
-      rgba(34, 211, 238, 0.15)
-    )
-    border-box;
-  background-size: 100% 100%, 220% 100%;
-  animation: pack-border-shine 2.4s linear infinite;
-  z-index: -1;
-  pointer-events: none;
+  will-change: color, text-shadow, -webkit-text-stroke-color;
 }
 
 @keyframes pack-letter-shine {
   0%,
   100% {
     color: #22d3ee;
+    -webkit-text-stroke-color: rgba(34, 211, 238, 0.55);
     text-shadow:
-      0 0 5px rgba(34, 211, 238, 0.4),
-      0 0 1px rgba(255, 255, 255, 0.35);
+      0 0 4px rgba(34, 211, 238, 0.45),
+      0 0 10px rgba(34, 211, 238, 0.25);
   }
   40% {
     color: #e0f2fe;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.7);
     text-shadow:
-      0 0 8px rgba(224, 242, 254, 0.55),
-      0 0 1px rgba(255, 255, 255, 0.5);
+      0 0 5px rgba(255, 255, 255, 0.55),
+      0 0 12px rgba(224, 242, 254, 0.4);
   }
   70% {
     color: #c084fc;
+    -webkit-text-stroke-color: rgba(192, 132, 252, 0.65);
     text-shadow:
-      0 0 7px rgba(192, 132, 252, 0.5),
-      0 0 1px rgba(255, 255, 255, 0.35);
-  }
-}
-
-@keyframes pack-border-shine {
-  0% {
-    background-position: 100% 0, 100% 0;
-  }
-  100% {
-    background-position: -100% 0, -100% 0;
+      0 0 5px rgba(192, 132, 252, 0.5),
+      0 0 12px rgba(192, 132, 252, 0.3);
   }
 }
