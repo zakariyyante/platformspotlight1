@@ -57,7 +57,18 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
-
+  {
+    id: "Royalen",
+    name: "Royalen",
+    logo: "/brands/royalen.webp",
+    rating: 9.8,
+    bonus: "200% jusqu'à 2000€ + 200FS",
+    url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  },
+  
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -67,7 +78,7 @@ export const brands: Brand[] = [
     url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    
   },
 
   {
@@ -313,16 +324,7 @@ export const brands: Brand[] = [
     
   // },
 
-   {
-    id: "Royalen",
-    name: "Royalen",
-    logo: "/brands/royalen.webp",
-    rating: 9.8,
-    bonus: "200% jusqu'à 2000€ + 200FS",
-    url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-  },
+
 
   // ,
 
