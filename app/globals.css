@@ -95,3 +95,90 @@
   0% { transform: translate(-30%, -30%); }
   100% { transform: translate(30%, 30%); }
 }
+
+/* Moderate shine wave + glowing border around each letter */
+.pack-label-shine {
+  display: inline-block;
+  color: #22d3ee;
+  animation: pack-letter-shine 2s ease-in-out infinite;
+  will-change: color, text-shadow;
+}
+
+.pack-label-border-shine {
+  display: inline-flex;
+  position: relative;
+  isolation: isolate;
+}
+
+.pack-label-border-shine::before {
+  content: "";
+  position: absolute;
+  inset: -3px -6px;
+  border-radius: 999px;
+  background: linear-gradient(
+    110deg,
+    transparent 20%,
+    rgba(34, 211, 238, 0.55) 40%,
+    rgba(255, 255, 255, 0.75) 50%,
+    rgba(192, 132, 252, 0.55) 60%,
+    transparent 80%
+  );
+  background-size: 220% 100%;
+  animation: pack-border-shine 2.4s linear infinite;
+  z-index: -1;
+  filter: blur(1px);
+  opacity: 0.9;
+}
+
+.pack-label-border-shine::after {
+  content: "";
+  position: absolute;
+  inset: -1px -4px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background:
+    linear-gradient(#0a0517, #0a0517) padding-box,
+    linear-gradient(
+      110deg,
+      rgba(34, 211, 238, 0.15),
+      rgba(255, 255, 255, 0.7),
+      rgba(192, 132, 252, 0.35),
+      rgba(34, 211, 238, 0.15)
+    )
+    border-box;
+  background-size: 100% 100%, 220% 100%;
+  animation: pack-border-shine 2.4s linear infinite;
+  z-index: -1;
+  pointer-events: none;
+}
+
+@keyframes pack-letter-shine {
+  0%,
+  100% {
+    color: #22d3ee;
+    text-shadow:
+      0 0 5px rgba(34, 211, 238, 0.4),
+      0 0 1px rgba(255, 255, 255, 0.35);
+  }
+  40% {
+    color: #e0f2fe;
+    text-shadow:
+      0 0 8px rgba(224, 242, 254, 0.55),
+      0 0 1px rgba(255, 255, 255, 0.5);
+  }
+  70% {
+    color: #c084fc;
+    text-shadow:
+      0 0 7px rgba(192, 132, 252, 0.5),
+      0 0 1px rgba(255, 255, 255, 0.35);
+  }
+}
+
+@keyframes pack-border-shine {
+  0% {
+    background-position: 100% 0, 100% 0;
+  }
+  100% {
+    background-position: -100% 0, -100% 0;
+  }
+}
