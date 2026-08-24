@@ -63,6 +63,15 @@ const generateDynamicRating = (rank: number) => {
   return Math.max(9.0, 9.9 - (rank - 1) * 0.1);
 };
 
+const PACK_LABEL = 'Pack de Bienvenue';
+
+// Splits "Pack de Bienvenue …" into a label line + bonus amount line for clearer layout.
+const splitBonus = (text: string) => {
+  const match = text.match(/^Pack de Bienvenue\s*:?\s*(.*)$/i);
+  if (!match) return { label: null as string | null, amount: text };
+  return { label: PACK_LABEL, amount: match[1].trim() };
+};
+
 // Wraps numeric bonus amounts (and their currency/unit) in a gold accent for emphasis.
 const highlightBonus = (text: string) => {
   const parts = text.split(/(\d[\d.,\s]*(?:%|€|\$)?(?:\s?(?:EUR|RG|FS|TG))?)/gi);
@@ -80,6 +89,7 @@ export default function BrandCard({ brand, gclidValue, rank, variant = 'default'
   const isModal = variant === 'modal';
   const paymentLogos = pickPaymentLogos(brand.id);
   const dynamicRating = generateDynamicRating(rank);
+  const { label: bonusLabel, amount: bonusAmount } = splitBonus(brand.bonus);
 
   const handleCardClick = () => {
     track('Brand Click', { brand: brand.name });
@@ -142,8 +152,23 @@ export default function BrandCard({ brand, gclidValue, rank, variant = 'default'
                   BONUS EXCLUSIF
                 </span>
               </div>
-              <div className={`font-black leading-snug tracking-tight ${isModal ? 'text-[13px] mb-2.5' : 'text-lg md:text-xl mb-3'}`}>
-                {highlightBonus(brand.bonus)}
+              <div className={`font-black leading-snug tracking-tight text-right ${isModal ? 'text-[13px] mb-2.5' : 'text-lg md:text-xl mb-3'}`}>
+                {bonusLabel ? (
+                  <div className="flex flex-col items-end gap-0.5">
+                    <span
+                      className={`font-bold uppercase tracking-wide text-[#5eead4] ${isModal ? 'text-[9px]' : 'text-[11px] md:text-xs'}`}
+                      style={{
+                        textShadow:
+                          '0 0 6px rgba(94,234,212,0.95), 0 0 14px rgba(94,234,212,0.65), 0 0 28px rgba(45,212,191,0.4)',
+                      }}
+                    >
+                      {bonusLabel}
+                    </span>
+                    <span className="block">{highlightBonus(bonusAmount)}</span>
+                  </div>
+                ) : (
+                  highlightBonus(bonusAmount)
+                )}
               </div>
 
               {/* CTA Button */}

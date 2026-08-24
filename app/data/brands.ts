@@ -90,7 +90,7 @@ export const brands: Brand[] = [
     name: "WinPlace",
     logo: "/brands/winplacedark.png",
     rating: 9.8,
-    bonus: "Pack de Bienvenue jusqu’à 14000€ + 300FS",
+    bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300FS",
     url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
