@@ -98,18 +98,18 @@ export const brands: Brand[] = [
   },
 
 
-  // {
-  //   id: "WinoCasino",
-  //   name: "WinoCasino",
-  //   logo: "/brands/wino.svg",
-  //   rating: 9.9,
-  //   bonus: "600% jusqu’à 10000€",
-  //   url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  {
+    id: "LuckyGem",
+    name: "LuckyGem",
+    logo: "/brands/luckygem_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 700% + 700FS",
+    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
-  // },
+  },
 
 
 
