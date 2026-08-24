@@ -457,7 +457,7 @@ export const brands: Brand[] = [
     name: "RxBet",
     logo: "/brands/rxcasino.png",
     rating: 9.8,
-    bonus: "150 % jusqu'à 5000 EUR",
+    bonus: "150 % jusqu'à 5000€",
     url: "https://go.rx.partners/visit/?bta=35855&nci=5352&afp=RxBet-SL2FR9&utm_campaign=",
     isMobile: true,
     votes: 12450,
