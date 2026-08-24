@@ -96,18 +96,18 @@ export const brands: Brand[] = [
     
   },
 
-  // {
-  //   id: "WinoCasino",
-  //   name: "WinoCasino",
-  //   logo: "/brands/wino.svg",
-  //   rating: 9.9,
-  //   bonus: "600% jusqu’à 10000€",
-  //   url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "WinoCasino",
+    name: "WinoCasino",
+    logo: "/brands/wino.svg",
+    rating: 9.9,
+    bonus: "600% jusqu’à 10000€",
+    url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
-    
-  // },
+  },
 
 
 
@@ -202,17 +202,17 @@ export const brands: Brand[] = [
   //   votes: 12450,
     
   // },
-  {
-    id: "JokersAce",
-    name: "JokersAce",
-    logo: "/brands/JokersAce.gif",
-    rating: 9.8,
-    bonus: "Jusqu’à 8000€ + 200FS",
-    url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5361&utm_campaign=JokersAce-SL2FR9&afp1=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+  // {
+  //   id: "JokersAce",
+  //   name: "JokersAce",
+  //   logo: "/brands/JokersAce.gif",
+  //   rating: 9.8,
+  //   bonus: "Jusqu’à 8000€ + 200FS",
+  //   url: "https://svwpartners.cxclick.com/visit/?bta=35450&nci=5361&utm_campaign=JokersAce-SL2FR9&afp1=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
 
 
 
