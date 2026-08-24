@@ -57,6 +57,7 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
+
   {
     id: "Royalen",
     name: "Royalen",
@@ -68,7 +69,7 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
-  
+
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -82,17 +83,29 @@ export const brands: Brand[] = [
   },
 
   {
-    id: "WinoCasino",
-    name: "WinoCasino",
-    logo: "/brands/wino.svg",
-    rating: 9.9,
-    bonus: "600% jusqu’à 10000€",
-    url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
+    id: "WinPlace",
+    name: "WinPlace",
+    logo: "/brands/winplacedark.png",
+    rating: 9.8,
+    bonus: "Jusqu’à 14000€ + 300FS",
+    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     
-    
   },
+
+  // {
+  //   id: "WinoCasino",
+  //   name: "WinoCasino",
+  //   logo: "/brands/wino.svg",
+  //   rating: 9.9,
+  //   bonus: "600% jusqu’à 10000€",
+  //   url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+    
+  // },
 
 
 
@@ -138,17 +151,6 @@ export const brands: Brand[] = [
   // }
   // ,
 
-  // {
-  //   id: "WinPlace",
-  //   name: "WinPlace",
-  //   logo: "/brands/winplacedark.png",
-  //   rating: 9.8,
-  //   bonus: "Jusqu’à 14000€ + 300FS",
-  //   url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  // },
 
   
 
