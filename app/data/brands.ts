@@ -57,6 +57,17 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "550% jusqu’à 15000€ + 550FS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
 
   {
     id: "Royalen",
@@ -67,20 +78,10 @@ export const brands: Brand[] = [
     url: "https://royalmedialinks.com/j2qyjvhin?subid=Royalen-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
 
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "550% jusqu’à 15000€ + 550FS",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
+
 
   {
     id: "WinPlace",
