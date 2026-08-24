@@ -96,18 +96,18 @@ export const brands: Brand[] = [
     
   },
 
-  {
-    id: "WinoCasino",
-    name: "WinoCasino",
-    logo: "/brands/wino.svg",
-    rating: 9.9,
-    bonus: "600% jusqu’à 10000€",
-    url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // {
+  //   id: "WinoCasino",
+  //   name: "WinoCasino",
+  //   logo: "/brands/wino.svg",
+  //   rating: 9.9,
+  //   bonus: "600% jusqu’à 10000€",
+  //   url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
-  },
+  // },
 
 
 
@@ -452,17 +452,17 @@ export const brands: Brand[] = [
   //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
   // },
 
-  // {
-  //   id: "RxBet",
-  //   name: "RxBet",
-  //   logo: "/brands/rxcasino.png",
-  //   rating: 9.8,
-  //   bonus: "512% jusqu'à 3000€ + 256FS",
-  //   url: "https://go.rx.partners/visit/?bta=35855&nci=5352&afp=RxBet-SL2FR9&utm_campaign=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  // },
+  {
+    id: "RxBet",
+    name: "RxBet",
+    logo: "/brands/rxcasino.png",
+    rating: 9.8,
+    bonus: "150 % jusqu'à 5000 EUR",
+    url: "https://go.rx.partners/visit/?bta=35855&nci=5352&afp=RxBet-SL2FR9&utm_campaign=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
 
   // {
   //   id: "Amunbet",
