@@ -79,7 +79,7 @@ export const brands: Brand[] = [
     url: "https://go.affililinks.com/visit/?bta=35328&nci=5351&utm_campaign=Winzter-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
   },
 
@@ -117,7 +117,7 @@ export const brands: Brand[] = [
     url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
   },
 
