@@ -71,6 +71,20 @@ export const brands: Brand[] = [
   },
 
   {
+    id: "LuckyGem",
+    name: "LuckyGem",
+    logo: "/brands/luckygem_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    
+  },
+
+
+  {
     id: "Chanze",
     name: "Chanze",
     logo: "/brands/chanze_dark.svg",
@@ -96,18 +110,7 @@ export const brands: Brand[] = [
     
   },
 
-  {
-    id: "LuckyGem",
-    name: "LuckyGem",
-    logo: "/brands/luckygem_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    
-  },
+
 
   {
     id: "GoldenPlay",
