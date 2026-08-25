@@ -67,7 +67,7 @@ export const brands: Brand[] = [
     url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
 
   {
