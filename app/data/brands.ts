@@ -57,7 +57,29 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
-
+  {
+    id: "Chanze",
+    name: "Chanze",
+    logo: "/brands/chanze_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
+    url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    
+  },
+  {
+    id: "MusBet",
+    name: "MusBet",
+    logo: "/brands/MusBet_dark.png",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 300% jusqu’à 1000 € +150 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=596&a=36&link_id=985&sub_id1=MusBet-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
   {
     id: "WinPlace",
     name: "WinPlace",
@@ -70,16 +92,27 @@ export const brands: Brand[] = [
     // badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
 
+  // {
+  //   id: "SpinFormula",
+  //   name: "SpinFormula",
+  //   logo: "/brands/Spinformula.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  // },
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    
   },
 
   {
@@ -95,30 +128,7 @@ export const brands: Brand[] = [
     
   },
 
-  {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
 
-  {
-    id: "Chanze",
-    name: "Chanze",
-    logo: "/brands/chanze_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
-    url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-    
-  },
 
   // {
   //   id: "Winzter",
