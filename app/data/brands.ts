@@ -57,18 +57,7 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
-  {
-    id: "Chanze",
-    name: "Chanze",
-    logo: "/brands/chanze_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
-    url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleur Offre", color: "#00F0FF" },
-    
-  },
+
   {
     id: "MusBet",
     name: "MusBet",
@@ -78,8 +67,22 @@ export const brands: Brand[] = [
     url: "https://bestcpa.online/click?o=596&a=36&link_id=985&sub_id1=MusBet-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
+
+  {
+    id: "Chanze",
+    name: "Chanze",
+    logo: "/brands/chanze_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
+    url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    
+  },
+
   {
     id: "WinPlace",
     name: "WinPlace",
@@ -115,18 +118,18 @@ export const brands: Brand[] = [
     
   },
 
-  {
-    id: "LuckyGem",
-    name: "LuckyGem",
-    logo: "/brands/luckygem_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // {
+  //   id: "LuckyGem",
+  //   name: "LuckyGem",
+  //   logo: "/brands/luckygem_dark.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+  //   url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
-  },
+  // },
 
 
 
