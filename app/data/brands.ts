@@ -59,17 +59,17 @@ export const brands: Brand[] = [
   // },
 
   {
-    id: "RoyalDogs",
-    name: "RoyalDogs",
-    logo: "/brands/royaldogs_dark.webp",
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue 250% jusqu’à 2500€",
-    url: "https://hawkaffiliates.cxclick.com/visit/?bta=35110&nci=5358&trackingcode=RoyalDogs-SL2FR9&afp=",
+    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
-
+  
   {
     id: "WinPlace",
     name: "WinPlace",
@@ -79,8 +79,22 @@ export const brands: Brand[] = [
     url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
+
+  {
+    id: "RoyalDogs",
+    name: "RoyalDogs",
+    logo: "/brands/royaldogs_dark.webp",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 250% jusqu’à 2500€",
+    url: "https://hawkaffiliates.cxclick.com/visit/?bta=35110&nci=5358&trackingcode=RoyalDogs-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
+
+
 
   {
     id: "Chanze",
@@ -94,6 +108,7 @@ export const brands: Brand[] = [
     // badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
   },
+  
   {
     id: "WinKingdom",
     name: "WinKingdom",
@@ -105,30 +120,21 @@ export const brands: Brand[] = [
     votes: 12450,
     
   },
-  {
-    id: "MusBet",
-    name: "MusBet",
-    logo: "/brands/Musbet_dark.png",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 300% jusqu’à 1000 € +150 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=596&a=36&link_id=985&sub_id1=MusBet-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
-
 
   // {
-  //   id: "SpinFormula",
-  //   name: "SpinFormula",
-  //   logo: "/brands/Spinformula.svg",
+  //   id: "MusBet",
+  //   name: "MusBet",
+  //   logo: "/brands/Musbet_dark.png",
   //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+  //   bonus: "Pack de Bienvenue 300% jusqu’à 1000 € +150 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=596&a=36&link_id=985&sub_id1=MusBet-SL2FR9&aff_click_id=",
   //   isMobile: true,
   //   votes: 12450,
-  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
   // },
+
+
+
 
 
   // {
