@@ -72,7 +72,7 @@ export const brands: Brand[] = [
   {
     id: "MusBet",
     name: "MusBet",
-    logo: "/brands/MusBet_dark.png",
+    logo: "/brands/Musbet_dark.png",
     rating: 9.8,
     bonus: "Pack de Bienvenue 300% jusqu’à 1000 € +150 Tours Gratuits",
     url: "https://bestcpa.online/click?o=596&a=36&link_id=985&sub_id1=MusBet-SL2FR9&aff_click_id=",
