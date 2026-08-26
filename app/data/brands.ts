@@ -83,29 +83,54 @@ export const brands: Brand[] = [
   },
 
   {
-    id: "RoyalDogs",
-    name: "RoyalDogs",
-    logo: "/brands/royaldogs_dark.webp",
+    id: "BetPortal",
+    name: "BetPortal",
+    logo: "/brands/betportal_dark.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue 250% jusqu’à 2500€",
-    url: "https://hawkaffiliates.cxclick.com/visit/?bta=35110&nci=5358&trackingcode=RoyalDogs-SL2FR9&afp=",
+    bonus: "Pack de Bienvenue 300% jusqu'à 1000€ + 150 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=597&a=36&link_id=866&sub_id1=BetPortal-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
 
   {
-    id: "LuckyGem",
-    name: "LuckyGem",
-    logo: "/brands/luckygem_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
+    id: "Betory",
+    name: "Betory",
+    logo: "/brands/betory.png",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 300% jusqu'à 3250€ + 225 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=601&a=36&sub_id1=Betory-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
     // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    
   },
+
+  // {
+  //   id: "RoyalDogs",
+  //   name: "RoyalDogs",
+  //   logo: "/brands/royaldogs_dark.webp",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 250% jusqu’à 2500€",
+  //   url: "https://hawkaffiliates.cxclick.com/visit/?bta=35110&nci=5358&trackingcode=RoyalDogs-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
+
+
+  // {
+  //   id: "LuckyGem",
+  //   name: "LuckyGem",
+  //   logo: "/brands/luckygem_dark.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+  //   url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    
+  // },
 
   // {
   //   id: "Chanze",
@@ -120,17 +145,17 @@ export const brands: Brand[] = [
     
   // },
 
-  {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "WinKingdom",
+  //   name: "WinKingdom",
+  //   logo: "/brands/winkingdom.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+  //   url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
 
   // {
   //   id: "MusBet",
@@ -569,17 +594,7 @@ export const brands: Brand[] = [
   //   
   // },
  
-  // {
-  //   id: "Betory",
-  //   name: "Betory",
-  //   logo: "/brands/betory.png",
-  //   rating: 9.8,
-  //   bonus: "300% jusqu'à 3250€",
-  //   url: "https://betorytrackers.com/d9c0p3tke?subid=BetNJet-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  // },
+
 
   // {
   //   id: "RxBet",
