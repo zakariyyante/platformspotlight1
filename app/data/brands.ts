@@ -90,7 +90,7 @@ export const brands: Brand[] = [
     logo: "/brands/royaldogs_dark.webp",
     rating: 9.8,
     bonus: "Pack de Bienvenue 250% jusqu’à 2500€",
-    url: "https://hawkaffiliates.cxclick.com/visit/?bta=35110&nci=5358&trackingcode=RoyalDogs-SL2FR9&afp=",
+    url: "https://hawkaffiliates.cxclick.com/visit/?bta=35110&nci=5358&utm_campaign=RoyalDogs-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
