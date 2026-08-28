@@ -57,6 +57,7 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
+
   {
     id: "LuckyGem",
     name: "LuckyGem",
@@ -75,7 +76,7 @@ export const brands: Brand[] = [
     name: "RunaCasino",
     logo: "/brands/runa.svg",
     rating: 9.8,
-    bonus: "Jusqu’à 2500€ + 600FS",
+    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600FS",
     url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
@@ -93,7 +94,6 @@ export const brands: Brand[] = [
     votes: 12450,
     
   },
-
 
   {
     id: "WinPlace",
