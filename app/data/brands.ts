@@ -71,6 +71,18 @@ export const brands: Brand[] = [
   },
 
   {
+    id: "RunaCasino",
+    name: "RunaCasino",
+    logo: "/brands/runa.svg",
+    rating: 9.8,
+    bonus: "Jusqu’à 2500€ + 600FS",
+    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  },
+
+  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -79,7 +91,7 @@ export const brands: Brand[] = [
     url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    
   },
 
 
@@ -96,17 +108,19 @@ export const brands: Brand[] = [
     // badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
 
-  {
-    id: "BetPortal",
-    name: "BetPortal",
-    logo: "/brands/betportal_dark.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 300% jusqu'à 1000€ + 150 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=597&a=36&link_id=866&sub_id1=BetPortal-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
+
+
+  // {
+  //   id: "BetPortal",
+  //   name: "BetPortal",
+  //   logo: "/brands/betportal_dark.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 300% jusqu'à 1000€ + 150 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=597&a=36&link_id=866&sub_id1=BetPortal-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // },
 
 
 
