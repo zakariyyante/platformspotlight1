@@ -58,21 +58,19 @@ export const brands: Brand[] = [
   //   votes: 12450,
   // },
 
-
   {
-    id: "Chanze",
-    name: "Chanze",
-    logo: "/brands/chanze_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
-    url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
+    id: "WinPlace",
+    name: "WinPlace",
+    logo: "/brands/winplacedark.png",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
+    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
     badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
-
-
 
   {
     id: "LuckyGem",
@@ -86,6 +84,22 @@ export const brands: Brand[] = [
     
     
   },
+  {
+    id: "Chanze",
+    name: "Chanze",
+    logo: "/brands/chanze_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
+    url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    
+  },
+
+
+
+
 
 
 
@@ -104,18 +118,7 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "WinPlace",
-    name: "WinPlace",
-    logo: "/brands/winplacedark.png",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
-    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
-  },
+
 
   {
     id: "SpinFormula",
