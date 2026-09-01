@@ -58,18 +58,6 @@ export const brands: Brand[] = [
   //   votes: 12450,
   // },
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleur Offre", color: "#00F0FF" },
-  },
-
-  {
     id: "LuckyGem",
     name: "LuckyGem",
     logo: "/brands/luckygem_dark.svg",
@@ -80,21 +68,6 @@ export const brands: Brand[] = [
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-  },
-
-  {
-    id: "GoldenPlay",
-    name: "GoldenPlay",
-    logo: "/brands/goldenplay_dark.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 100% jusqu’à 555€ + 100 Tours Gratuits",
-    url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR9&cid=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
- 
   },
 
   {
@@ -111,13 +84,54 @@ export const brands: Brand[] = [
     
   },
 
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  },
+
+
+
+  // {
+  //   id: "GoldenPlay",
+  //   name: "GoldenPlay",
+  //   logo: "/brands/goldenplay_dark.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 100% jusqu’à 555€ + 100 Tours Gratuits",
+  //   url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR9&cid=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+ 
+  // },
+
+  {
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
 
 
 
 
 
 
-    // {
+
+  // {
   //   id: "Chanze",
   //   name: "Chanze",
   //   logo: "/brands/chanze_dark.svg",
