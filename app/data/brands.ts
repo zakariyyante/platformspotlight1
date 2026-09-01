@@ -71,18 +71,18 @@ export const brands: Brand[] = [
   },
 
   {
-    id: "WinPlace",
-    name: "WinPlace",
-    logo: "/brands/winplacedark.png",
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
-    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
+    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
+
+
 
   {
     id: "SpinFormula",
@@ -96,7 +96,19 @@ export const brands: Brand[] = [
     // badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
 
-
+  {
+    id: "WinPlace",
+    name: "WinPlace",
+    logo: "/brands/winplacedark.png",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
+    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
 
   // {
   //   id: "GoldenPlay",
@@ -113,17 +125,7 @@ export const brands: Brand[] = [
  
   // },
 
-  {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
+
 
 
 
