@@ -59,17 +59,18 @@ export const brands: Brand[] = [
   // },
 
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    
   },
+
 
   {
     id: "MusBet",
@@ -83,19 +84,21 @@ export const brands: Brand[] = [
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
   },
 
-
-
+ 
   {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
+    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
+
+
 
 
   {
