@@ -57,17 +57,18 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 12450,
   // },
+
   {
-    id: "LuckyGem",
-    name: "LuckyGem",
-    logo: "/brands/luckygem_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
 
   {
@@ -83,18 +84,24 @@ export const brands: Brand[] = [
   },
 
 
-
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    id: "LuckyGem",
+    name: "LuckyGem",
+    logo: "/brands/luckygem_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    
+    
   },
+
+
+
+
+
+
 
   {
     id: "WinPlace",
@@ -127,22 +134,7 @@ export const brands: Brand[] = [
 
 
 
-
-
- {
-    id: "BetPortal",
-    name: "BetPortal",
-    logo: "/brands/betportal_dark.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 300% jusqu'à 1000€ + 150 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=597&a=36&link_id=866&sub_id1=BetPortal-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
-
-
-
+  
   {
     id: "Chanze",
     name: "Chanze",
