@@ -129,18 +129,18 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "WinKingdom",
-  //   name: "WinKingdom",
-  //   logo: "/brands/winkingdom.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-  //   url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
     
 
-  // },
+  },
 
 
 
@@ -191,18 +191,18 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "Chanze",
-    name: "Chanze",
-    logo: "/brands/chanze_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
-    url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  // {
+  //   id: "Chanze",
+  //   name: "Chanze",
+  //   logo: "/brands/chanze_dark.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
+  //   url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
-  },
+  // },
 
 
 
