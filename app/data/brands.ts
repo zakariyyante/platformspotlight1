@@ -59,33 +59,6 @@ export const brands: Brand[] = [
   // },
 
   {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  },
-
-
-  {
-    id: "MusBet",
-    name: "MusBet",
-    logo: "/brands/Musbet_dark.png",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 300% jusqu’à 1000 € +150 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=596&a=36&link_id=985&sub_id1=MusBet-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  },
-
- 
-  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -94,10 +67,9 @@ export const brands: Brand[] = [
     url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
-
 
 
 
@@ -114,12 +86,7 @@ export const brands: Brand[] = [
     
   },
 
-
-
-
-
-
-
+  
   {
     id: "WinPlace",
     name: "WinPlace",
@@ -133,6 +100,50 @@ export const brands: Brand[] = [
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
+
+  {
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+
+  },
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // {
+  //   id: "MusBet",
+  //   name: "MusBet",
+  //   logo: "/brands/Musbet_dark.png",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 300% jusqu’à 1000 € +150 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=596&a=36&link_id=985&sub_id1=MusBet-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  // },
 
   // {
   //   id: "GoldenPlay",
