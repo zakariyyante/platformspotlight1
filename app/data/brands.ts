@@ -72,6 +72,19 @@ export const brands: Brand[] = [
   },
 
 
+  {
+    id: "BetBluff",
+    name: "BetBluff",
+    logo: "/brands/betbluff.html",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-%7BSL2FR9%7D&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+
+  },
+
 
   {
     id: "LuckyGem",
@@ -86,7 +99,7 @@ export const brands: Brand[] = [
     
   },
 
-  
+
   {
     id: "WinPlace",
     name: "WinPlace",
@@ -117,7 +130,7 @@ export const brands: Brand[] = [
 
 
 
- 
+
 
 
 
