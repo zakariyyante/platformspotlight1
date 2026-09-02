@@ -71,33 +71,18 @@ export const brands: Brand[] = [
     // badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
 
-
+  
   {
-    id: "BetBluff",
-    name: "BetBluff",
-    logo: "/brands/betbluff.svg",
+    id: "RunaCasino",
+    name: "RunaCasino",
+    logo: "/brands/runa.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-%7BSL2FR9%7D&afp=",
+    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
 
-  },
-
-
-  
-  {
-    id: "LuckyGem",
-    name: "LuckyGem",
-    logo: "/brands/luckygem_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-    
   },
 
 
@@ -114,6 +99,35 @@ export const brands: Brand[] = [
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
+
+  {
+    id: "LuckyGem",
+    name: "LuckyGem",
+    logo: "/brands/luckygem_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+    
+  },
+
+
+  {
+    id: "BetBluff",
+    name: "BetBluff",
+    logo: "/brands/betbluff.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-%7BSL2FR9%7D&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+
+  },
+
+
 
   {
     id: "WinKingdom",
@@ -177,18 +191,18 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "Chanze",
-  //   name: "Chanze",
-  //   logo: "/brands/chanze_dark.svg",
-  //   rating: 9.9,
-  //   bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
-  //   url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  {
+    id: "Chanze",
+    name: "Chanze",
+    logo: "/brands/chanze_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
+    url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
-  // },
+  },
 
 
 
@@ -197,17 +211,7 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "RunaCasino",
-  //   name: "RunaCasino",
-  //   logo: "/brands/runa.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
-  //   url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  // },
+
 
 
 
