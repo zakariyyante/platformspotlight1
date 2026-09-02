@@ -123,7 +123,7 @@ export const brands: Brand[] = [
     logo: "/brands/betbluff.svg",
     rating: 9.8,
     bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-%7BSL2FR9%7D&afp=",
+    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     
