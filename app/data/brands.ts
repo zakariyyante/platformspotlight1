@@ -61,17 +61,17 @@ export const brands: Brand[] = [
 
 
   {
-    id: "LuckyGem",
-    name: "LuckyGem",
-    logo: "/brands/luckygem_dark.svg",
+    id: "TowerCasino",
+    name: "TowerCasino",
+    logo: "/brands/towercasino.png",
     rating: 9.9,
-    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
+    bonus: "Pack de Bienvenue 100% jusqu’à 2000€ + 300 Tours Gratuits",
+    url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR9&clickid=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  
     
-
   },
 
 
@@ -88,6 +88,25 @@ export const brands: Brand[] = [
     
     // badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
+
+
+  {
+    id: "LuckyGem",
+    name: "LuckyGem",
+    logo: "/brands/luckygem_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+
+  },
+
+
+
+
 
 
 
@@ -372,18 +391,18 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "Winzter",
-    name: "Winzter",
-    logo: "/brands/Winzter_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 450% jusqu’à 3000€",
-    url: "https://go.affililinks.com/visit/?bta=35328&nci=5351&utm_campaign=Winzter-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // {
+  //   id: "Winzter",
+  //   name: "Winzter",
+  //   logo: "/brands/Winzter_dark.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 450% jusqu’à 3000€",
+  //   url: "https://go.affililinks.com/visit/?bta=35328&nci=5351&utm_campaign=Winzter-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
-  },
+  // },
 
 
 
