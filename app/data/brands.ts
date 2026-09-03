@@ -69,8 +69,8 @@ export const brands: Brand[] = [
     url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR9&clickid=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
 
