@@ -58,20 +58,20 @@ export const brands: Brand[] = [
   //   votes: 12450,
   // },
 
-  
+
+
   {
-    id: "WinPlace",
-    name: "WinPlace",
-    logo: "/brands/winplacedark.png",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
-    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
+    id: "LuckyGem",
+    name: "LuckyGem",
+    logo: "/brands/luckygem_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
+
   },
 
 
@@ -92,33 +92,36 @@ export const brands: Brand[] = [
 
 
   {
-    id: "LuckyGem",
-    name: "LuckyGem",
-    logo: "/brands/luckygem_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-    url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-    
-  },
-
-
-
-
-  {
-    id: "RunaCasino",
-    name: "RunaCasino",
-    logo: "/brands/runa.svg",
+    id: "WinPlace",
+    name: "WinPlace",
+    logo: "/brands/winplacedark.png",
     rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+    bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
+    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     
-
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
   },
+
+
+
+
+
+  // {
+  //   id: "RunaCasino",
+  //   name: "RunaCasino",
+  //   logo: "/brands/runa.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+
+  // },
 
 
 
@@ -369,18 +372,18 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "Winzter",
-  //   name: "Winzter",
-  //   logo: "/brands/Winzter_dark.svg",
-  //   rating: 9.9,
-  //   bonus: "Pack de Bienvenue 450% jusqu’à 3000€",
-  //   url: "https://go.affililinks.com/visit/?bta=35328&nci=5351&utm_campaign=Winzter-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  {
+    id: "Winzter",
+    name: "Winzter",
+    logo: "/brands/Winzter_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 450% jusqu’à 3000€",
+    url: "https://go.affililinks.com/visit/?bta=35328&nci=5351&utm_campaign=Winzter-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
-  // },
+  },
 
 
 
