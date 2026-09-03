@@ -59,6 +59,20 @@ export const brands: Brand[] = [
   // },
 
   {
+    id: "RunaCasino",
+    name: "RunaCasino",
+    logo: "/brands/runa.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+
+  },
+
+
+  {
     id: "LuckyGem",
     name: "LuckyGem",
     logo: "/brands/luckygem_dark.svg",
@@ -67,7 +81,7 @@ export const brands: Brand[] = [
     url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
     
   },
 
@@ -99,7 +113,7 @@ export const brands: Brand[] = [
     
   },
 
-  
+
   {
     id: "BetBluff",
     name: "BetBluff",
@@ -114,18 +128,7 @@ export const brands: Brand[] = [
   },
 
 
-  {
-    id: "RunaCasino",
-    name: "RunaCasino",
-    logo: "/brands/runa.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
 
-  },
 
 
 
