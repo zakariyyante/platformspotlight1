@@ -58,20 +58,7 @@ export const brands: Brand[] = [
   //   votes: 12450,
   // },
 
-  {
-    id: "RunaCasino",
-    name: "RunaCasino",
-    logo: "/brands/runa.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-
-  },
-
-
+  
   {
     id: "WinPlace",
     name: "WinPlace",
@@ -81,10 +68,12 @@ export const brands: Brand[] = [
     url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
+
 
 
   {
@@ -114,6 +103,30 @@ export const brands: Brand[] = [
     
     
   },
+
+
+
+
+  {
+    id: "RunaCasino",
+    name: "RunaCasino",
+    logo: "/brands/runa.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+
+  },
+
+
+
+
+
+
+
+
 
 
 
