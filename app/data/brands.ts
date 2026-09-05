@@ -180,18 +180,18 @@ export const brands: Brand[] = [
 
  
 
-  {
-    id: "BetBluff",
-    name: "BetBluff",
-    logo: "/brands/betbluff.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "BetBluff",
+  //   name: "BetBluff",
+  //   logo: "/brands/betbluff.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+  //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
     
 
-  },
+  // },
 
 
 
@@ -223,7 +223,7 @@ export const brands: Brand[] = [
 
 
 
-    // {
+  //   {
   //   id: "MusBet",
   //   name: "MusBet",
   //   logo: "/brands/Musbet_dark.png",
@@ -253,18 +253,18 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "Chanze",
-  //   name: "Chanze",
-  //   logo: "/brands/chanze_dark.svg",
-  //   rating: 9.9,
-  //   bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
-  //   url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  {
+    id: "Chanze",
+    name: "Chanze",
+    logo: "/brands/chanze_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
+    url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
-  // },
+  },
 
 
 
