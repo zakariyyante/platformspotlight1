@@ -88,18 +88,33 @@ export const brands: Brand[] = [
 
   },
 
+
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+
   },
+
+
+  // {
+  //   id: "SpinFormula",
+  //   name: "SpinFormula",
+  //   logo: "/brands/Spinformula.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  // },
 
 
 
@@ -165,41 +180,29 @@ export const brands: Brand[] = [
 
  
 
-  // {
-  //   id: "BetBluff",
-  //   name: "BetBluff",
-  //   logo: "/brands/betbluff.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-  //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-
-  // },
-
-
-
-
-
-
-
-
-
-
-
   {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
+    id: "BetBluff",
+    name: "BetBluff",
+    logo: "/brands/betbluff.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
+    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     
 
   },
+
+
+
+
+
+
+
+
+
+
+
 
 
 
