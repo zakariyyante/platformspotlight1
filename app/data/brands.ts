@@ -75,18 +75,18 @@ export const brands: Brand[] = [
   },
 
 
-
+  
   {
-    id: "BetBluff",
-    name: "BetBluff",
-    logo: "/brands/betbluff.svg",
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
+    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     
-
+    
   },
 
 
@@ -105,19 +105,35 @@ export const brands: Brand[] = [
   },
 
 
-
   {
-    id: "RunaCasino",
-    name: "RunaCasino",
-    logo: "/brands/runa.svg",
+    id: "BetBluff",
+    name: "BetBluff",
+    logo: "/brands/betbluff.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     
 
   },
+
+
+
+
+
+  // {
+  //   id: "RunaCasino",
+  //   name: "RunaCasino",
+  //   logo: "/brands/runa.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+
+  // },
 
   // {
   //   id: "WinKingdom",
@@ -133,18 +149,6 @@ export const brands: Brand[] = [
   // },
 
 
-  // {
-  //   id: "SpinFormula",
-  //   name: "SpinFormula",
-  //   logo: "/brands/Spinformula.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
-  // },
 
 
 
