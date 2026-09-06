@@ -74,6 +74,22 @@ export const brands: Brand[] = [
     
   },
 
+
+
+  {
+    id: "BetBluff",
+    name: "BetBluff",
+    logo: "/brands/betbluff.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+
+  },
+
+
   {
     id: "LuckyGem",
     name: "LuckyGem",
@@ -89,18 +105,32 @@ export const brands: Brand[] = [
   },
 
 
+
   {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
+    id: "RunaCasino",
+    name: "RunaCasino",
+    logo: "/brands/runa.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
+    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
     
 
   },
+
+  // {
+  //   id: "WinKingdom",
+  //   name: "WinKingdom",
+  //   logo: "/brands/winkingdom.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+  //   url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+
+  // },
 
 
   // {
@@ -178,22 +208,6 @@ export const brands: Brand[] = [
 
 
 
- 
-
-  // {
-  //   id: "BetBluff",
-  //   name: "BetBluff",
-  //   logo: "/brands/betbluff.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-  //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-
-  // },
-
-
 
 
 
@@ -253,18 +267,18 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "Chanze",
-    name: "Chanze",
-    logo: "/brands/chanze_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
-    url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  // {
+  //   id: "Chanze",
+  //   name: "Chanze",
+  //   logo: "/brands/chanze_dark.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 650% jusqu’à 6500€",
+  //   url: "https://go.affililinks.com/visit/?bta=35328&nci=5352&utm_campaign=Chanze-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
-  },
+  // },
 
 
 
