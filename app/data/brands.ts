@@ -105,31 +105,31 @@ export const brands: Brand[] = [
   },
 
 
-  {
-    id: "Winzter",
-    name: "Winzter",
-    logo: "/brands/Winzter_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 450% jusqu’à 3000€",
-    url: "https://go.affililinks.com/visit/?bta=35328&nci=5351&utm_campaign=Winzter-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // {
+  //   id: "Winzter",
+  //   name: "Winzter",
+  //   logo: "/brands/Winzter_dark.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 450% jusqu’à 3000€",
+  //   url: "https://go.affililinks.com/visit/?bta=35328&nci=5351&utm_campaign=Winzter-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
-  },
+  // },
 
-  {
-    id: "BetBluff",
-    name: "BetBluff",
-    logo: "/brands/betbluff.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "BetBluff",
+  //   name: "BetBluff",
+  //   logo: "/brands/betbluff.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+  //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
     
 
-  },
+  // },
 
 
 
@@ -255,20 +255,20 @@ export const brands: Brand[] = [
     
   // },
 
-  // {
-  //   id: "GoldenPlay",
-  //   name: "GoldenPlay",
-  //   logo: "/brands/goldenplay_dark.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 100% jusqu’à 555€ + 100 Tours Gratuits",
-  //   url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR9&cid=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  {
+    id: "GoldenPlay",
+    name: "GoldenPlay",
+    logo: "/brands/goldenplay_dark.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 100% jusqu’à 555€ + 100 Tours Gratuits",
+    url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR9&cid=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
  
-  // },
+  },
 
 
 
@@ -505,21 +505,21 @@ export const brands: Brand[] = [
   //   url: "https://golobetlive.com/t4y2yuizy?subid=GoloBet-SL2FR9&visit_id=",
   //   isMobile: true,
   //   votes: 12450,
-  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
   // },
 
-  // {
-  //   id: "BravoPlay",
-  //   name: "BravoPlay",
-  //   logo: "/brands/bravoplay.svg",
-  //   rating: 9.8,
-  //   bonus: "Jusqu'à 5000€ + 150FS",
-  //   url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "BravoPlay",
+    name: "BravoPlay",
+    logo: "/brands/bravoplay.svg",
+    rating: 9.8,
+    bonus: "Jusqu'à 5000€ + 150FS",
+    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
     
-  // }
-  // ,
+  }
+  ,
 
 
   
