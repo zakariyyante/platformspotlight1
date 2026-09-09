@@ -75,7 +75,19 @@ export const brands: Brand[] = [
     
   // },
 
+  {
+    id: "LuckyGem",
+    name: "LuckyGem",
+    logo: "/brands/luckygem_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
 
+  },
 
   {
     id: "TowerCasino",
@@ -87,7 +99,7 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
     // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
     
   },
 
@@ -121,31 +133,19 @@ export const brands: Brand[] = [
     
   // },
 
-  {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-  },
-
   // {
-  //   id: "LuckyGem",
-  //   name: "LuckyGem",
-  //   logo: "/brands/luckygem_dark.svg",
-  //   rating: 9.9,
-  //   bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-  //   url: "https://luckygemplay.com/tmorahfie?subid=LuckyGem-SL2FR9&visit_id=",
+  //   id: "WinKingdom",
+  //   name: "WinKingdom",
+  //   logo: "/brands/winkingdom.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+  //   url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
   //   isMobile: true,
   //   votes: 12450,
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-
   // },
+
+
 
 
   // {
