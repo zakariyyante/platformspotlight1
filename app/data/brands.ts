@@ -95,7 +95,20 @@ export const brands: Brand[] = [
     
   },
 
-
+  {
+    id: "Wolf",
+    name: "Wolf",
+    logo: "/brands/wolf.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 400% jusqu’à 10000€ + 300 Tours Gratuits",
+    url: "https://wolfaffiliates.app/aux1oxdui?subid=Wolf-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
 
   // {
   //   id: "WinKingdom",
@@ -196,20 +209,7 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "Wolf",
-  //   name: "Wolf",
-  //   logo: "/brands/wolf.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 400% jusqu’à 10000€ + 300 Tours Gratuits",
-  //   url: "https://wolfaffiliates.app/aux1oxdui?subid=Wolf-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  // },
+
 
 
 
