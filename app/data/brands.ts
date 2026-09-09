@@ -62,18 +62,18 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // {
+  //   id: "SpinFormula",
+  //   name: "SpinFormula",
+  //   logo: "/brands/Spinformula.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   
     
-  },
+  // },
 
 
 
@@ -87,7 +87,7 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
     // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
 
@@ -106,32 +106,32 @@ export const brands: Brand[] = [
     
   },
 
-  {
-    id: "Wolf",
-    name: "Wolf",
-    logo: "/brands/wolf.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 400% jusqu’à 10000€ + 300 Tours Gratuits",
-    url: "https://wolfaffiliates.app/aux1oxdui?subid=Wolf-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  },
-
   // {
-  //   id: "WinKingdom",
-  //   name: "WinKingdom",
-  //   logo: "/brands/winkingdom.svg",
+  //   id: "Wolf",
+  //   name: "Wolf",
+  //   logo: "/brands/wolf.svg",
   //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-  //   url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
+  //   bonus: "Pack de Bienvenue 400% jusqu’à 10000€ + 300 Tours Gratuits",
+  //   url: "https://wolfaffiliates.app/aux1oxdui?subid=Wolf-SL2FR9&visit_id=",
   //   isMobile: true,
   //   votes: 12450,
     
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
   // },
+
+  {
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
 
   // {
   //   id: "LuckyGem",
@@ -215,20 +215,20 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "WinPlace",
-  //   name: "WinPlace",
-  //   logo: "/brands/winplacedark.png",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
-  //   url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "WinPlace",
+    name: "WinPlace",
+    logo: "/brands/winplacedark.png",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
+    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
     
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-  // },
+  },
 
 
 
