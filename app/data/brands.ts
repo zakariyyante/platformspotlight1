@@ -75,6 +75,19 @@ export const brands: Brand[] = [
     
   // },
 
+  {
+    id: "LuckyGem",
+    name: "LuckyGem",
+    logo: "/brands/luckygem_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+
+  },
 
   {
     id: "TowerCasino",
@@ -86,10 +99,25 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
     // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
     
   },
 
+  {
+    id: "VillaSpin",
+    name: "VillaSpin",
+    logo: "/brands/villaspin.webp",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 500% jusqu'à 15000€ + 500 Tours Gratuits",
+    url: "https://go.drctvoodoo.com/click?pid=6&offer_id=731&sub_id1=VillaSpin-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
+  
   {
     id: "Wildies",
     name: "Wildies",
@@ -106,19 +134,7 @@ export const brands: Brand[] = [
   },
 
 
-  {
-    id: "LuckyGem",
-    name: "LuckyGem",
-    logo: "/brands/luckygem_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
 
-  },
 
 
 
@@ -221,20 +237,20 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "WinPlace",
-    name: "WinPlace",
-    logo: "/brands/winplacedark.png",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
-    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "WinPlace",
+  //   name: "WinPlace",
+  //   logo: "/brands/winplacedark.png",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
+  //   url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-  },
+  // },
 
 
 
