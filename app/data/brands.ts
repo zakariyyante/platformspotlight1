@@ -75,37 +75,6 @@ export const brands: Brand[] = [
     
   // },
 
-
-
-  {
-    id: "TowerCasino",
-    name: "TowerCasino",
-    logo: "/brands/towercasino.png",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 100% jusqu’à 2000€ + 300 Tours Gratuits",
-    url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR9&clickid=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  },
-
-  {
-    id: "VillaSpin",
-    name: "VillaSpin",
-    logo: "/brands/villaspin.webp",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 500% jusqu'à 15000€ + 500 Tours Gratuits",
-    url: "https://go.drctvoodoo.com/click?pid=6&offer_id=731&sub_id1=VillaSpin-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  },
-  
   {
     id: "LuckyGem",
     name: "LuckyGem",
@@ -117,8 +86,38 @@ export const brands: Brand[] = [
     votes: 12450,
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
-
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
+
+  {
+    id: "TowerCasino",
+    name: "TowerCasino",
+    logo: "/brands/towercasino.png",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 100% jusqu’à 2000€ + 300 Tours Gratuits",
+    url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR9&clickid=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    
+    
+  },
+
+  // {
+  //   id: "VillaSpin",
+  //   name: "VillaSpin",
+  //   logo: "/brands/villaspin.webp",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 500% jusqu'à 15000€ + 500 Tours Gratuits",
+  //   url: "https://go.drctvoodoo.com/click?pid=6&offer_id=731&sub_id1=VillaSpin-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  // },
+
 
 
   {
@@ -139,6 +138,18 @@ export const brands: Brand[] = [
 
 
 
+  {
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+
+  },
 
 
 
@@ -216,18 +227,6 @@ export const brands: Brand[] = [
 
   // },
 
-  // {
-  //   id: "WinKingdom",
-  //   name: "WinKingdom",
-  //   logo: "/brands/winkingdom.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-  //   url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-
-  // },
 
 
 
