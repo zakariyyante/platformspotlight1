@@ -120,22 +120,35 @@ export const brands: Brand[] = [
 
 
 
+  // {
+  //   id: "Wildies",
+  //   name: "Wildies",
+  //   logo: "/brands/wildies.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 400% jusqu'à 3500€ + 150 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=556&a=36&link_id=1021&sub_id1=Wildies-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  // },
+
   {
-    id: "Wildies",
-    name: "Wildies",
-    logo: "/brands/wildies.svg",
+    id: "WinPlace",
+    name: "WinPlace",
+    logo: "/brands/winplacedark.png",
     rating: 9.8,
-    bonus: "Pack de Bienvenue 400% jusqu'à 3500€ + 150 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=556&a=36&link_id=1021&sub_id1=Wildies-SL2FR9&aff_click_id=",
+    bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
+    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
-
-
 
 
   {
@@ -239,20 +252,7 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "WinPlace",
-  //   name: "WinPlace",
-  //   logo: "/brands/winplacedark.png",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
-  //   url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  // },
+
 
 
 
