@@ -76,6 +76,35 @@ export const brands: Brand[] = [
   // },
 
   {
+    id: "TowerCasino",
+    name: "TowerCasino",
+    logo: "/brands/towercasino.png",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 100% jusqu’à 2000€ + 300 Tours Gratuits",
+    url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR9&clickid=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
+
+  {
+    id: "WinPlace",
+    name: "WinPlace",
+    logo: "/brands/winplacedark.png",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
+    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
+
+  {
     id: "LuckyGem",
     name: "LuckyGem",
     logo: "/brands/luckygem_dark.svg",
@@ -86,22 +115,10 @@ export const brands: Brand[] = [
     votes: 12450,
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
   },
 
-  {
-    id: "TowerCasino",
-    name: "TowerCasino",
-    logo: "/brands/towercasino.png",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 100% jusqu’à 2000€ + 300 Tours Gratuits",
-    url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR9&clickid=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    
-    
-  },
+
 
   // {
   //   id: "VillaSpin",
@@ -135,20 +152,7 @@ export const brands: Brand[] = [
     
   // },
 
-  {
-    id: "WinPlace",
-    name: "WinPlace",
-    logo: "/brands/winplacedark.png",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 14000€ + 300 Tours Gratuits",
-    url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  },
+
 
 
   {
