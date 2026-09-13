@@ -58,23 +58,6 @@ export const brands: Brand[] = [
   //   votes: 12450,
   // },
 
-
-
-  {
-    id: "TowerCasino",
-    name: "TowerCasino",
-    logo: "/brands/towercasino.png",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 100% jusqu’à 2000€ + 300 Tours Gratuits",
-    url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR9&clickid=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    
-    
-  },
-
-
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -87,6 +70,11 @@ export const brands: Brand[] = [
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
+
+
+
+
+
 
   {
     id: "LuckyGem",
@@ -103,7 +91,20 @@ export const brands: Brand[] = [
   },
 
 
-
+  {
+    id: "Wildies",
+    name: "Wildies",
+    logo: "/brands/wildies.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 400% jusqu'à 3500€ + 150 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=556&a=36&link_id=1021&sub_id1=Wildies-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
 
 
   {
@@ -123,7 +124,19 @@ export const brands: Brand[] = [
 
 
 
-
+  // {
+  //   id: "TowerCasino",
+  //   name: "TowerCasino",
+  //   logo: "/brands/towercasino.png",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 100% jusqu’à 2000€ + 300 Tours Gratuits",
+  //   url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR9&clickid=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    
+    
+  // },
 
 
 
@@ -144,20 +157,7 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "Wildies",
-  //   name: "Wildies",
-  //   logo: "/brands/wildies.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 400% jusqu'à 3500€ + 150 Tours Gratuits",
-  //   url: "https://bestcpa.online/click?o=556&a=36&link_id=1021&sub_id1=Wildies-SL2FR9&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  // },
+
 
 
 
