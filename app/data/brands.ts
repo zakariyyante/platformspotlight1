@@ -78,6 +78,20 @@ export const brands: Brand[] = [
   // },
 
   {
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+    url: "https://winkingdom.media/n1ol6qkvws?subid=WinKingdom-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+
+  },
+
+
+  {
     id: "WinPlace",
     name: "WinPlace",
     logo: "/brands/winplacedark.png",
@@ -121,18 +135,7 @@ export const brands: Brand[] = [
   },
 
 
-  {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-    url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
 
-  },
 
 
 
