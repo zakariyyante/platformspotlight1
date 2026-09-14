@@ -62,6 +62,20 @@ export const brands: Brand[] = [
 
 
 
+  {
+    id: "Wildies",
+    name: "Wildies",
+    logo: "/brands/wildies.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 400% jusqu'à 3500€ + 150 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=556&a=36&link_id=1021&sub_id1=Wildies-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
 
 
 
@@ -79,6 +93,21 @@ export const brands: Brand[] = [
     
   },
 
+
+  // {
+  //   id: "WinKingdom",
+  //   name: "WinKingdom",
+  //   logo: "/brands/winkingdom.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+  //   url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+
+  // },
+
+
   {
     id: "WinPlace",
     name: "WinPlace",
@@ -94,20 +123,7 @@ export const brands: Brand[] = [
    
   },
 
-  {
-    id: "Wildies",
-    name: "Wildies",
-    logo: "/brands/wildies.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 400% jusqu'à 3500€ + 150 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=556&a=36&link_id=1021&sub_id1=Wildies-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  },
+
 
   {
     id: "SpinFormula",
@@ -163,18 +179,6 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "WinKingdom",
-  //   name: "WinKingdom",
-  //   logo: "/brands/winkingdom.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-  //   url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-
-  // },
 
 
 
@@ -194,17 +198,7 @@ export const brands: Brand[] = [
     
   // },
 
-  // {
-  //   id: "WinKingdom",
-  //   name: "WinKingdom",
-  //   logo: "/brands/winkingdom.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-  //   url: "https://winkingdom.media/n11npxcmmu?subid=Winkingdom-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  // },
+
 
 
 
