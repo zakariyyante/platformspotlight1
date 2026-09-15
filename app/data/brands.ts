@@ -91,7 +91,18 @@ export const brands: Brand[] = [
   //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
    
   // },
-
+  {
+    id: "BravoPlay",
+    name: "BravoPlay",
+    logo: "/brands/bravoplay.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu'à 5000€ + 150 Tours Gratuits",
+    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  }
+  ,
 
   {
     id: "SpinFormula",
@@ -104,20 +115,6 @@ export const brands: Brand[] = [
     votes: 12450,
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-  },
-
-
-  {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-    url: "https://winkingdom.media/n1ol6qkvws?subid=WinKingdom-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-
   },
 
   {
@@ -133,6 +130,21 @@ export const brands: Brand[] = [
     
     
   },
+
+  {
+    id: "WinKingdom",
+    name: "WinKingdom",
+    logo: "/brands/winkingdom.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+    url: "https://winkingdom.media/n1ol6qkvws?subid=WinKingdom-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+
+  },
+
+
 
 
 
@@ -600,18 +612,7 @@ export const brands: Brand[] = [
   //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
   // },
 
-  {
-    id: "BravoPlay",
-    name: "BravoPlay",
-    logo: "/brands/bravoplay.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu'à 5000€ + 150 Tours Gratuits",
-    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    
-  }
-  ,
+
 
 
   
