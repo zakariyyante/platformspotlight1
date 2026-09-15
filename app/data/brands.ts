@@ -114,7 +114,7 @@ export const brands: Brand[] = [
     url: "https://rollyspin19.net/dtack2gez?subid=RollySpin-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
     
   },
