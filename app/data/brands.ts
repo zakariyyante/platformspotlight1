@@ -105,6 +105,21 @@ export const brands: Brand[] = [
 
   },
 
+  {
+    id: "RollySpin",
+    name: "RollySpin",
+    logo: "/brands/rollyspin.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 425% jusqu'à 5500€ + 525 Tours Gratuits",
+    url: "https://rollyspin19.net/dtack2gez?subid=RollySpin-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    
+    
+  },
+
+
 
 
 
@@ -223,18 +238,18 @@ export const brands: Brand[] = [
     
   // },
 
-  {
-    id: "BetBluff",
-    name: "BetBluff",
-    logo: "/brands/betbluff.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "BetBluff",
+  //   name: "BetBluff",
+  //   logo: "/brands/betbluff.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+  //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
     
 
-  },
+  // },
 
 
 
