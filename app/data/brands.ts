@@ -104,32 +104,32 @@ export const brands: Brand[] = [
   }
   ,
 
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // {
+  //   id: "SpinFormula",
+  //   name: "SpinFormula",
+  //   logo: "/brands/Spinformula.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-  },
+  // },
 
-  {
-    id: "RollySpin",
-    name: "RollySpin",
-    logo: "/brands/rollyspin.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 425% jusqu'à 5500€ + 525 Tours Gratuits",
-    url: "https://rollyspin19.net/dtack2gez?subid=RollySpin-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // {
+  //   id: "RollySpin",
+  //   name: "RollySpin",
+  //   logo: "/brands/rollyspin.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 425% jusqu'à 5500€ + 525 Tours Gratuits",
+  //   url: "https://rollyspin19.net/dtack2gez?subid=RollySpin-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
     
-  },
+  // },
 
   {
     id: "WinKingdom",
@@ -151,37 +151,50 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "LuckyGem",
-  //   name: "LuckyGem",
-  //   logo: "/brands/luckygem_dark.svg",
-  //   rating: 9.9,
-  //   bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-  //   url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  // },
-
-
   {
-    id: "RunaCasino",
-    name: "RunaCasino",
-    logo: "/brands/runa.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+    id: "LuckyGem",
+    name: "LuckyGem",
+    logo: "/brands/luckygem_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-
   },
 
 
+  // {
+  //   id: "RunaCasino",
+  //   name: "RunaCasino",
+  //   logo: "/brands/runa.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+
+  // },
 
 
+
+  {
+    id: "GambleGorilla",
+    name: "GambleGorilla",
+    logo: "/brands/gamblegorilla.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+    url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
 
 
 
