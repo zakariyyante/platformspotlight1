@@ -91,64 +91,22 @@ export const brands: Brand[] = [
   //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
    
   // },
+
+
   {
-    id: "BravoPlay",
-    name: "BravoPlay",
-    logo: "/brands/bravoplay.svg",
+    id: "GambleGorilla",
+    name: "GambleGorilla",
+    logo: "/brands/gamblegorilla.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu'à 5000€ + 150 Tours Gratuits",
-    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+    url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     
-  }
-  ,
-
-  // {
-  //   id: "SpinFormula",
-  //   name: "SpinFormula",
-  //   logo: "/brands/Spinformula.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-  // },
-
-  // {
-  //   id: "RollySpin",
-  //   name: "RollySpin",
-  //   logo: "/brands/rollyspin.svg",
-  //   rating: 9.9,
-  //   bonus: "Pack de Bienvenue 425% jusqu'à 5500€ + 525 Tours Gratuits",
-  //   url: "https://rollyspin19.net/dtack2gez?subid=RollySpin-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    
-    
-  // },
-
-  {
-    id: "WinKingdom",
-    name: "WinKingdom",
-    logo: "/brands/winkingdom.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
-    url: "https://winkingdom.media/n1ol6qkvws?subid=WinKingdom-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-
   },
-
-
-
-
-
-
 
 
   {
@@ -166,6 +124,68 @@ export const brands: Brand[] = [
   },
 
 
+  {
+    id: "BravoPlay",
+    name: "BravoPlay",
+    logo: "/brands/bravoplay.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu'à 5000€ + 150 Tours Gratuits",
+    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  }
+  ,
+
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
+
+  // {
+  //   id: "RollySpin",
+  //   name: "RollySpin",
+  //   logo: "/brands/rollyspin.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 425% jusqu'à 5500€ + 525 Tours Gratuits",
+  //   url: "https://rollyspin19.net/dtack2gez?subid=RollySpin-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    
+    
+  // },
+
+  // {
+  //   id: "WinKingdom",
+  //   name: "WinKingdom",
+  //   logo: "/brands/winkingdom.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue Jusqu’à 2000€ + 100 Tours Gratuits",
+  //   url: "https://winkingdom.media/n1ol6qkvws?subid=WinKingdom-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+
+  // },
+
+
+
+
+
+
+
+
+
+
   // {
   //   id: "RunaCasino",
   //   name: "RunaCasino",
@@ -181,20 +201,7 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "GambleGorilla",
-    name: "GambleGorilla",
-    logo: "/brands/gamblegorilla.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  },
+
 
 
 
