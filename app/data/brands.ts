@@ -148,6 +148,20 @@ export const brands: Brand[] = [
     votes: 12450,
   },
 
+
+  {
+    id: "EmberBet",
+    name: "EmberBet",
+    logo: "/brands/emberbet.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 350% jusqu’à 2000€ + 1000 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=542&a=36&sub_id1=SpinMillion-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+
+
+  },
+
   // {
   //   id: "BravoPlay",
   //   name: "BravoPlay",
