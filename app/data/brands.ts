@@ -136,18 +136,30 @@ export const brands: Brand[] = [
     
   },
 
+
   {
-    id: "BravoPlay",
-    name: "BravoPlay",
-    logo: "/brands/bravoplay.svg",
+    id: "SpinMillion",
+    name: "SpinMillion",
+    logo: "/brands/spinmillion.webp",
     rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu'à 5000€ + 150 Tours Gratuits",
-    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    bonus: "Pack de Bienvenue 100% jusqu’à 750€ + 100 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=542&a=36&sub_id1=SpinMillion-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
+  },
+
+  // {
+  //   id: "BravoPlay",
+  //   name: "BravoPlay",
+  //   logo: "/brands/bravoplay.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue Jusqu'à 5000€ + 150 Tours Gratuits",
+  //   url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  }
-  ,
+  // }
+  // ,
 
 
 
@@ -1045,16 +1057,7 @@ export const brands: Brand[] = [
   //   votes: 12450,
   // },
 
-  // {
-  //   id: "SpinMillion",
-  //   name: "SpinMillion",
-  //   logo: "/brands/spinmillion.webp",
-  //   rating: 9.8,
-  //   bonus: "100% jusqu’à 750€ + 100 TG + 3x Roue de la Fortune",
-  //   url: "https://bestcpa.online/click?o=542&a=36&sub_id1=SpinMillion-SL2FR9&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  // },
+
 
   {
     id: "bwin",
