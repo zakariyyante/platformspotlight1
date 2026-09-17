@@ -93,6 +93,18 @@ export const brands: Brand[] = [
   // },
 
   {
+    id: "Lussurio",
+    name: "Lussurio",
+    logo: "/brands/lussiro.png",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 550% jusqu’à 3485€ + 400 Tours Gratuits",
+    url: "https://lussurios.com/afweyuz2fh?subid=Lussurio-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
+
+  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -140,16 +152,16 @@ export const brands: Brand[] = [
  
 
 
-  {
-    id: "SpinMillion",
-    name: "SpinMillion",
-    logo: "/brands/spinmillion.webp",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 100% jusqu’à 750€ + 100 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=542&a=36&sub_id1=SpinMillion-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-  },
+  // {
+  //   id: "SpinMillion",
+  //   name: "SpinMillion",
+  //   logo: "/brands/spinmillion.webp",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 100% jusqu’à 750€ + 100 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=542&a=36&sub_id1=SpinMillion-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  // },
 
 
   // {
@@ -180,19 +192,19 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "RollySpin",
-  //   name: "RollySpin",
-  //   logo: "/brands/rollyspin.svg",
-  //   rating: 9.9,
-  //   bonus: "Pack de Bienvenue 425% jusqu'à 5500€ + 525 Tours Gratuits",
-  //   url: "https://rollyspin19.net/dtack2gez?subid=RollySpin-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  {
+    id: "RollySpin",
+    name: "RollySpin",
+    logo: "/brands/rollyspin.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 425% jusqu'à 5500€ + 525 Tours Gratuits",
+    url: "https://rollyspin19.net/dtack2gez?subid=RollySpin-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
     
-  // },
+  },
 
   // {
   //   id: "WinKingdom",
