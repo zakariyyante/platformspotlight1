@@ -131,20 +131,20 @@ export const brands: Brand[] = [
     
   },
   
-  {
-    id: "GambleGorilla",
-    name: "GambleGorilla",
-    logo: "/brands/gamblegorilla.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "GambleGorilla",
+  //   name: "GambleGorilla",
+  //   logo: "/brands/gamblegorilla.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+  //   url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-  },
+  // },
 
 
 
