@@ -110,7 +110,7 @@ export const brands: Brand[] = [
   {
     id: "Lussurio",
     name: "Lussurio",
-    logo: "/brands/lussuiro_logo.webp",
+    logo: "/brands/lussurio_logo.webp",
     rating: 9.8,
     bonus: "Pack de Bienvenue 550% jusqu’à 3485€ + 400 Tours Gratuits",
     url: "https://lussurios.com/afweyuz2fh?subid=Lussurio-SL2FR9&visit_id=",
