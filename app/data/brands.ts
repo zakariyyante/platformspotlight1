@@ -115,7 +115,7 @@ export const brands: Brand[] = [
     bonus: "Pack de Bienvenue 550% jusqu’à 3485€ + 400 Tours Gratuits",
     url: "https://lussurios.com/afweyuz2fh?subid=Lussurio-SL2FR9&visit_id=",
     isMobile: true,
-    votes: 12450,
+    votes: 12451,
     
   },
 
