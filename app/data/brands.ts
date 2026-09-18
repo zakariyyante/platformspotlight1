@@ -93,18 +93,6 @@ export const brands: Brand[] = [
   // },
 
   {
-    id: "Lussurio",
-    name: "Lussurio",
-    logo: "/brands/lussiro.png",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 550% jusqu’à 3485€ + 400 Tours Gratuits",
-    url: "https://lussurios.com/afweyuz2fh?subid=Lussurio-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
-
-  {
     id: "RollySpin",
     name: "RollySpin",
     logo: "/brands/rollyspin.svg",
@@ -114,9 +102,24 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
     // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
+
+
+  {
+    id: "Lussurio",
+    name: "Lussurio",
+    logo: "/brands/lussiro_logo.webp",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 550% jusqu’à 3485€ + 400 Tours Gratuits",
+    url: "https://lussurios.com/afweyuz2fh?subid=Lussurio-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  },
+
+
 
 
   {
