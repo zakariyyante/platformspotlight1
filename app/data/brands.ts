@@ -104,6 +104,19 @@ export const brands: Brand[] = [
   },
 
   {
+    id: "RunaCasino",
+    name: "RunaCasino",
+    logo: "/brands/runa.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+
+  },
+
+  {
     id: "RollySpin",
     name: "RollySpin",
     logo: "/brands/rollyspin.svg",
@@ -233,18 +246,7 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "RunaCasino",
-  //   name: "RunaCasino",
-  //   logo: "/brands/runa.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
-  //   url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
 
-  // },
 
 
 
@@ -348,18 +350,7 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "RunaCasino",
-  //   name: "RunaCasino",
-  //   logo: "/brands/runa.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
-  //   url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
 
-  // },
 
 
 
