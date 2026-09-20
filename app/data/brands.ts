@@ -112,7 +112,7 @@ export const brands: Brand[] = [
     url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
-    
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
 
   },
 
