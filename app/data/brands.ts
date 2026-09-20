@@ -104,6 +104,20 @@ export const brands: Brand[] = [
   // },
 
   {
+    id: "RunaCasino",
+    name: "RunaCasino",
+    logo: "/brands/runa.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+
+  },
+
+
+  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -117,20 +131,20 @@ export const brands: Brand[] = [
   },
 
 
-  {
-    id: "GambleGorilla",
-    name: "GambleGorilla",
-    logo: "/brands/gamblegorilla.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "GambleGorilla",
+  //   name: "GambleGorilla",
+  //   logo: "/brands/gamblegorilla.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+  //   url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-  },
+  // },
 
   {
     id: "RollySpin",
