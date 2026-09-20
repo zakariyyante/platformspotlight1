@@ -103,18 +103,18 @@ export const brands: Brand[] = [
     
   // },
 
-  {
-    id: "RunaCasino",
-    name: "RunaCasino",
-    logo: "/brands/runa.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // {
+  //   id: "RunaCasino",
+  //   name: "RunaCasino",
+  //   logo: "/brands/runa.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
 
-  },
+  // },
 
 
   {
@@ -234,18 +234,18 @@ export const brands: Brand[] = [
 
   // },
 
-  // {
-  //   id: "BravoPlay",
-  //   name: "BravoPlay",
-  //   logo: "/brands/bravoplay.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue Jusqu'à 5000€ + 150 Tours Gratuits",
-  //   url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "BravoPlay",
+    name: "BravoPlay",
+    logo: "/brands/bravoplay.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue Jusqu'à 5000€ + 150 Tours Gratuits",
+    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
     
-  // }
-  // ,
+  }
+  ,
 
 
 
