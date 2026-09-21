@@ -152,7 +152,7 @@ export const brands: Brand[] = [
     url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleure Offre", color: "#a020f0" },
+    badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
   },
 
