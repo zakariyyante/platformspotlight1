@@ -139,7 +139,20 @@ export const brands: Brand[] = [
     url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
+
+  {
+    id: "Kingia",
+    name: "Kingia",
+    logo: "/brands/Kingia.png",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 440% jusqu’à 15000€ + 440 Tours Gratuits",
+    url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleure Offre", color: "#a020f0" },
     
   },
 
@@ -189,6 +202,7 @@ export const brands: Brand[] = [
     url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
+    
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
@@ -371,18 +385,18 @@ export const brands: Brand[] = [
     
   // },
 
-  {
-    id: "BetBluff",
-    name: "BetBluff",
-    logo: "/brands/betbluff.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "BetBluff",
+  //   name: "BetBluff",
+  //   logo: "/brands/betbluff.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+  //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
     
 
-  },
+  // },
 
 
 
