@@ -118,6 +118,19 @@ export const brands: Brand[] = [
 
 
   {
+    id: "SpinReelz",
+    name: "SpinReelz",
+    logo: "/brands/spinreelz.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 425% jusqu’à 5500€ + 525 Tours Gratuits",
+    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+
+  },
+
+  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -167,18 +180,31 @@ export const brands: Brand[] = [
 
 
 
+  // {
+  //   id: "LuckyGem",
+  //   name: "LuckyGem",
+  //   logo: "/brands/luckygem_dark.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  // },
+
+
   {
-    id: "LuckyGem",
-    name: "LuckyGem",
-    logo: "/brands/luckygem_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
+    id: "Betory",
+    name: "Betory",
+    logo: "/brands/betory.png",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 300% jusqu'à 3250€ + 225 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=601&a=36&sub_id1=Betory-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
+   
   },
 
 
@@ -186,20 +212,6 @@ export const brands: Brand[] = [
 
 
 
-
-
-  // {
-  //   id: "RunaCasino",
-  //   name: "RunaCasino",
-  //   logo: "/brands/runa.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue Jusqu’à 2500€ + 600 Tours Gratuits",
-  //   url: "https://bestcpa.online/click?o=581&a=36&sub_id1=RunaCasino-SL2FR9&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-
-  // },
   
  
 
@@ -234,18 +246,18 @@ export const brands: Brand[] = [
 
   // },
 
-  {
-    id: "BravoPlay",
-    name: "BravoPlay",
-    logo: "/brands/bravoplay.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue Jusqu'à 5000€ + 150 Tours Gratuits",
-    url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "BravoPlay",
+  //   name: "BravoPlay",
+  //   logo: "/brands/bravoplay.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue Jusqu'à 5000€ + 150 Tours Gratuits",
+  //   url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  }
-  ,
+  // }
+  // ,
 
 
 
@@ -526,17 +538,7 @@ export const brands: Brand[] = [
   //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
   // },
 
-  // {
-  //   id: "Betory",
-  //   name: "Betory",
-  //   logo: "/brands/betory.png",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 300% jusqu'à 3250€ + 225 Tours Gratuits",
-  //   url: "https://bestcpa.online/click?o=601&a=36&sub_id1=Betory-SL2FR9&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  // },
+
 
   // {
   //   id: "RoyalDogs",
