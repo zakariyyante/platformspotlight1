@@ -116,20 +116,6 @@ export const brands: Brand[] = [
 
   // },
 
-
-  // {
-  //   id: "SpinReelz",
-  //   name: "SpinReelz",
-  //   logo: "/brands/spinreelz.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 425% jusqu’à 5500€ + 525 Tours Gratuits",
-  //   url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-
-  // },
-
   {
     id: "SpinFormula",
     name: "SpinFormula",
@@ -139,9 +125,24 @@ export const brands: Brand[] = [
     url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
+
+  {
+    id: "SpinReelz",
+    name: "SpinReelz",
+    logo: "/brands/spinreelz.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 425% jusqu’à 5500€ + 525 Tours Gratuits",
+    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+
+  },
+
+
 
   {
     id: "Kingia",
@@ -152,7 +153,7 @@ export const brands: Brand[] = [
     url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
   },
 
@@ -193,20 +194,20 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "LuckyGem",
-    name: "LuckyGem",
-    logo: "/brands/luckygem_dark.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "LuckyGem",
+  //   name: "LuckyGem",
+  //   logo: "/brands/luckygem_dark.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-  },
+  // },
 
 
   {
