@@ -117,18 +117,18 @@ export const brands: Brand[] = [
   // },
 
 
-  {
-    id: "SpinReelz",
-    name: "SpinReelz",
-    logo: "/brands/spinreelz.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 425% jusqu’à 5500€ + 525 Tours Gratuits",
-    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "SpinReelz",
+  //   name: "SpinReelz",
+  //   logo: "/brands/spinreelz.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 425% jusqu’à 5500€ + 525 Tours Gratuits",
+  //   url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
 
-  },
+  // },
 
   {
     id: "SpinFormula",
@@ -159,40 +159,40 @@ export const brands: Brand[] = [
     
   // },
 
-  {
-    id: "RollySpin",
-    name: "RollySpin",
-    logo: "/brands/rollyspin.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 425% jusqu'à 5500€ + 525 Tours Gratuits",
-    url: "https://rollyspin19.net/dtack2gez?subid=RollySpin-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  },
-
-
-
-
-
-
-
-
   // {
-  //   id: "LuckyGem",
-  //   name: "LuckyGem",
-  //   logo: "/brands/luckygem_dark.svg",
+  //   id: "RollySpin",
+  //   name: "RollySpin",
+  //   logo: "/brands/rollyspin.svg",
   //   rating: 9.9,
-  //   bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-  //   url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
+  //   bonus: "Pack de Bienvenue 425% jusqu'à 5500€ + 525 Tours Gratuits",
+  //   url: "https://rollyspin19.net/dtack2gez?subid=RollySpin-SL2FR9&visit_id=",
   //   isMobile: true,
   //   votes: 12450,
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
   //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   // },
+
+
+
+
+
+
+
+
+  {
+    id: "LuckyGem",
+    name: "LuckyGem",
+    logo: "/brands/luckygem_dark.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
 
 
   {
@@ -371,18 +371,18 @@ export const brands: Brand[] = [
     
   // },
 
-  // {
-  //   id: "BetBluff",
-  //   name: "BetBluff",
-  //   logo: "/brands/betbluff.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-  //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "BetBluff",
+    name: "BetBluff",
+    logo: "/brands/betbluff.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
     
 
-  // },
+  },
 
 
 
