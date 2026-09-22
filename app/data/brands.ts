@@ -149,18 +149,18 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "Kingia",
-    name: "Kingia",
-    logo: "/brands/Kingia.png",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 440% jusqu’à 15000€ + 440 Tours Gratuits",
-    url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  // {
+  //   id: "Kingia",
+  //   name: "Kingia",
+  //   logo: "/brands/Kingia.png",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 440% jusqu’à 15000€ + 440 Tours Gratuits",
+  //   url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
-  },
+  // },
 
 
   // {
@@ -202,15 +202,35 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
     
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  
+  },
+
+  {
+    id: "CasinoPeaches",
+    name: "CasinoPeaches",
+    logo: "/brands/casinopeaches.jpg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
+    url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-YNevImT-MDGNd7ZgqdRLk/1?pg=4&s2s.req_id=CasinoPeaches-SL2FR9&payload=",
+    isMobile: true,
+    votes: 12450,
     
+  
   },
 
 
-
-
-
+  {
+    id: "UspinMe",
+    name: "UspinMe",
+    logo: "/brands/uspinme.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
+    url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-3_O3IiMN7EWNd7ZgqdRLk/1?s2s.req_id=UspinMe-SL2FR9&payload=",
+    isMobile: true,
+    votes: 12450,
+    
+  
+  },
 
   // {
   //   id: "LuckyGem",
