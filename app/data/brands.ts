@@ -192,20 +192,13 @@ export const brands: Brand[] = [
     
   // },
 
-
-
-
-
-
-
-
   {
-    id: "LuckyGem",
-    name: "LuckyGem",
-    logo: "/brands/luckygem_dark.svg",
+    id: "VegasNova",
+    name: "VegasNova",
+    logo: "/brands/vegasnova.webp",
     rating: 9.9,
-    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
+    bonus: "Pack de Bienvenue 100% jusqu'à 2000€ + 100 Tours Gratuits",
+    url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     
@@ -213,6 +206,26 @@ export const brands: Brand[] = [
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
+
+
+
+
+
+
+  // {
+  //   id: "LuckyGem",
+  //   name: "LuckyGem",
+  //   logo: "/brands/luckygem_dark.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  // },
 
 
   // {
