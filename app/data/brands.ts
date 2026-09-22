@@ -117,19 +117,6 @@ export const brands: Brand[] = [
   // },
 
   {
-    id: "SpinReelz",
-    name: "SpinReelz",
-    logo: "/brands/spinreelz.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 425% jusqu’à 5500€ + 525 Tours Gratuits",
-    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
-
-  {
     id: "SpinFormula",
     name: "SpinFormula",
     logo: "/brands/Spinformula.svg",
@@ -143,37 +130,53 @@ export const brands: Brand[] = [
   },
 
 
-
-
-
-  // {
-  //   id: "Kingia",
-  //   name: "Kingia",
-  //   logo: "/brands/Kingia.png",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 440% jusqu’à 15000€ + 440 Tours Gratuits",
-  //   url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
-    
-  // },
-
-
   {
-    id: "GambleGorilla",
-    name: "GambleGorilla",
-    logo: "/brands/gamblegorilla.svg",
+    id: "SpinReelz",
+    name: "SpinReelz",
+    logo: "/brands/spinreelz.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR9&afp=",
+    bonus: "Pack de Bienvenue 425% jusqu’à 5500€ + 525 Tours Gratuits",
+    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
+
+
+
+
+
+
+
+  {
+    id: "Kingia",
+    name: "Kingia",
+    logo: "/brands/Kingia.png",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 440% jusqu’à 15000€ + 440 Tours Gratuits",
+    url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
   },
+
+
+  // {
+  //   id: "GambleGorilla",
+  //   name: "GambleGorilla",
+  //   logo: "/brands/gamblegorilla.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 350% jusqu'à 2000€ + 1000 Tours Gratuits",
+  //   url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  // },
 
   // {
   //   id: "RollySpin",
