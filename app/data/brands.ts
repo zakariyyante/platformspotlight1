@@ -117,6 +117,33 @@ export const brands: Brand[] = [
   // },
 
   {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+  },
+
+  {
+    id: "CasinoPeaches",
+    name: "CasinoPeaches",
+    logo: "/brands/casinopeaches.jpg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
+    url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-YNevImT-MDGNd7ZgqdRLk/1?pg=4&s2s.req_id=CasinoPeaches-SL2FR9&payload=",
+    isMobile: true,
+    votes: 12450,
+    
+  
+  },
+
+
+  {
     id: "SpinReelz",
     name: "SpinReelz",
     logo: "/brands/spinreelz.svg",
@@ -130,18 +157,7 @@ export const brands: Brand[] = [
   },
 
 
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
-  },
+
 
 
 
@@ -208,18 +224,6 @@ export const brands: Brand[] = [
   
   },
 
-  {
-    id: "CasinoPeaches",
-    name: "CasinoPeaches",
-    logo: "/brands/casinopeaches.jpg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
-    url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-YNevImT-MDGNd7ZgqdRLk/1?pg=4&s2s.req_id=CasinoPeaches-SL2FR9&payload=",
-    isMobile: true,
-    votes: 12450,
-    
-  
-  },
 
 
   {
