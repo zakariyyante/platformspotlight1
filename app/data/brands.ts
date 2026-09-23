@@ -129,19 +129,30 @@ export const brands: Brand[] = [
     
   },
 
+  // {
+  //   id: "CasinoPeaches",
+  //   name: "CasinoPeaches",
+  //   logo: "/brands/casinopeaches.jpg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
+  //   url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-YNevImT-MDGNd7ZgqdRLk/1?pg=4&s2s.req_id=CasinoPeaches-SL2FR9&payload=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  
+  // },
   {
-    id: "CasinoPeaches",
-    name: "CasinoPeaches",
-    logo: "/brands/casinopeaches.jpg",
+    id: "VegasNova",
+    name: "VegasNova",
+    logo: "/brands/vegasnova.webp",
     rating: 9.9,
-    bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
-    url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-YNevImT-MDGNd7ZgqdRLk/1?pg=4&s2s.req_id=CasinoPeaches-SL2FR9&payload=",
+    bonus: "Pack de Bienvenue 100% jusqu'à 2000€ + 100 Tours Gratuits",
+    url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     
   
   },
-
 
   {
     id: "SpinReelz",
@@ -211,18 +222,7 @@ export const brands: Brand[] = [
     
   // },
 
-  {
-    id: "VegasNova",
-    name: "VegasNova",
-    logo: "/brands/vegasnova.webp",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 100% jusqu'à 2000€ + 100 Tours Gratuits",
-    url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-  
-  },
+
 
 
 
