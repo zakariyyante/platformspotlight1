@@ -115,18 +115,6 @@ export const brands: Brand[] = [
   //   badge: { text: "Retraits Rapides", color: "#22c55e" },
 
   // },
-  {
-    id: "VegasNova",
-    name: "VegasNova",
-    logo: "/brands/vegasnova.webp",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 100% jusqu'à 2000€ + 100 Tours Gratuits",
-    url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
-  
-  },
 
   {
     id: "SpinFormula",
@@ -138,8 +126,38 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
+    badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
+
+
+  {
+    id: "TabooBet",
+    name: "TabooBet",
+    logo: "/brands/taboobet.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 300% + 300 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=660&a=36&sub_id1=TabooBet-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  
+  },
+
+
+  {
+    id: "VegasNova",
+    name: "VegasNova",
+    logo: "/brands/vegasnova.webp",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 100% jusqu'à 2000€ + 100 Tours Gratuits",
+    url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  
+  },
+
+
 
   // {
   //   id: "CasinoPeaches",
@@ -223,18 +241,7 @@ export const brands: Brand[] = [
     
   // },
 
-  {
-    id: "TabooBet",
-    name: "TabooBet",
-    logo: "/brands/taboobet.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 300% + 300 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=660&a=36&sub_id1=TabooBet-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
-    
-  
-  },
+
 
   {
     id: "BitGuruz",
