@@ -223,7 +223,31 @@ export const brands: Brand[] = [
     
   // },
 
+  {
+    id: "TabooBet",
+    name: "TabooBet",
+    logo: "/brands/taboobet.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 300% + 300 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=660&a=36&sub_id1=TabooBet-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  
+  },
 
+  {
+    id: "BitGuruz",
+    name: "BitGuruz",
+    logo: "/brands/bitguruz.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 300% + 300 Tours Gratuits",
+    url: "https://bestcpa.online/click?o=659&a=36&sub_id1=BitGuruz-SL2FR9&aff_click_id=",
+    isMobile: true,
+    votes: 12450,
+    
+  
+  },
 
 
 
