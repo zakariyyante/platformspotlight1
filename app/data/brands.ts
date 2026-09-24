@@ -115,6 +115,18 @@ export const brands: Brand[] = [
   //   badge: { text: "Retraits Rapides", color: "#22c55e" },
 
   // },
+  {
+    id: "VegasNova",
+    name: "VegasNova",
+    logo: "/brands/vegasnova.webp",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 100% jusqu'à 2000€ + 100 Tours Gratuits",
+    url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+  
+  },
 
   {
     id: "SpinFormula",
@@ -141,18 +153,7 @@ export const brands: Brand[] = [
     
   
   // },
-  {
-    id: "VegasNova",
-    name: "VegasNova",
-    logo: "/brands/vegasnova.webp",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 100% jusqu'à 2000€ + 100 Tours Gratuits",
-    url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-  
-  },
+
 
   {
     id: "SpinReelz",
