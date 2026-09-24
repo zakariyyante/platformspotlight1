@@ -124,7 +124,7 @@ export const brands: Brand[] = [
     url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
   
   },
 
