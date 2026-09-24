@@ -251,18 +251,18 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "UspinMe",
-    name: "UspinMe",
-    logo: "/brands/uspinme.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
-    url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-3_O3IiMN7EWNd7ZgqdRLk/1?s2s.req_id=UspinMe-SL2FR9&payload=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "UspinMe",
+  //   name: "UspinMe",
+  //   logo: "/brands/uspinme.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
+  //   url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-3_O3IiMN7EWNd7ZgqdRLk/1?s2s.req_id=UspinMe-SL2FR9&payload=",
+  //   isMobile: true,
+  //   votes: 12450,
     
   
-  },
+  // },
 
   // {
   //   id: "LuckyGem",
