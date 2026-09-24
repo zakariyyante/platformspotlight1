@@ -116,18 +116,18 @@ export const brands: Brand[] = [
 
   // },
 
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    badge: { text: "Meilleur Offre", color: "#00F0FF" },
-  },
+  // {
+  //   id: "SpinFormula",
+  //   name: "SpinFormula",
+  //   logo: "/brands/Spinformula.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+  //   url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  // },
 
   {
     id: "SpinReelz",
@@ -166,7 +166,7 @@ export const brands: Brand[] = [
     url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
   
   },
 
@@ -240,19 +240,19 @@ export const brands: Brand[] = [
     
   // },
 
-  // {
-  //   id: "RollySpin",
-  //   name: "RollySpin",
-  //   logo: "/brands/rollyspin.svg",
-  //   rating: 9.9,
-  //   bonus: "Pack de Bienvenue 425% jusqu'à 5500€ + 525 Tours Gratuits",
-  //   url: "https://rollyspin19.net/dtack2gez?subid=RollySpin-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  {
+    id: "RollySpin",
+    name: "RollySpin",
+    logo: "/brands/rollyspin.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue 425% jusqu'à 5500€ + 525 Tours Gratuits",
+    url: "https://rollyspin19.net/dtack2gez?subid=RollySpin-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-  // },
+  },
 
 
 
