@@ -129,19 +129,32 @@ export const brands: Brand[] = [
     badge: { text: "Meilleur Offre", color: "#00F0FF" },
   },
 
-
   {
-    id: "TabooBet",
-    name: "TabooBet",
-    logo: "/brands/taboobet.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 300% + 300 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=660&a=36&sub_id1=TabooBet-SL2FR9&aff_click_id=",
+    id: "SpinReelz",
+    name: "SpinReelz",
+    logo: "/brands/spinreelz.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 425% jusqu’à 5500€ + 525 Tours Gratuits",
+    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
+    
     badge: { text: "Retraits Rapides", color: "#22c55e" },
-  
   },
+
+
+  // {
+  //   id: "TabooBet",
+  //   name: "TabooBet",
+  //   logo: "/brands/taboobet.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 300% + 300 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=660&a=36&sub_id1=TabooBet-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
+  
+  // },
 
 
   {
