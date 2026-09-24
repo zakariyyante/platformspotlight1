@@ -255,7 +255,6 @@ export const brands: Brand[] = [
   },
 
 
-
   {
     id: "BitGuruz",
     name: "BitGuruz",
