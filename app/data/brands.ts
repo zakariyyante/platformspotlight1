@@ -142,7 +142,7 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 12450,
     // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
     
   },
 
@@ -196,20 +196,20 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "WinBeast",
-    name: "WinBeast",
-    logo: "/brands/winbeast.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue Jusqu’à 12000€ + 450 Tours Gratuits + 650 Pari Gratuit",
-    url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "WinBeast",
+  //   name: "WinBeast",
+  //   logo: "/brands/winbeast.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue Jusqu’à 12000€ + 450 Tours Gratuits + 650 Pari Gratuit",
+  //   url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // },
 
  
 
