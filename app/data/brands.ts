@@ -147,7 +147,18 @@ export const brands: Brand[] = [
   },
 
 
-
+  {
+    id: "SpinReelz",
+    name: "SpinReelz",
+    logo: "/brands/spinreelz.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 425% jusqu’à 5500€ + 525 Tours Gratuits",
+    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
 
   {
     id: "SpinFormula",
@@ -205,18 +216,7 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "SpinReelz",
-    name: "SpinReelz",
-    logo: "/brands/spinreelz.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 425% jusqu’à 5500€ + 525 Tours Gratuits",
-    url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+
 
 
   {
