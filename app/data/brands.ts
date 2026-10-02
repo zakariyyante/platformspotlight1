@@ -156,8 +156,23 @@ export const brands: Brand[] = [
     url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    
+    badge: { text: "Meilleur Offre", color: "#00F0FF" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
+
+  {
+    id: "GoldenPlay",
+    name: "GoldenPlay",
+    logo: "/brands/goldenplay_dark.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 100% jusqu’à 555€ + 100 Tours Gratuits",
+    url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR9&cid=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+ 
   },
 
   {
@@ -174,58 +189,16 @@ export const brands: Brand[] = [
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
 
-  // {
-  //   id: "GoldenPlay",
-  //   name: "GoldenPlay",
-  //   logo: "/brands/goldenplay_dark.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 100% jusqu’à 555€ + 100 Tours Gratuits",
-  //   url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR9&cid=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    
- 
-  // },
-
-
-
-
-
-
-  // {
-  //   id: "WinBeast",
-  //   name: "WinBeast",
-  //   logo: "/brands/winbeast.svg",
-  //   rating: 9.9,
-  //   bonus: "Pack de Bienvenue Jusqu’à 12000€ + 450 Tours Gratuits + 650 Pari Gratuit",
-  //   url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  // },
-
- 
-
-
-
-
-
-
 
 
 
   {
-    id: "LuckyGem",
-    name: "LuckyGem",
-    logo: "/brands/luckygem_dark.svg",
+    id: "WinBeast",
+    name: "WinBeast",
+    logo: "/brands/winbeast.svg",
     rating: 9.9,
-    bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
+    bonus: "Pack de Bienvenue Jusqu’à 12000€ + 450 Tours Gratuits + 650 Pari Gratuit",
+    url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     
@@ -233,6 +206,31 @@ export const brands: Brand[] = [
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
+
+ 
+
+
+
+
+
+
+
+
+
+  // {
+  //   id: "LuckyGem",
+  //   name: "LuckyGem",
+  //   logo: "/brands/luckygem_dark.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 700% + 700 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // },
   // {
   //   id: "VegasNova",
   //   name: "VegasNova",
