@@ -160,6 +160,22 @@ export const brands: Brand[] = [
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
 
+
+  {
+    id: "PikeCasino",
+    name: "PikeCasino",
+    logo: "/brands/pikecasino.html",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 550% + 400 Tours Gratuits",
+    url: "https://track-otn.com/trk.php?t=3578&c=6701&subid=PikeCasino-SL2FR9&clickid=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+ 
+  },
+
   {
     id: "GoldenPlay",
     name: "GoldenPlay",
@@ -169,7 +185,7 @@ export const brands: Brand[] = [
     url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR9&cid=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     
  
@@ -192,20 +208,20 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "WinBeast",
-    name: "WinBeast",
-    logo: "/brands/winbeast.svg",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue Jusqu’à 12000€ + 450 Tours Gratuits + 650 Pari Gratuit",
-    url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "WinBeast",
+  //   name: "WinBeast",
+  //   logo: "/brands/winbeast.svg",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue Jusqu’à 12000€ + 450 Tours Gratuits + 650 Pari Gratuit",
+  //   url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // },
 
  
 
