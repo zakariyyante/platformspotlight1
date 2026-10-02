@@ -164,7 +164,7 @@ export const brands: Brand[] = [
   {
     id: "PikeCasino",
     name: "PikeCasino",
-    logo: "/brands/pikecasino.html",
+    logo: "/brands/pike.svg",
     rating: 9.8,
     bonus: "Pack de Bienvenue 550% + 400 Tours Gratuits",
     url: "https://track-otn.com/trk.php?t=3578&c=6701&subid=PikeCasino-SL2FR9&clickid=",
