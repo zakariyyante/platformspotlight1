@@ -132,19 +132,19 @@ export const brands: Brand[] = [
   //   badge: { text: "Retraits Rapides", color: "#22c55e" },
   
   // },
-  {
-    id: "TowerCasino",
-    name: "TowerCasino",
-    logo: "/brands/towercasino.png",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 100% jusqu’à 2000€ + 300 Tours Gratuits",
-    url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR9&clickid=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // {
+  //   id: "TowerCasino",
+  //   name: "TowerCasino",
+  //   logo: "/brands/towercasino.png",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 100% jusqu’à 2000€ + 300 Tours Gratuits",
+  //   url: "https://twcs.joklora.com/?mid=372329_2243631&subid=TowerCasino-SL2FR9&clickid=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
     
-  },
+  // },
 
 
   {
@@ -156,12 +156,29 @@ export const brands: Brand[] = [
     url: "https://track-otn.com/trk.php?t=3578&c=6701&subid=PikeCasino-SL2FR9&clickid=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleur Offre", color: "#00F0FF" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
     
  
   },
 
+
+  
+
+  {
+    id: "WinBeast",
+    name: "WinBeast",
+    logo: "/brands/winbeast.svg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue Jusqu’à 12000€ + 450 Tours Gratuits + 650 Pari Gratuit",
+    url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
 
   {
     id: "SpinReelz",
@@ -176,20 +193,7 @@ export const brands: Brand[] = [
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
 
-  {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+ 
 
 
 
@@ -213,23 +217,24 @@ export const brands: Brand[] = [
 
 
 
-
-
-
-  // {
-  //   id: "WinBeast",
-  //   name: "WinBeast",
-  //   logo: "/brands/winbeast.svg",
-  //   rating: 9.9,
-  //   bonus: "Pack de Bienvenue Jusqu’à 12000€ + 450 Tours Gratuits + 650 Pari Gratuit",
-  //   url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR9&visit_id=",
-  //   isMobile: true,
-  //   votes: 12450,
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
     
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  // },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
+
+
+
+
 
  
 
