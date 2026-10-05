@@ -177,18 +177,18 @@ export const brands: Brand[] = [
  
   // },
   
-  {
-    id: "CasinoPeaches",
-    name: "CasinoPeaches",
-    logo: "/brands/casinopeaches_.png",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
-    url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-YNevImT-MDGNd7ZgqdRLk/1?pg=4&s2s.req_id=CasinoPeaches-SL2FR9&payload=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // {
+  //   id: "CasinoPeaches",
+  //   name: "CasinoPeaches",
+  //   logo: "/brands/casinopeaches_.png",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
+  //   url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-YNevImT-MDGNd7ZgqdRLk/1?pg=4&s2s.req_id=CasinoPeaches-SL2FR9&payload=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
   
-  },
+  // },
 
 
   {
@@ -200,7 +200,8 @@ export const brands: Brand[] = [
     url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
 
   },
 
@@ -214,7 +215,8 @@ export const brands: Brand[] = [
     url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
@@ -246,7 +248,7 @@ export const brands: Brand[] = [
     url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Meilleur Offre", color: "#00F0FF" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
