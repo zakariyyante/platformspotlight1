@@ -194,7 +194,7 @@ export const brands: Brand[] = [
   {
     id: "Winhero",
     name: "Winhero",
-    logo: "/brands/winhero__.svg",
+    logo: "/brands/winhero-.webp",
     rating: 9.8,
     bonus: "Pack de Bienvenue 525% jusqu’à 8000€ + 475 Tours Gratuits",
     url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR9&visit_id=",
