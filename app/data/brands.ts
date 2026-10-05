@@ -162,40 +162,47 @@ export const brands: Brand[] = [
  
   // },
 
-  {
-    id: "GoldenPlay",
-    name: "GoldenPlay",
-    logo: "/brands/goldenplay_dark.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 100% jusqu’à 555€ + 100 Tours Gratuits",
-    url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR9&cid=",
-    isMobile: true,
-    votes: 12450,
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // {
+  //   id: "GoldenPlay",
+  //   name: "GoldenPlay",
+  //   logo: "/brands/goldenplay_dark.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 100% jusqu’à 555€ + 100 Tours Gratuits",
+  //   url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR9&cid=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
     
  
-  },
+  // },
   
+  {
+    id: "CasinoPeaches",
+    name: "CasinoPeaches",
+    logo: "/brands/casinopeaches.jpg",
+    rating: 9.9,
+    bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
+    url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-YNevImT-MDGNd7ZgqdRLk/1?pg=4&s2s.req_id=CasinoPeaches-SL2FR9&payload=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  
+  },
 
 
   {
-    id: "SpinFormula",
-    name: "SpinFormula",
-    logo: "/brands/Spinformula.svg",
+    id: "Winhero",
+    name: "Winhero",
+    logo: "/brands/winhero.webp",
     rating: 9.8,
-    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
-    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    bonus: "Pack de Bienvenue 525% jusqu’à 8000€ + 475 Tours Gratuits",
+    url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Meilleur Offre", color: "#00F0FF" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+
   },
-
-
-
 
   {
     id: "WinBeast",
@@ -212,6 +219,26 @@ export const brands: Brand[] = [
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
+
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 550% jusqu’à 15000€ + 550 Tours Gratuits",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
+
+
+
+
+
 
 
   // {
@@ -269,7 +296,7 @@ export const brands: Brand[] = [
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
 
-  
+
   // {
   //   id: "VegasNova",
   //   name: "VegasNova",
@@ -285,18 +312,7 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "CasinoPeaches",
-  //   name: "CasinoPeaches",
-  //   logo: "/brands/casinopeaches.jpg",
-  //   rating: 9.9,
-  //   bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
-  //   url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-YNevImT-MDGNd7ZgqdRLk/1?pg=4&s2s.req_id=CasinoPeaches-SL2FR9&payload=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-  
-  // },
+
 
 
 
