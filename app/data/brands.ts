@@ -180,7 +180,7 @@ export const brands: Brand[] = [
   {
     id: "CasinoPeaches",
     name: "CasinoPeaches",
-    logo: "/brands/casinopeaches.jpg",
+    logo: "/brands/casinopeaches_.png",
     rating: 9.9,
     bonus: "Pack de Bienvenue Jusqu'à 3000€ + 150 Tours Gratuits",
     url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-YNevImT-MDGNd7ZgqdRLk/1?pg=4&s2s.req_id=CasinoPeaches-SL2FR9&payload=",
