@@ -189,7 +189,21 @@ export const brands: Brand[] = [
   //   badge: { text: "Retraits Rapides", color: "#22c55e" },
   
   // },
-
+  {
+    id: "LambaBet",
+    name: "LambaBet",
+    logo: "/brands/logo-2.png",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 525% jusqu’à 8000€ + 475 Tours Gratuits",
+    url: "https://gowinlamba.com/ttmync7tc?subid=LambaBet-SL2FR9&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  },
 
   {
     id: "Winhero",
@@ -200,7 +214,7 @@ export const brands: Brand[] = [
     url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR9&visit_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+    badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
 
   },
@@ -215,8 +229,8 @@ export const brands: Brand[] = [
     url: "https://bestcpa.online/click?o=440&a=36&link_id=829&sub_id1=LuckyGem-SL2FR9&aff_click_id=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
@@ -238,20 +252,7 @@ export const brands: Brand[] = [
   //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
   //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
   // },
-  {
-    id: "LambaBet",
-    name: "LambaBet",
-    logo: "/brands/logo-2.png",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 525% jusqu’à 8000€ + 475 Tours Gratuits",
-    url: "https://gowinlamba.com/ttmync7tc?subid=LambaBet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+
 
 
   {
