@@ -194,19 +194,7 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "LuckLeopard",
-  //   name: "LuckLeopard",
-  //   logo: "/brands/luckleopard.svg",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 350% jusqu’à 2000€ + 1000 Tours Gratuits",
-  //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6477&afp1=LuckyLeopard-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-    
-    
 
-  // },
 
   // {
   //   id: "EvoBet",
@@ -253,19 +241,34 @@ export const brands: Brand[] = [
 
   },
 
+
   {
-    id: "Kingia",
-    name: "Kingia",
-    logo: "/brands/Kingia.png",
+    id: "LuckLeopard",
+    name: "LuckLeopard",
+    logo: "/brands/luckleopard.svg",
     rating: 9.8,
-    bonus: "Pack de Bienvenue 440% jusqu’à 15000€ + 440 Tours Gratuits",
-    url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR9&afp=",
+    bonus: "Pack de Bienvenue 350% jusqu’à 2000€ + 1000 Tours Gratuits",
+    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6477&afp1=LuckyLeopard-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
     badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
+
   },
+
+  // {
+  //   id: "Kingia",
+  //   name: "Kingia",
+  //   logo: "/brands/Kingia.png",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 440% jusqu’à 15000€ + 440 Tours Gratuits",
+  //   url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    
+  // },
 
 
 
