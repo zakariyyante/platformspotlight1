@@ -190,6 +190,39 @@ export const brands: Brand[] = [
   
   // },
 
+
+
+
+
+  // {
+  //   id: "LuckLeopard",
+  //   name: "LuckLeopard",
+  //   logo: "/brands/luckleopard.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 350% jusqu’à 2000€ + 1000 Tours Gratuits",
+  //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6477&afp1=LuckyLeopard-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+    
+
+  // },
+
+  // {
+  //   id: "EvoBet",
+  //   name: "EvoBet",
+  //   logo: "/brands/evobet.webp",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 350% jusqu’à 2000€ + 1000 Tours Gratuits",
+  //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6512&afp1=EvoBet-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+    
+
+  // },
+
+
   {
     id: "Winhero",
     name: "Winhero",
@@ -206,7 +239,19 @@ export const brands: Brand[] = [
 
   },
 
+  {
+    id: "SpinTexas",
+    name: "SpinTexas",
+    logo: "/brands/spintexas.svg",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 350% jusqu’à 2000€ + 1000 Tours Gratuits",
+    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6183&afp1=SpinTexas-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    
 
+  },
 
   {
     id: "Kingia",
@@ -217,25 +262,28 @@ export const brands: Brand[] = [
     url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR9&afp=",
     isMobile: true,
     votes: 12450,
-    badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
     // badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
   },
 
-  {
-    id: "VegasNova",
-    name: "VegasNova",
-    logo: "/brands/vegasnova.webp",
-    rating: 9.9,
-    bonus: "Pack de Bienvenue 100% jusqu'à 2000€ + 100 Tours Gratuits",
-    url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
+
+
+
+  // {
+  //   id: "VegasNova",
+  //   name: "VegasNova",
+  //   logo: "/brands/vegasnova.webp",
+  //   rating: 9.9,
+  //   bonus: "Pack de Bienvenue 100% jusqu'à 2000€ + 100 Tours Gratuits",
+  //   url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Nouvelle Offre", color: "#a020f0" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   // badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // },
 
   // {
   //   id: "LambaBet",
