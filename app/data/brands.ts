@@ -211,50 +211,50 @@ export const brands: Brand[] = [
   // },
 
 
-  {
-    id: "Winhero",
-    name: "Winhero",
-    logo: "/brands/winhero_logo.png",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 525% jusqu’à 8000€ + 475 Tours Gratuits",
-    url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "Winhero",
+  //   name: "Winhero",
+  //   logo: "/brands/winhero_logo.png",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 525% jusqu’à 8000€ + 475 Tours Gratuits",
+  //   url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
 
-    badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   badge: { text: "Retraits Rapides", color: "#22c55e" },
     
     
 
-  },
+  // },
 
-  {
-    id: "SpinTexas",
-    name: "SpinTexas",
-    logo: "/brands/spintexas.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 350% jusqu’à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6183&afp1=SpinTexas-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  // {
+  //   id: "SpinTexas",
+  //   name: "SpinTexas",
+  //   logo: "/brands/spintexas.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 350% jusqu’à 2000€ + 1000 Tours Gratuits",
+  //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6183&afp1=SpinTexas-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Meilleur Offre", color: "#00F0FF" },
     
 
-  },
+  // },
 
 
-  {
-    id: "LuckLeopard",
-    name: "LuckLeopard",
-    logo: "/brands/luckleopard.svg",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 350% jusqu’à 2000€ + 1000 Tours Gratuits",
-    url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6477&afp1=LuckyLeopard-SL2FR9&afp=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // {
+  //   id: "LuckLeopard",
+  //   name: "LuckLeopard",
+  //   logo: "/brands/luckleopard.svg",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 350% jusqu’à 2000€ + 1000 Tours Gratuits",
+  //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6477&afp1=LuckyLeopard-SL2FR9&afp=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
 
-  },
+  // },
 
   // {
   //   id: "Kingia",
@@ -304,17 +304,17 @@ export const brands: Brand[] = [
   //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
   // },
 
-  {
-    id: "Spinkong",
-    name: "Spinkong",
-    logo: "/brands/Spinkong.webp",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 400% jusqu’à 1000€ + 250 Tours Gratuits",
-    url: "https://bestcpa.online/click?o=683&a=75&sub_id1=SpinKong-SL2FR9&aff_click_id=",
-    isMobile: true,
-    votes: 12450,
+  // {
+  //   id: "Spinkong",
+  //   name: "Spinkong",
+  //   logo: "/brands/Spinkong.webp",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 400% jusqu’à 1000€ + 250 Tours Gratuits",
+  //   url: "https://bestcpa.online/click?o=683&a=75&sub_id1=SpinKong-SL2FR9&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
     
-  },
+  // },
 
 
   // {
