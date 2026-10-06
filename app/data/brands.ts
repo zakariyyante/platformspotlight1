@@ -221,7 +221,19 @@ export const brands: Brand[] = [
     // badge: { text: "Retraits Rapides", color: "#22c55e" },
   },
 
-
+  {
+    id: "Kingia",
+    name: "Kingia",
+    logo: "/brands/Kingia.png",
+    rating: 9.8,
+    bonus: "Pack de Bienvenue 440% jusqu’à 15000€ + 440 Tours Gratuits",
+    url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR9&afp=",
+    isMobile: true,
+    votes: 12450,
+    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+    
+  },
 
 
   // {
@@ -371,18 +383,7 @@ export const brands: Brand[] = [
 
 
 
-  // {
-  //   id: "Kingia",
-  //   name: "Kingia",
-  //   logo: "/brands/Kingia.png",
-  //   rating: 9.8,
-  //   bonus: "Pack de Bienvenue 440% jusqu’à 15000€ + 440 Tours Gratuits",
-  //   url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR9&afp=",
-  //   isMobile: true,
-  //   votes: 12450,
-  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
-    
-  // },
+
 
 
   // {
