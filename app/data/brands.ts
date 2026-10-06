@@ -224,21 +224,21 @@ export const brands: Brand[] = [
 
 
 
-  {
-    id: "LambaBet",
-    name: "LambaBet",
-    logo: "/brands/logo-2.png",
-    rating: 9.8,
-    bonus: "Pack de Bienvenue 525% jusqu’à 8000€ + 475 Tours Gratuits",
-    url: "https://gowinlamba.com/ttmync7tc?subid=LambaBet-SL2FR9&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: { text: "Nouvelle Offre", color: "#a020f0" },
+  // {
+  //   id: "LambaBet",
+  //   name: "LambaBet",
+  //   logo: "/brands/logo-2.png",
+  //   rating: 9.8,
+  //   bonus: "Pack de Bienvenue 525% jusqu’à 8000€ + 475 Tours Gratuits",
+  //   url: "https://gowinlamba.com/ttmync7tc?subid=LambaBet-SL2FR9&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  //   badge: { text: "Nouvelle Offre", color: "#a020f0" },
     
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-    // badge: { text: "Meilleur Offre", color: "#00F0FF" },
-    // badge: { text: "Retraits Rapides", color: "#22c55e" },
-  },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  //   // badge: { text: "Meilleur Offre", color: "#00F0FF" },
+  //   // badge: { text: "Retraits Rapides", color: "#22c55e" },
+  // },
 
   {
     id: "Spinkong",
