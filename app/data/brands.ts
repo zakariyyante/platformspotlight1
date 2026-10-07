@@ -25,7 +25,18 @@ export const brands: Brand[] = [
     bonus: "Votre mise remboursée jusqu'à 100€",
     url: "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2159573&clickid=",
     votes: 12450,
-    displayUrl: "bwin.com"
+    displayUrl: "entainpartners.com"
+  },
+
+  {
+    id: "PMU",
+    name: "PMU",
+    logo: "/pmu.png",
+    rating: 9.6,
+    bonus: "JUSQU'À 100 € DE BONUS",
+    url: "https://www.pmu.fr/?gclid=",
+    votes: 12450,
+    displayUrl: "pmu.fr"
   }
 ];
 
