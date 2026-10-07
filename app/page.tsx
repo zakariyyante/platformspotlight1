@@ -15,9 +15,6 @@ export default async function Home({ searchParams }: PageProps) {
   const params = await searchParams;
   const gclid = typeof params.gclid === 'string' ? params.gclid : undefined;
 
-  // Mobile true brands should NEVER be shown on main page
-  const displayBrands = brands.filter(b => !b.isMobile);
-
   return (
     <div className="flex flex-col min-h-screen">
       <AffiliateDisclosure />
@@ -35,7 +32,7 @@ export default async function Home({ searchParams }: PageProps) {
           </div>
 
           <div className="grid grid-cols-1 gap-8 max-w-5xl mx-auto">
-            {displayBrands.map((brand, index) => (
+            {brands.map((brand, index) => (
               <BrandCard 
                 key={brand.id} 
                 brand={brand} 

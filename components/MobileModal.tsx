@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Brand, brands } from '@/app/data/brands';
+import { brands } from '@/app/data/brands';
 import BrandCard from './BrandCard';
 import Image from 'next/image';
 
@@ -11,10 +11,9 @@ interface MobileModalProps {
 
 export default function MobileModal({ gclid }: MobileModalProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const mobileBrands = brands.filter(b => b.isMobile);
 
   useEffect(() => {
-    if (gclid && gclid.length > 30 && mobileBrands.length > 0) {
+    if (gclid && gclid.length > 30 && brands.length > 0) {
       setIsOpen(true);
       document.body.style.overflow = 'hidden';
     } else {
@@ -24,7 +23,7 @@ export default function MobileModal({ gclid }: MobileModalProps) {
     return () => {
       document.body.style.overflow = 'unset';
     };
-  }, [gclid, mobileBrands.length]);
+  }, [gclid]);
 
   if (!isOpen) return null;
 
@@ -104,7 +103,7 @@ export default function MobileModal({ gclid }: MobileModalProps) {
 
           <div className="px-3 pb-8">
             <div className="grid grid-cols-1 gap-3 mb-10">
-              {mobileBrands.map((brand, index) => (
+              {brands.map((brand, index) => (
                 <BrandCard 
                   key={brand.id} 
                   brand={brand} 
