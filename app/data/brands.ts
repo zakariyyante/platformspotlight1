@@ -31,7 +31,7 @@ export const brands: Brand[] = [
   {
     id: "PMU",
     name: "PMU",
-    logo: "/pmu_.png",
+    logo: "/pmuplay.png",
     rating: 9.6,
     bonus: "JUSQU'À 100 € DE BONUS",
     url: "https://www.pmu.fr/?gclid=",
